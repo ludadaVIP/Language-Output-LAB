@@ -1,0 +1,31 @@
+{
+  "id": "medio-ambiente",
+  "language": "es",
+  "skill": "writing",
+  "order": 8,
+  "category": "Medio ambiente",
+  "title": "El medio ambiente y nuestra responsabilidad",
+  "prompt": "El cambio climático es uno de los grandes retos de nuestra época. ¿Qué podemos hacer, individual y colectivamente, para cuidar el planeta?",
+  "format": "Texto argumentativo · 180–220 palabras",
+  "levelRange": "B1 – B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Pequeños gestos, gran diferencia",
+      "body": "El cambio climático es uno de los mayores problemas de nuestra época. Cada año hace más calor, hay más incendios y muchos animales están en peligro. Por eso creo que todos tenemos la responsabilidad de cuidar el planeta.\n\nEn casa, podemos hacer muchas cosas sencillas. Por ejemplo, apagar las luces cuando salimos de una habitación, no dejar el grifo abierto mientras nos lavamos los dientes y reciclar el papel, el plástico y el vidrio. Son pequeños gestos, pero si todo el mundo los hace, marcan la diferencia.\n\nTambién podemos cambiar algunas costumbres. Es mejor ir andando o en bicicleta en lugar de coger el coche para distancias cortas. Además, deberíamos comer menos carne, porque su producción contamina mucho. Comprar ropa de segunda mano también es una buena idea.\n\nPor supuesto, los gobiernos y las grandes empresas tienen una responsabilidad mucho mayor que nosotros. Pero eso no significa que no podamos hacer nada. Al contrario, si muchas personas cambian sus hábitos, la sociedad entera cambiará poco a poco.\n\nEl planeta es nuestra casa y tenemos que protegerla entre todos, porque no tenemos otra.",
+      "wordCount": 182
+    },
+    {
+      "level": "B2",
+      "title": "Una responsabilidad compartida",
+      "body": "Resulta cada vez más difícil ignorar las evidencias del deterioro medioambiental que padece nuestro planeta. Olas de calor sin precedentes, incendios devastadores, sequías prolongadas y especies que desaparecen a un ritmo alarmante componen un escenario que, hace apenas unas décadas, habríamos considerado propio de la ciencia ficción. Ante semejante panorama, la pregunta ya no es si debemos actuar, sino cómo y con qué urgencia.\n\nPor un lado, es cierto que las soluciones estructurales corresponden principalmente a los gobiernos y a las grandes corporaciones, responsables de la inmensa mayoría de las emisiones contaminantes. Sin transiciones energéticas ambiciosas y sin una regulación firme de las prácticas industriales, cualquier esfuerzo individual resultará a todas luces insuficiente.\n\nPor otro lado, sería un grave error concluir que nuestras acciones cotidianas carecen de importancia. Reducir el consumo de carne, optar por el transporte público siempre que sea posible, rechazar los productos de usar y tirar o exigir transparencia a las marcas que compramos son decisiones que, sumadas, tienen un impacto considerable. Además, los consumidores comprometidos presionan indirectamente al mercado y obligan a las empresas a replantearse sus modelos.\n\nEn definitiva, afrontar la crisis ecológica exige un enfoque doble: acción política contundente y responsabilidad individual coherente. De lo contrario, las próximas generaciones heredarán un mundo considerablemente más hostil.",
+      "wordCount": 211
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T22:49:21.590Z"
+}

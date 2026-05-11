@@ -1,0 +1,1294 @@
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Language Lab">
+  <title>Language Practice Lab · Standalone</title>
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    :root {
+      --paper: #f4ecd8;
+      --paper-soft: #fbf5e6;
+      --paper-warm: #ece2c7;
+      --ink: #2a2420;
+      --ink-soft: #5b4f43;
+      --ink-muted: #8a7c69;
+      --rule: #c9b99c;
+      --rule-soft: #ddceae;
+      --accent: #8b2332;
+      --accent-soft: #a44654;
+      --ochre: #93693f;
+      --verde: #556b4f;
+      --teal: #2f6f73;
+      --shadow-soft: 0 1px 0 rgba(42, 36, 32, 0.04), 0 12px 32px -16px rgba(42, 36, 32, 0.18);
+      --shadow-deep: 0 2px 0 rgba(42, 36, 32, 0.04), 0 28px 60px -24px rgba(42, 36, 32, 0.28);
+      --serif-display: "Baskerville", "Libre Baskerville", "Playfair Display", "Didot", "Bodoni 72", Georgia, "Times New Roman", serif;
+      --serif-body: "Palatino Linotype", "Book Antiqua", "URW Palladio L", Palatino, "Iowan Old Style", Georgia, "Times New Roman", serif;
+      --sans-accent: "Optima", "Avenir Next", "Futura", "Trebuchet MS", system-ui, sans-serif;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background: var(--paper);
+      background-image:
+        radial-gradient(circle at 22% 25%, rgba(147, 105, 63, 0.05), transparent 55%),
+        radial-gradient(circle at 88% 78%, rgba(47, 111, 115, 0.06), transparent 58%),
+        url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.16  0 0 0 0 0.13  0 0 0 0 0.1  0 0 0 0.045 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+      font-family: var(--serif-body);
+      font-size: 17px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    button,
+    textarea {
+      font: inherit;
+    }
+
+    button {
+      color: inherit;
+    }
+
+    ::selection {
+      background: rgba(139, 35, 50, 0.18);
+      color: var(--ink);
+    }
+
+    .product-nav {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      display: grid;
+      grid-template-columns: minmax(220px, 300px) 1fr;
+      gap: 18px;
+      align-items: center;
+      width: 100%;
+      border-bottom: 1px solid var(--rule);
+      background: rgba(244, 236, 216, 0.94);
+      backdrop-filter: blur(12px);
+      padding: 14px 28px;
+    }
+
+    .product-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--sans-accent);
+      font-size: 12px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--accent);
+      white-space: nowrap;
+    }
+
+    .feature-tabs {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 2px;
+    }
+
+    .feature-tab {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-height: 38px;
+      border: 1px solid var(--rule);
+      background: rgba(251, 245, 230, 0.62);
+      color: var(--ink);
+      cursor: pointer;
+      font-family: var(--sans-accent);
+      font-size: 12px;
+      letter-spacing: 0.08em;
+      white-space: nowrap;
+      padding: 9px 12px;
+      transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
+    }
+
+    .feature-tab:hover:not(:disabled),
+    .feature-tab.active {
+      border-color: var(--accent);
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .feature-tab:disabled {
+      color: var(--ink-muted);
+      cursor: not-allowed;
+      opacity: 0.72;
+    }
+
+    .feature-tab small {
+      color: var(--teal);
+      font-size: 9px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .app-shell {
+      display: grid;
+      grid-template-columns: 340px minmax(0, 1fr);
+      max-width: 1400px;
+      min-height: calc(100vh - 67px);
+      margin: 0 auto;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 67px;
+      height: calc(100vh - 67px);
+      overflow-y: auto;
+      border-right: 1px solid var(--rule);
+      background: linear-gradient(to right, transparent 94%, rgba(201, 185, 156, 0.25) 100%);
+      padding: 44px 36px 76px;
+    }
+
+    .sidebar::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .sidebar::-webkit-scrollbar-thumb {
+      background: var(--rule);
+      border-radius: 10px;
+    }
+
+    .sidebar-close {
+      display: none;
+    }
+
+    .brand {
+      margin-bottom: 28px;
+    }
+
+    .brand-mark {
+      margin-bottom: 8px;
+      color: var(--accent);
+      font-family: var(--serif-display);
+      font-size: 11px;
+      letter-spacing: 0.32em;
+      text-transform: uppercase;
+    }
+
+    .brand-mark.small {
+      font-size: 9px;
+    }
+
+    .brand-title {
+      margin: 0;
+      color: var(--ink);
+      font-family: var(--serif-display);
+      font-size: 34px;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 1.05;
+    }
+
+    .brand-title em {
+      color: var(--ochre);
+      font-style: italic;
+      font-weight: 400;
+    }
+
+    .brand-sub {
+      margin: 10px 0 0;
+      color: var(--ink-soft);
+      font-size: 14px;
+      font-style: italic;
+    }
+
+    .ornament {
+      margin: 28px 0;
+      color: var(--ochre);
+      font-family: var(--serif-display);
+      font-size: 18px;
+      letter-spacing: 0.6em;
+      text-align: center;
+      user-select: none;
+    }
+
+    .progress-bar {
+      height: 3px;
+      margin-bottom: 8px;
+      overflow: hidden;
+      border-radius: 2px;
+      background: var(--rule-soft);
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: linear-gradient(to right, var(--accent), var(--teal));
+      transition: width 0.5s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+
+    .progress-label {
+      display: flex;
+      justify-content: space-between;
+      color: var(--ink-muted);
+      font-family: var(--sans-accent);
+      font-size: 10.5px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .ornament-rule {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 20px 0 18px;
+      color: var(--ink-muted);
+      font-family: var(--sans-accent);
+      font-size: 10px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+    }
+
+    .ornament-rule::before,
+    .ornament-rule::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    .toc {
+      margin: 8px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .toc-item {
+      position: relative;
+      display: grid;
+      grid-template-columns: 34px minmax(0, 1fr) 18px;
+      width: 100%;
+      align-items: baseline;
+      column-gap: 12px;
+      border: 0;
+      border-bottom: 1px dotted var(--rule);
+      background: transparent;
+      cursor: pointer;
+      padding: 14px 4px;
+      text-align: left;
+      transition: background 0.2s ease, padding 0.2s ease;
+    }
+
+    .toc-item:hover,
+    .toc-item.active {
+      background: linear-gradient(to right, rgba(139, 35, 50, 0.08), transparent 80%);
+      padding-left: 8px;
+    }
+
+    .toc-item.active::before {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 3px;
+      height: 22px;
+      background: var(--accent);
+      content: "";
+      transform: translateY(-50%);
+    }
+
+    .toc-num {
+      color: var(--accent);
+      font-family: var(--serif-display);
+      font-size: 16px;
+      font-style: italic;
+      line-height: 1;
+    }
+
+    .toc-text {
+      color: var(--ink);
+      font-family: var(--serif-body);
+      font-size: 15px;
+      line-height: 1.35;
+    }
+
+    .toc-text small {
+      display: block;
+      margin-top: 4px;
+      color: var(--ink-muted);
+      font-family: var(--sans-accent);
+      font-size: 9.5px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .toc-status {
+      display: inline-flex;
+      justify-content: center;
+      color: var(--teal);
+    }
+
+    .toc-item.done .toc-num {
+      color: var(--ochre);
+    }
+
+    .sidebar-note {
+      border-left: 2px solid var(--teal);
+      color: var(--ink-soft);
+      font-size: 15px;
+      font-style: italic;
+      padding-left: 16px;
+    }
+
+    .main {
+      position: relative;
+      max-width: 820px;
+      padding: 72px 80px 120px;
+    }
+
+    .main-inner {
+      animation: fade-in 0.35s ease;
+    }
+
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+        transform: translateY(6px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .topic-meta {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 20px;
+      color: var(--ink-muted);
+      font-family: var(--sans-accent);
+      font-size: 10.5px;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+    }
+
+    .topic-meta .dot {
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: var(--rule);
+    }
+
+    .topic-meta .level {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .topic-numeral {
+      margin-bottom: 6px;
+      color: var(--accent);
+      font-family: var(--serif-display);
+      font-size: 72px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 0.9;
+    }
+
+    .topic-title {
+      max-width: 640px;
+      margin: 0 0 20px;
+      color: var(--ink);
+      font-family: var(--serif-display);
+      font-size: 48px;
+      font-weight: 400;
+      letter-spacing: 0;
+      line-height: 1.1;
+    }
+
+    .topic-prompt {
+      max-width: 640px;
+      margin: 0 0 16px;
+      border-left: 2px solid var(--ochre);
+      color: var(--ink-soft);
+      font-size: 19px;
+      font-style: italic;
+      line-height: 1.55;
+      padding-left: 18px;
+    }
+
+    .topic-format {
+      margin: 0 0 36px;
+      color: var(--ochre);
+      font-family: var(--sans-accent);
+      font-size: 12px;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+
+    .divider {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin: 40px 0;
+      color: var(--ochre);
+    }
+
+    .divider::before,
+    .divider::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--rule);
+    }
+
+    .divider-mark {
+      color: var(--ink-muted);
+      font-family: var(--serif-display);
+      font-size: 14px;
+      font-style: italic;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+    }
+
+    .write-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 14px;
+    }
+
+    .write-label {
+      color: var(--ink);
+      font-family: var(--serif-display);
+      font-size: 22px;
+      font-style: italic;
+    }
+
+    .write-tools {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      color: var(--ink-muted);
+      font-family: var(--sans-accent);
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .word-count {
+      font-variant-numeric: tabular-nums;
+    }
+
+    .word-count strong {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .clear-btn {
+      border: 0;
+      background: transparent;
+      color: var(--ink-muted);
+      cursor: pointer;
+      font-family: var(--sans-accent);
+      font-size: 11px;
+      letter-spacing: 0.18em;
+      padding: 4px 6px;
+      text-transform: uppercase;
+      transition: color 0.2s ease;
+    }
+
+    .clear-btn:hover {
+      color: var(--accent);
+    }
+
+    .textarea-wrap {
+      position: relative;
+      border: 1px solid var(--rule);
+      border-radius: 2px;
+      background: var(--paper-soft);
+      box-shadow: var(--shadow-soft);
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .textarea-wrap:focus-within {
+      border-color: var(--ochre);
+      box-shadow: var(--shadow-deep);
+    }
+
+    .textarea-wrap::before {
+      position: absolute;
+      top: 12px;
+      bottom: 12px;
+      left: 48px;
+      width: 1px;
+      background: var(--rule-soft);
+      content: "";
+    }
+
+    .write-area {
+      width: 100%;
+      min-height: 320px;
+      resize: vertical;
+      border: 0;
+      outline: 0;
+      background-color: transparent;
+      background-image:
+        repeating-linear-gradient(to bottom,
+          transparent 0,
+          transparent calc(1.85em - 1px),
+          rgba(201, 185, 156, 0.28) calc(1.85em - 1px),
+          rgba(201, 185, 156, 0.28) 1.85em);
+      background-position: 0 28px;
+      background-attachment: local;
+      color: var(--ink);
+      font-family: var(--serif-body);
+      font-size: 17px;
+      line-height: 1.85;
+      padding: 28px 32px 28px 64px;
+    }
+
+    .write-area::placeholder {
+      color: var(--ink-muted);
+      font-style: italic;
+      opacity: 0.7;
+    }
+
+    .examples-switcher {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+    }
+
+    .examples-toggle {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 76px;
+      overflow: hidden;
+      border: 1px solid var(--ink);
+      border-radius: 1px;
+      background: transparent;
+      color: var(--ink);
+      cursor: pointer;
+      font-family: var(--sans-accent);
+      font-size: 12px;
+      letter-spacing: 0.24em;
+      padding: 14px 24px;
+      text-transform: uppercase;
+      transition: color 0.25s ease;
+    }
+
+    .examples-toggle::before {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background: var(--ink);
+      content: "";
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    }
+
+    .examples-toggle:hover,
+    .examples-toggle.is-active {
+      color: var(--paper);
+    }
+
+    .examples-toggle:hover::before,
+    .examples-toggle.is-active::before {
+      transform: scaleX(1);
+    }
+
+    .examples-container {
+      display: grid;
+      gap: 32px;
+      max-height: 0;
+      margin-top: 40px;
+      overflow: hidden;
+      opacity: 0;
+      transition: max-height 0.6s ease, opacity 0.4s ease;
+    }
+
+    .examples-container.open {
+      max-height: 4000px;
+      opacity: 1;
+    }
+
+    .example {
+      position: relative;
+      border: 1px solid var(--rule);
+      border-left: 3px solid var(--accent);
+      background: linear-gradient(180deg, rgba(236, 226, 199, 0.55), rgba(251, 245, 230, 0.8));
+      box-shadow: var(--shadow-soft);
+      padding: 36px 42px 40px;
+    }
+
+    .example.b2 {
+      border-left-color: var(--verde);
+    }
+
+    .example-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .example-badge {
+      color: var(--accent);
+      font-family: var(--sans-accent);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+    }
+
+    .example.b2 .example-badge {
+      color: var(--verde);
+    }
+
+    .example-words {
+      color: var(--ink-muted);
+      font-family: var(--sans-accent);
+      font-size: 10.5px;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .example-tag {
+      margin: 0 0 18px;
+      color: var(--ink);
+      font-family: var(--serif-display);
+      font-size: 26px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 1.2;
+    }
+
+    .example-body {
+      color: var(--ink);
+      font-family: var(--serif-body);
+      font-size: 16.5px;
+      line-height: 1.78;
+      text-align: justify;
+      white-space: pre-line;
+    }
+
+    .example-body::first-letter {
+      float: left;
+      color: var(--accent);
+      font-family: var(--serif-display);
+      font-size: 3.4em;
+      font-style: italic;
+      line-height: 0.9;
+      padding: 6px 10px 0 0;
+    }
+
+    .example.b2 .example-body::first-letter {
+      color: var(--verde);
+    }
+
+    .topic-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+      margin-top: 72px;
+      border-top: 1px solid var(--rule);
+      padding-top: 28px;
+    }
+
+    .nav-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      max-width: 45%;
+      border: 0;
+      background: transparent;
+      color: var(--ink);
+      cursor: pointer;
+      font-family: var(--serif-display);
+      font-size: 18px;
+      font-style: italic;
+      padding: 6px 0;
+      text-align: left;
+      transition: color 0.2s ease, transform 0.25s ease;
+    }
+
+    .nav-btn:hover:not(:disabled) {
+      color: var(--accent);
+    }
+
+    .nav-btn.prev:hover:not(:disabled) {
+      transform: translateX(-4px);
+    }
+
+    .nav-btn.next {
+      text-align: right;
+    }
+
+    .nav-btn.next:hover:not(:disabled) {
+      transform: translateX(4px);
+    }
+
+    .nav-btn:disabled {
+      color: var(--ink-muted);
+      cursor: not-allowed;
+      opacity: 0.5;
+    }
+
+    .nav-btn small {
+      display: block;
+      margin-bottom: 3px;
+      color: var(--ink-muted);
+      font-family: var(--sans-accent);
+      font-size: 10px;
+      font-style: normal;
+      letter-spacing: 0.24em;
+      text-transform: uppercase;
+    }
+
+    .state-panel {
+      display: grid;
+      align-content: center;
+      justify-items: start;
+      min-height: 420px;
+      border-left: 2px solid var(--teal);
+      color: var(--ink-soft);
+      padding-left: 24px;
+    }
+
+    .state-panel h2 {
+      margin: 0 0 8px;
+      color: var(--ink);
+      font-family: var(--serif-display);
+      font-size: 34px;
+      font-weight: 400;
+    }
+
+    .state-panel p {
+      max-width: 520px;
+      margin: 0;
+      font-style: italic;
+    }
+
+    .state-panel.error {
+      border-left-color: var(--accent);
+    }
+
+    .mobile-header,
+    .backdrop {
+      display: none;
+    }
+
+    @media (max-width: 1080px) {
+      .product-nav {
+        grid-template-columns: 1fr;
+      }
+
+      .app-shell {
+        grid-template-columns: 300px minmax(0, 1fr);
+      }
+
+      .main {
+        padding: 64px 48px 100px;
+      }
+    }
+
+    @media (max-width: 860px) {
+      .product-nav {
+        position: relative;
+        padding: 12px 18px;
+      }
+
+      .app-shell {
+        display: block;
+        min-height: auto;
+      }
+
+      .mobile-header {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid var(--rule);
+        background: rgba(244, 236, 216, 0.96);
+        padding: 18px 24px;
+      }
+
+      .mobile-title {
+        color: var(--ink);
+        font-family: var(--serif-display);
+        font-size: 22px;
+        line-height: 1;
+      }
+
+      .mobile-toggle {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        border: 1px solid var(--ink);
+        background: transparent;
+        color: var(--ink);
+        cursor: pointer;
+        font-family: var(--sans-accent);
+        font-size: 10.5px;
+        letter-spacing: 0.22em;
+        padding: 8px 14px;
+        text-transform: uppercase;
+      }
+
+      .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 50;
+        width: min(86vw, 360px);
+        height: 100vh;
+        background: var(--paper);
+        box-shadow: 4px 0 40px rgba(42, 36, 32, 0.15);
+        transform: translateX(-100%);
+        transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1);
+      }
+
+      .sidebar.open {
+        transform: translateX(0);
+      }
+
+      .sidebar-close {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 34px;
+        height: 34px;
+        border: 1px solid var(--rule);
+        background: var(--paper-soft);
+        cursor: pointer;
+      }
+
+      .backdrop {
+        position: fixed;
+        inset: 0;
+        z-index: 40;
+        display: block;
+        border: 0;
+        background: rgba(42, 36, 32, 0.4);
+        cursor: pointer;
+      }
+
+      .main {
+        max-width: none;
+        padding: 40px 28px 80px;
+      }
+
+      .topic-title {
+        font-size: 34px;
+      }
+
+      .topic-numeral {
+        font-size: 54px;
+      }
+
+      .example {
+        padding: 28px 24px 30px;
+      }
+
+      .textarea-wrap::before {
+        left: 32px;
+      }
+
+      .write-area {
+        padding: 22px 22px 22px 48px;
+      }
+    }
+
+    @media (max-width: 560px) {
+      body {
+        font-size: 16px;
+      }
+
+      .product-brand {
+        font-size: 11px;
+      }
+
+      .feature-tab {
+        min-height: 36px;
+        font-size: 11px;
+      }
+
+      .topic-title {
+        font-size: 28px;
+      }
+
+      .topic-prompt {
+        font-size: 16px;
+      }
+
+      .write-head {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .example-body {
+        font-size: 15.5px;
+        text-align: left;
+      }
+
+      .topic-nav {
+        align-items: stretch;
+        flex-direction: column;
+        gap: 18px;
+      }
+
+      .nav-btn {
+        justify-content: center;
+        max-width: none;
+        text-align: center;
+      }
+
+      .nav-btn.next {
+        text-align: center;
+      }
+    }
+
+
+    /* Standalone-only polish */
+    .standalone-meta {
+      position: fixed;
+      right: 10px;
+      bottom: 8px;
+      z-index: 5;
+      color: rgba(91, 79, 67, 0.58);
+      font-family: var(--sans-accent);
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      pointer-events: none;
+    }
+
+    @media (max-width: 560px) {
+      .standalone-meta {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="standalone-root"></div>
+  <div class="standalone-meta">Standalone · 103 temas</div>
+  <script>
+
+    const TOPICS = [
+{ "id": "dia-tipico", "category": "Vida cotidiana", "format": "Redacción informal · 150–200 palabras", "levelRange": "A2 – B1", "title": "Un día típico en tu vida", "prompt": "Describe cómo es un día normal en tu vida, desde que te levantas hasta que te acuestas. Cuenta tus rutinas, lo que más disfrutas y lo que te gustaría cambiar.", "b1Title": "Mi rutina diaria", "b1": "Normalmente, mi día empieza muy temprano. Me levanto a las siete de la mañana, aunque a veces me cuesta mucho salir de la cama. Después de ducharme, desayuno café con leche y una tostada con mermelada en la cocina, mientras escucho las noticias en la radio.\n\nA las ocho y media salgo de casa para ir a la universidad. Voy en autobús porque es más barato que el coche y, además, puedo leer un poco durante el viaje. Las clases duran hasta las dos de la tarde y son bastante interesantes, sobre todo la de literatura española.\n\nDespués de comer con mis compañeros en la cafetería, estudio en la biblioteca durante dos o tres horas. Siempre intento hacer los deberes antes de volver a casa, así puedo descansar un poco por la tarde y salir con mis amigos.\n\nPor la noche, ceno con mi familia y vemos la televisión juntos. Me encanta hablar con ellos sobre cómo ha ido el día. Antes de dormir, leo un libro durante media hora. Es mi momento favorito.", "b2Title": "Entre la rutina y la calma", "b2": "Aunque cada día es distinto, mi rutina suele seguir un patrón bastante definido que, sinceramente, me aporta cierta tranquilidad en medio del ritmo acelerado de la vida moderna. Me despierto alrededor de las siete, momento en el que aprovecho para hacer unos estiramientos y revisar brevemente mi agenda antes de desayunar sin prisas.\n\nPor las mañanas trabajo desde casa, algo que al principio me costó asimilar pero que ahora valoro enormemente. Me permite concentrarme sin interrupciones y organizar las tareas según mis propias prioridades. A pesar de las ventajas, reconozco que a veces echo de menos el contacto cotidiano con mis compañeros de oficina.\n\nAl mediodía salgo a caminar por el parque cercano. Este pequeño ritual se ha convertido en algo imprescindible, pues me ayuda a desconectar y a volver al ordenador con la mente despejada. Por las tardes dedico un par de horas a estudiar idiomas; actualmente, estoy mejorando mi español, lo cual supone un desafío tan exigente como estimulante.\n\nLa jornada termina con una cena ligera y una conversación larga con mi pareja, durante la cual comentamos lo que nos ha sucedido. Considero que estos pequeños momentos de complicidad son los que realmente dan sentido al día a día." }, 
+{ "id": "educacion", "category": "Educación", "format": "Texto argumentativo formal · 180–220 palabras", "levelRange": "B1 – B2", "title": "La importancia de la educación", "prompt": "¿Por qué es importante la educación, tanto para la persona como para la sociedad? Expón tus ideas con argumentos claros y un registro formal.", "b1Title": "Aprender para crecer", "b1": "La educación es una de las cosas más importantes en la vida de cualquier persona. Gracias a ella, podemos aprender, desarrollarnos y tener más oportunidades en el futuro.\n\nEn primer lugar, la educación nos ayuda a encontrar un buen trabajo. Hoy en día, casi todas las empresas piden estudios, y sin un título es muy difícil conseguir un empleo estable. Además, las personas con más formación suelen ganar mejores salarios y tener trabajos más seguros.\n\nEn segundo lugar, la educación no solo sirve para el trabajo. También nos enseña a pensar, a tener nuestras propias opiniones y a respetar las ideas de los demás. Una sociedad con gente educada es una sociedad más justa y más pacífica, porque las personas saben dialogar en lugar de pelear.\n\nPor otra parte, creo que la educación debería estar al alcance de todos. Por desgracia, en muchos países todavía hay niños que no pueden ir a la escuela. Esto es un problema grave que los gobiernos tienen que solucionar con más dinero y mejores programas.\n\nEn conclusión, la educación es fundamental, tanto para cada persona como para el conjunto de la sociedad.", "b2Title": "La educación, cimiento del progreso", "b2": "La educación constituye, sin lugar a dudas, uno de los pilares fundamentales sobre los que se asienta cualquier sociedad que aspire al progreso. Más allá de su función instrumental, representa un derecho humano básico cuya ausencia condena a generaciones enteras a la exclusión y a la desigualdad.\n\nEn primer lugar, resulta evidente que una formación sólida amplía considerablemente las oportunidades laborales y económicas de los individuos. No obstante, reducir la educación a una mera herramienta para conseguir empleo supondría empobrecer su verdadero significado. De hecho, su valor más profundo reside en la capacidad de formar ciudadanos críticos, capaces de cuestionar lo establecido y de contribuir al debate público con rigor y responsabilidad.\n\nPor otra parte, conviene señalar que, pese a los innegables avances de las últimas décadas, la brecha educativa entre países desarrollados y en vías de desarrollo sigue siendo alarmante. Sería deseable que los gobiernos, en colaboración con organismos internacionales, destinaran mayores recursos a garantizar un acceso universal y de calidad, especialmente para las niñas y los colectivos más vulnerables.\n\nEn definitiva, apostar por la educación no es solamente una cuestión ética, sino también una inversión inteligente a largo plazo. Una ciudadanía bien formada es la mejor garantía frente a la manipulación, la intolerancia y el estancamiento social." }, 
+{ "id": "teletrabajo", "category": "Mundo laboral", "format": "Ensayo de ventajas e inconvenientes · 180–220 palabras", "levelRange": "B1 – B2", "title": "Ventajas y desventajas del teletrabajo", "prompt": "Desde la pandemia, muchas personas trabajan desde casa. Analiza los aspectos positivos y negativos de esta forma de trabajo y expresa tu opinión personal.", "b1Title": "Trabajar desde casa", "b1": "Desde la pandemia, muchas personas trabajan desde casa. Esta forma de trabajar tiene cosas buenas y cosas malas.\n\nEntre las ventajas, la más importante es el tiempo. No tienes que coger el transporte público y puedes usar esas horas para descansar, hacer deporte o estar con tu familia. También es más cómodo, porque trabajas con tu propia ropa y tu propio ordenador. Además, ahorras dinero en comidas y en gasolina.\n\nSin embargo, también hay desventajas. La primera es que te sientes un poco solo. No ves a tus compañeros todos los días y a veces es difícil comunicarse bien solo por internet. La segunda es que en casa hay muchas distracciones: la familia, la televisión, la cocina... No siempre es fácil concentrarse durante ocho horas.\n\nPersonalmente, pienso que lo mejor es una solución intermedia. Creo que trabajar tres días en casa y dos días en la oficina es perfecto. Así tienes tiempo para ti, pero también ves a tus compañeros y no te sientes aislado.\n\nEn resumen, el teletrabajo tiene ventajas y desventajas, pero puede funcionar muy bien si lo organizamos con cabeza.", "b2Title": "El teletrabajo, una revolución a medias", "b2": "El teletrabajo, impulsado definitivamente por la crisis sanitaria reciente, ha dejado de ser una opción excepcional para convertirse en una realidad consolidada en numerosos sectores. Como toda transformación profunda, presenta beneficios indiscutibles, pero también plantea desafíos que merecen una reflexión pausada.\n\nEntre sus virtudes más evidentes destaca la flexibilidad horaria, que permite conciliar la vida laboral con las responsabilidades familiares de una manera hasta ahora impensable. Asimismo, la eliminación de los desplazamientos no solo reduce el estrés cotidiano, sino que también supone un ahorro considerable, tanto económico como medioambiental. No menos relevante es la posibilidad de atraer talento sin las limitaciones geográficas tradicionales.\n\nAhora bien, sería ingenuo pasar por alto sus inconvenientes. El aislamiento social y la difuminación de los límites entre el hogar y el trabajo pueden derivar, a la larga, en problemas de salud mental y en una preocupante sensación de agotamiento. A esto se suma la dificultad de mantener una cultura corporativa cohesionada cuando el contacto directo brilla por su ausencia.\n\nEn mi opinión, el modelo híbrido representa la alternativa más razonable, puesto que combina la autonomía del teletrabajo con las ventajas insustituibles de la interacción presencial. Dicho esto, cada empresa debería adaptar sus políticas a las necesidades concretas de sus empleados." }, 
+{ "id": "redes-sociales", "category": "Tecnología", "format": "Texto de opinión · 180–220 palabras", "levelRange": "B1 – B2", "title": "El impacto de las redes sociales", "prompt": "Las redes sociales forman parte de nuestra vida diaria. ¿Consideras que su influencia es positiva o negativa? Argumenta tu postura con ejemplos.", "b1Title": "¿Amigas o enemigas?", "b1": "Las redes sociales forman parte de nuestra vida diaria. Casi todo el mundo tiene una cuenta en Instagram, TikTok o WhatsApp, pero ¿son realmente buenas o malas?\n\nPor un lado, las redes sociales tienen muchas ventajas. Nos permiten estar en contacto con amigos y familiares que viven lejos. También son útiles para compartir fotos, aprender cosas nuevas o seguir a personas interesantes. Muchas empresas las usan para vender productos o para dar información importante a los clientes.\n\nPor otro lado, también hay problemas. Algunas personas pasan demasiadas horas mirando el móvil y no hablan con su familia. Además, en internet hay mucha información falsa, y a veces es difícil saber qué es verdad y qué no lo es. Otro problema es que algunos jóvenes se comparan con los 'influencers' y se sienten mal consigo mismos.\n\nEn mi opinión, las redes sociales no son ni buenas ni malas: depende de cómo las usemos. Lo importante es no abusar de ellas y recordar que la vida real siempre es más importante que la vida virtual. Si las usamos con moderación, pueden ser una herramienta muy útil.", "b2Title": "La paradoja de estar siempre conectados", "b2": "Resulta prácticamente imposible imaginar la vida actual sin las redes sociales. En apenas dos décadas, plataformas como Instagram, TikTok o X han transformado radicalmente la manera en que nos comunicamos, nos informamos e incluso nos relacionamos con nosotros mismos. Este fenómeno, lejos de ser neutral, plantea cuestiones que merecen un análisis sereno.\n\nPor una parte, no cabe duda de que estas herramientas han democratizado el acceso a la información y han dado voz a colectivos que tradicionalmente habían permanecido en los márgenes del discurso público. Movimientos sociales de gran calado, como el feminismo de cuarta ola o las protestas climáticas, difícilmente habrían alcanzado la repercusión actual sin ellas.\n\nSin embargo, no podemos ignorar sus consecuencias menos amables. Numerosos estudios apuntan a un aumento preocupante de la ansiedad y la depresión entre adolescentes, estrechamente vinculado al uso excesivo de estas plataformas. A ello se añade la proliferación de bulos y contenidos polarizadores, alimentados por algoritmos diseñados para maximizar la permanencia del usuario más que para favorecer un debate enriquecedor.\n\nEn última instancia, considero que el problema no radica tanto en la tecnología en sí como en la falta de una educación digital crítica. Si aprendiéramos, desde la infancia, a cuestionar lo que vemos, las redes podrían seguir siendo útiles sin resultar tan destructivas." }, 
+{ "id": "carta-amigo", "category": "Correspondencia personal", "format": "Carta informal · 150–200 palabras", "levelRange": "A2 – B1", "title": "Carta a un amigo sobre tu nueva ciudad", "prompt": "Acabas de mudarte a una nueva ciudad. Escribe una carta o un correo a un amigo contándole cómo es, qué te gusta, qué te cuesta acostumbrarte e invítalo a visitarte.", "b1Title": "Querido Javier…", "b1": "Querido Javier:\n\n¡Hola! ¿Qué tal estás? Espero que todo vaya bien por Madrid. Yo ya llevo dos meses en Valencia y tengo muchas cosas que contarte.\n\nLa ciudad me encanta. Es más pequeña que Madrid, pero eso me gusta porque todo está cerca y puedo ir andando o en bici a casi todos los sitios. El centro es precioso, con calles antiguas, plazas llenas de bares y una catedral muy bonita. Además, la playa está a solo veinte minutos en metro, ¡no me lo puedo creer!\n\nLa gente aquí es muy simpática y abierta. En el trabajo ya he hecho algunos amigos y salimos juntos los fines de semana. La comida también es fantástica: ya he probado la paella de verdad, y te prometo que no tiene nada que ver con la de los restaurantes turísticos.\n\nLo único malo es que en verano hace muchísimo calor y hay demasiada humedad.\n\nTienes que venir a visitarme pronto. Puedes quedarte en mi casa todo el tiempo que quieras.\n\nUn abrazo muy fuerte,\nMarta", "b2Title": "Una carta desde Sevilla", "b2": "Querida Laura:\n\n¡No sabes cuánto me alegra por fin escribirte con calma! Perdona que haya tardado tanto en dar señales de vida, pero las últimas semanas han sido una auténtica locura entre la mudanza, el nuevo trabajo y los cientos de trámites burocráticos a los que nadie te prepara cuando decides cambiar de ciudad.\n\nComo ya sabes, llevo instalada en Sevilla desde principios de marzo y, aunque al principio echaba bastante de menos Barcelona, debo reconocer que este lugar está conquistándome poco a poco. Es una ciudad con un encanto difícil de describir: los patios floridos, el olor a azahar por las mañanas, el bullicio de la gente charlando en las terrazas hasta bien entrada la madrugada. Todo invita a disfrutar de las pequeñas cosas, algo que en el ritmo frenético de antes había olvidado por completo.\n\nPor supuesto, no todo es idílico. El calor del verano me tiene algo asustada y aún me cuesta acostumbrarme al ritmo más pausado, sobre todo cuando tengo prisa. Aun así, tengo la sensación de haber tomado la decisión correcta.\n\nTendrías que animarte a pasar un fin de semana aquí. Avísame con tiempo y te prepararé el mejor recorrido posible.\n\nUn abrazo enorme,\nCarolina" }, 
+{ "id": "viaje-inolvidable", "category": "Viajes", "format": "Redacción narrativa · 180–220 palabras", "levelRange": "B1 – B2", "title": "Un viaje inolvidable", "prompt": "Recuerda un viaje que te haya marcado especialmente. Describe adónde fuiste, qué hiciste, qué sentiste y por qué lo recordarás siempre.", "b1Title": "Cinco días en Granada", "b1": "El verano pasado hice un viaje que nunca olvidaré. Fui con dos amigos a Granada, en el sur de España. Estuvimos allí cinco días y fue una experiencia maravillosa.\n\nEl primer día visitamos la Alhambra. Habíamos comprado las entradas por internet con un mes de antelación, porque es muy difícil conseguirlas. Cuando entramos, me quedé sin palabras. Los jardines, las fuentes y los techos decorados son realmente impresionantes. Pasamos toda la mañana allí y hasta comimos un bocadillo dentro del recinto.\n\nPor la tarde, subimos al Albaicín, que es el barrio antiguo árabe. Las calles son estrechas y tienen mucho encanto. Desde el mirador de San Nicolás vimos la Alhambra al atardecer, con las montañas de Sierra Nevada detrás. Fue una imagen increíble.\n\nLos otros días comimos tapas en bares tradicionales, escuchamos flamenco en una cueva del Sacromonte y hasta bailamos un poco, aunque muy mal. También hicimos nuevos amigos de otros países.\n\nFue un viaje corto, pero muy intenso. Ahora Granada es una de mis ciudades favoritas y quiero volver pronto, si es posible en primavera.", "b2Title": "La Patagonia, un viaje al silencio", "b2": "Si tuviera que elegir un único viaje de entre todos los que he hecho, me quedaría sin dudarlo con la ruta que realicé el verano pasado por la Patagonia argentina. Habíamos estado soñando con aquella aventura durante casi dos años, y las expectativas eran tan altas que temíamos sentirnos defraudados. Sin embargo, la realidad acabó superándolas con creces.\n\nEmpezamos el recorrido en El Calafate, desde donde nos acercamos al glaciar Perito Moreno. Jamás olvidaré el momento en que, rodeados de un silencio sobrecogedor, escuchamos el estruendo de un enorme bloque de hielo desprendiéndose y cayendo al lago. Fue una experiencia casi mística, de esas que te hacen sentir diminuto ante la inmensidad de la naturaleza.\n\nDespués nos adentramos en El Chaltén, considerado la capital argentina del senderismo. Durante tres días recorrimos senderos exigentes que nos recompensaron con paisajes absolutamente espectaculares: lagunas turquesas, bosques de lengas teñidos de dorado y la imponente silueta del Fitz Roy recortándose contra un cielo imposiblemente azul.\n\nLo que más me impactó, no obstante, no fueron los paisajes, sino la calidez de sus habitantes. Cada conversación con un guía local o con los dueños de las hospederías se convertía en una pequeña lección sobre otra manera de entender la vida." }, 
+{ "id": "vida-saludable", "category": "Salud y bienestar", "format": "Texto informativo · 180–220 palabras", "levelRange": "B1 – B2", "title": "Hábitos para llevar una vida saludable", "prompt": "¿Qué hábitos consideras esenciales para mantener una buena salud física y mental? Explica tu respuesta con recomendaciones concretas.", "b1Title": "Los tres pilares de la salud", "b1": "Todos queremos estar sanos y vivir muchos años, pero no siempre sabemos cómo conseguirlo. En mi opinión, para tener una vida saludable hay que cuidar tres cosas principales: la comida, el ejercicio y el descanso.\n\nEn primer lugar, es muy importante comer bien. Hay que tomar muchas frutas y verduras todos los días, beber bastante agua y evitar los productos con mucho azúcar o mucha grasa. Cocinar en casa también es mejor que comer comida rápida, porque así sabes exactamente qué estás comiendo.\n\nEn segundo lugar, hay que hacer ejercicio con regularidad. No es necesario ir al gimnasio todos los días; basta con caminar media hora, montar en bicicleta o nadar dos o tres veces por semana. Lo importante es moverse y no pasar demasiado tiempo sentado delante del ordenador.\n\nPor último, hay que dormir lo suficiente. Los expertos dicen que los adultos necesitan entre siete y ocho horas cada noche. Si no dormimos bien, estamos cansados, de mal humor y nos concentramos peor durante todo el día.\n\nEn conclusión, cuidar la salud no es difícil. Solo hay que tener buenos hábitos y ser constante.", "b2Title": "Más allá de la dieta y el gimnasio", "b2": "En una sociedad que cada vez nos exige más y nos deja menos tiempo para nosotros mismos, llevar una vida verdaderamente saludable se ha convertido en un auténtico desafío. Pese a que solemos asociar la salud únicamente con la alimentación y el deporte, la realidad es bastante más compleja y abarca aspectos que a menudo pasamos por alto.\n\nPara empezar, resulta innegable que una dieta equilibrada, basada en productos frescos y de temporada, constituye la base de cualquier estilo de vida sano. No obstante, la obsesión actual por las dietas milagro y los superalimentos puede resultar contraproducente: más que restricciones severas, lo que verdaderamente funciona es la moderación y la sensatez a largo plazo.\n\nIgual de relevante es la actividad física regular, si bien conviene matizar que no se trata únicamente de quemar calorías, sino de cuidar también la salud mental. Multitud de estudios han demostrado que caminar, nadar o practicar yoga reduce significativamente los niveles de estrés y ansiedad, males especialmente extendidos en las grandes ciudades.\n\nAhora bien, ningún hábito físico resulta verdaderamente eficaz si descuidamos el descanso y las relaciones personales. Dormir las horas necesarias y cultivar amistades auténticas son aspectos tan importantes como cualquier rutina alimentaria." }, 
+{ "id": "medio-ambiente", "category": "Medio ambiente", "format": "Texto argumentativo · 180–220 palabras", "levelRange": "B1 – B2", "title": "El medio ambiente y nuestra responsabilidad", "prompt": "El cambio climático es uno de los grandes retos de nuestra época. ¿Qué podemos hacer, individual y colectivamente, para cuidar el planeta?", "b1Title": "Pequeños gestos, gran diferencia", "b1": "El cambio climático es uno de los mayores problemas de nuestra época. Cada año hace más calor, hay más incendios y muchos animales están en peligro. Por eso creo que todos tenemos la responsabilidad de cuidar el planeta.\n\nEn casa, podemos hacer muchas cosas sencillas. Por ejemplo, apagar las luces cuando salimos de una habitación, no dejar el grifo abierto mientras nos lavamos los dientes y reciclar el papel, el plástico y el vidrio. Son pequeños gestos, pero si todo el mundo los hace, marcan la diferencia.\n\nTambién podemos cambiar algunas costumbres. Es mejor ir andando o en bicicleta en lugar de coger el coche para distancias cortas. Además, deberíamos comer menos carne, porque su producción contamina mucho. Comprar ropa de segunda mano también es una buena idea.\n\nPor supuesto, los gobiernos y las grandes empresas tienen una responsabilidad mucho mayor que nosotros. Pero eso no significa que no podamos hacer nada. Al contrario, si muchas personas cambian sus hábitos, la sociedad entera cambiará poco a poco.\n\nEl planeta es nuestra casa y tenemos que protegerla entre todos, porque no tenemos otra.", "b2Title": "Una responsabilidad compartida", "b2": "Resulta cada vez más difícil ignorar las evidencias del deterioro medioambiental que padece nuestro planeta. Olas de calor sin precedentes, incendios devastadores, sequías prolongadas y especies que desaparecen a un ritmo alarmante componen un escenario que, hace apenas unas décadas, habríamos considerado propio de la ciencia ficción. Ante semejante panorama, la pregunta ya no es si debemos actuar, sino cómo y con qué urgencia.\n\nPor un lado, es cierto que las soluciones estructurales corresponden principalmente a los gobiernos y a las grandes corporaciones, responsables de la inmensa mayoría de las emisiones contaminantes. Sin transiciones energéticas ambiciosas y sin una regulación firme de las prácticas industriales, cualquier esfuerzo individual resultará a todas luces insuficiente.\n\nPor otro lado, sería un grave error concluir que nuestras acciones cotidianas carecen de importancia. Reducir el consumo de carne, optar por el transporte público siempre que sea posible, rechazar los productos de usar y tirar o exigir transparencia a las marcas que compramos son decisiones que, sumadas, tienen un impacto considerable. Además, los consumidores comprometidos presionan indirectamente al mercado y obligan a las empresas a replantearse sus modelos.\n\nEn definitiva, afrontar la crisis ecológica exige un enfoque doble: acción política contundente y responsabilidad individual coherente. De lo contrario, las próximas generaciones heredarán un mundo considerablemente más hostil." }, 
+{ "id": "problemas-sociales", "category": "Sociedad", "format": "Artículo de opinión formal · 180–250 palabras", "levelRange": "B1 – B2", "title": "Problemas sociales de tu país", "prompt": "Elige dos o tres problemas sociales que te preocupen en tu país y analízalos. ¿Cuáles son sus causas? ¿Qué soluciones propondrías?", "b1Title": "Los jóvenes y el futuro", "b1": "En mi país hay varios problemas sociales importantes, pero hoy quiero hablar de dos que me preocupan especialmente: el paro juvenil y el precio de la vivienda.\n\nEl primer problema es el paro entre los jóvenes. Muchas personas de entre veinte y treinta años no encuentran trabajo, aunque tienen estudios universitarios. Y cuando encuentran algo, muchas veces es un contrato temporal y con un sueldo bajo. Esto hace que los jóvenes no puedan vivir de manera independiente y tengan que quedarse en casa de sus padres durante muchos años.\n\nEl segundo problema está muy relacionado con el primero: el precio de los pisos. En las grandes ciudades, alquilar un piso cuesta muchísimo dinero. Es imposible pagar un alquiler con un sueldo normal, y comprar una casa es casi un sueño imposible para los jóvenes de mi generación.\n\nEn mi opinión, los gobiernos deberían hacer más. Por ejemplo, crear ayudas económicas para los jóvenes, construir más viviendas públicas y controlar los precios del alquiler en las zonas más caras.\n\nSi no solucionamos estos problemas, muchos jóvenes seguirán sin futuro en su propio país y tendrán que irse al extranjero para encontrar una vida digna.", "b2Title": "La fractura silenciosa", "b2": "Cualquier análisis honesto de la sociedad española actual debe enfrentarse, antes o después, a una realidad incómoda: pese a los avances innegables de las últimas décadas, persisten problemas estructurales que comprometen seriamente el bienestar de amplios sectores de la población. Entre ellos, me centraré en dos que considero especialmente acuciantes: la precariedad laboral y la crisis de la vivienda.\n\nEn primer lugar, el mercado de trabajo se caracteriza por una dualidad alarmante. Mientras una minoría disfruta de contratos estables y salarios dignos, un porcentaje considerable de la población, sobre todo los menores de treinta y cinco años, se ve atrapada en una sucesión interminable de contratos temporales, prácticas mal remuneradas y trabajos a tiempo parcial no deseados. Esta situación no solo impide construir proyectos vitales a largo plazo, sino que también genera una frustración generacional con consecuencias difíciles de calcular.\n\nEn segundo lugar, acceder a una vivienda digna se ha convertido en una tarea casi imposible en las grandes ciudades. Los precios del alquiler se han disparado, mientras que los salarios apenas han variado en términos reales. Fenómenos como la turistificación o la compra masiva por parte de fondos de inversión han agravado todavía más la situación.\n\nAnte este panorama, se hacen imprescindibles reformas valientes y políticas públicas que prioricen el derecho a una vida digna frente a la especulación. De lo contrario, seguiremos condenando a toda una generación a un futuro profundamente incierto." }, 
+{ "id": "tecnologia-relaciones", "category": "Opinión personal", "format": "Ensayo de opinión · 180–230 palabras", "levelRange": "B1 – B2", "title": "La tecnología y las relaciones humanas", "prompt": "¿Crees que la tecnología nos acerca o nos aleja de las personas que queremos? Reflexiona con ejemplos de tu propia vida.", "b1Title": "Más conectados, ¿menos cerca?", "b1": "Hoy en día vivimos rodeados de tecnología. Todos tenemos móviles, ordenadores, tabletas y relojes inteligentes. Pero me pregunto: ¿la tecnología nos acerca o nos aleja de los demás?\n\nPor una parte, es verdad que la tecnología nos ayuda mucho a comunicarnos. Gracias a las videollamadas, puedo hablar con mi hermana, que vive en Alemania, como si estuviera en la habitación de al lado. Los grupos de WhatsApp también son muy útiles para organizar cenas con amigos o para estar en contacto con la familia cuando uno viaja.\n\nPero, por otra parte, también veo muchos problemas. En los restaurantes, a menudo veo parejas mirando cada una su móvil en lugar de hablar entre ellas. Algunos niños pasan más tiempo con una tableta que jugando con otros niños. Yo misma, a veces, respondo un mensaje mientras estoy con mis amigos, y sé que eso no está bien.\n\nEn mi opinión, la tecnología no es mala, pero hay que usarla con cabeza. Cuando estamos con alguien importante, lo mejor es dejar el móvil y prestar atención a la persona que tenemos delante. Las relaciones reales necesitan tiempo, silencio y atención verdadera.", "b2Title": "La paradoja de la hiperconexión", "b2": "Resulta cuando menos paradójico que, en una época en la que disponemos de más medios que nunca para comunicarnos, muchas personas confiesen sentirse más solas que antaño. Esta aparente contradicción nos obliga a reflexionar con detenimiento sobre el papel que la tecnología desempeña en nuestras relaciones interpersonales.\n\nPor un lado, sería injusto no reconocer sus innegables beneficios. Plataformas como Zoom o WhatsApp han permitido mantener vínculos afectivos que, en circunstancias anteriores, se habrían debilitado inevitablemente por la distancia. Asimismo, las comunidades virtuales ofrecen espacios de encuentro a personas con intereses comunes que de otro modo jamás habrían llegado a conocerse.\n\nNo obstante, la omnipresencia de las pantallas en nuestra vida cotidiana también ha provocado transformaciones inquietantes. La conversación pausada ha sido sustituida, en muchos casos, por intercambios breves y superficiales. Cenamos con amigos sin soltar el móvil, asistimos a conciertos filmándolo todo en lugar de vivirlo plenamente y confundimos el número de seguidores con la calidad de nuestros afectos. Parece que hemos aprendido a conectarnos con todo el mundo al precio de desconectarnos de quienes tenemos más cerca.\n\nEn mi opinión, la solución no pasa por rechazar la tecnología, sino por aprender a usarla con criterio. Reservar momentos sin dispositivos, cultivar conversaciones reales y escuchar con atención auténtica son gestos imprescindibles." }, 
+{ "id": "dia-libre-inesperado", "category": "Vida cotidiana", "format": "Redacción narrativa · 170–210 palabras", "levelRange": "A2 – B1", "title": "Un día libre inesperado", "prompt": "Imagina que, de repente, tienes un día entero libre sin responsabilidades. ¿Qué harías? Cuéntalo con detalles.", "b1Title": "Un miércoles perfecto", "b1": "Si mañana, por casualidad, tuviera un día entero libre, creo que sé exactamente lo que haría. Lo primero es que no pondría el despertador. Dormiría hasta despertarme de forma natural, algo que casi nunca puedo hacer.\n\nDespués, prepararía un desayuno enorme. Unos huevos revueltos, tostadas con aguacate, un zumo de naranja recién hecho y un café muy bueno. Desayunaría despacio, leyendo un libro en la terraza. Nada de mirar el móvil ni contestar correos.\n\nHacia las once, saldría a pasear por el parque del Retiro, en Madrid. Me encantaría ir sin auriculares, solo escuchando los pájaros y a la gente alrededor. Después, comería en un pequeño restaurante italiano que conozco, donde hacen unas pastas caseras riquísimas.\n\nPor la tarde, iría al cine. Vería una película en versión original, de esas que normalmente no tengo tiempo de ver entre semana. Al salir, me tomaría un helado, aunque fuera invierno.\n\nPor la noche, llamaría a una amiga vieja a la que hace tiempo que no veo. Cenaríamos en algún sitio con velas, hablando de todo y de nada.\n\nUn día así sería un pequeño regalo.", "b2Title": "Una jornada para mí", "b2": "Si, por alguna circunstancia feliz, me regalaran mañana una jornada entera sin responsabilidades, sin correos pendientes ni obligaciones familiares, sé con razonable precisión cómo me gustaría vivirla. No tiene que ver con grandes aventuras ni con destinos exóticos; más bien al contrario, consistiría en recuperar ese tipo de tiempo pausado que la vida adulta ha terminado convirtiendo en un auténtico lujo.\n\nEmpezaría, naturalmente, durmiendo hasta que mi cuerpo decidiera levantarse por sí solo, sin la tiranía habitual del despertador. Una vez despierto, prepararía un desayuno elaborado y me sentaría junto a la ventana a leer durante al menos una hora, ese tipo de lectura reposada que uno apenas se permite entre semana. Por supuesto, dejaría el móvil en otra habitación durante toda la mañana.\n\nA media mañana, saldría a caminar sin rumbo fijo por el centro histórico de la ciudad. Me gusta observar detalles que normalmente paso por alto: una fachada, un escaparate anticuado, una conversación robada al vuelo. Comería sin prisas en algún restaurante pequeño, pidiendo sin prisa, sin consultar apenas las notificaciones.\n\nLa tarde la reservaría para algo que rara vez concedo tiempo: escribir. No por motivos profesionales, sino por el simple placer de dejar fluir las ideas en papel. Terminaría el día con una película en casa, acompañada de una copa de vino y de esa sensación reparadora de haberme tratado, por una vez, con la misma consideración con la que trato a los demás.\n\nPocas formas de autocuidado resultan tan eficaces como una jornada así." }, 
+{ "id": "perdon-pedir", "category": "Relaciones personales", "format": "Ensayo reflexivo · 180–230 palabras", "levelRange": "B1 – B2", "title": "Saber pedir perdón", "prompt": "Pedir perdón de verdad no siempre es fácil. ¿Qué requiere una disculpa sincera? ¿Por qué a muchas personas les cuesta tanto hacerlo?", "b1Title": "Lo siento, de verdad", "b1": "Pedir perdón parece una cosa fácil, pero en realidad es una de las cosas más difíciles de la vida adulta. Conozco a personas muy inteligentes, con muchos estudios, que son incapaces de decir \"lo siento\" cuando se equivocan. ¿Por qué pasa esto?\n\nCreo que pedir perdón requiere dos cosas muy difíciles. La primera es reconocer que hemos hecho algo mal. Aceptar un error es doloroso: significa que no somos perfectos, que podemos hacer daño a otras personas. A muchos adultos no les gusta sentirse así.\n\nLa segunda cosa difícil es bajar el orgullo. Pedir perdón es, en cierto modo, ponerse por debajo del otro durante unos minutos. Decir: \"He fallado, y tú tienes razón\". Para personas con mucho orgullo, esto es casi imposible.\n\nSin embargo, cuando alguien pide perdón de forma sincera, hace magia. Las peleas se calman, las amistades se salvan, los matrimonios se recuperan. Un perdón bien dicho tiene un poder enorme.\n\nPor supuesto, no vale cualquier disculpa. El \"lo siento si te ha molestado\" no es un perdón: es una trampa. El perdón verdadero reconoce el error concretamente y promete cambiar.\n\nEs un gesto pequeño, pero profundamente valiente.", "b2Title": "El arte difícil del perdón sincero", "b2": "Pocos gestos cotidianos poseen un poder transformador comparable al de una disculpa verdaderamente sincera. Sin embargo, pocas cosas resultan tan escasas en nuestras relaciones humanas. Pedir perdón —de verdad, no con fórmulas vacías— exige un tipo de madurez emocional que no se adquiere con los años ni con los estudios, y esta dificultad explica, al menos en parte, por qué tantos conflictos se enquistan durante décadas.\n\nUna disculpa auténtica requiere, cuanto menos, tres ingredientes difíciles de combinar. En primer lugar, reconocer el error con concreción: no basta con un genérico \"si te he molestado\", fórmula que traslada sutilmente la responsabilidad al ofendido. Debe identificarse qué se hizo, cómo afectó al otro y por qué resultó incorrecto. En segundo lugar, asumir sin atenuantes la propia responsabilidad, resistiendo la tentación casi automática de justificarse o de buscar circunstancias eximentes. Por último, y quizá lo más exigente, comprometerse con un cambio efectivo; una disculpa que no implica una modificación posterior del comportamiento se revela, tarde o temprano, como una formalidad vacía.\n\nLo que hace tan difícil este ejercicio es que enfrenta al adulto con una imagen de sí mismo que preferiría no ver. Requiere aceptar la propia imperfección, descender del pedestal del orgullo y reconocer que el otro tiene, al menos parcialmente, razón. Para personalidades con una autoimagen rígida, este descenso puede resultar sencillamente insoportable.\n\nNo obstante, la recompensa de una disculpa sincera es extraordinaria. Desactiva conflictos enquistados, restaura relaciones valiosas y, paradójicamente, fortalece la dignidad de quien la pronuncia. Pedir perdón no es un acto de debilidad: es una de las formas más altas de valentía adulta." }];
+    
+    const FEATURES = [
+{ "id": "spanish-speaking", "language": "西班牙语", "skill": "口语", "label": "西班牙语 口语", "enabled": false }, 
+{ "id": "spanish-writing", "language": "西班牙语", "skill": "写作", "label": "西班牙语 写作", "enabled": true }, 
+{ "id": "english-speaking", "language": "英语", "skill": "口语", "label": "英语 口语", "enabled": false }, 
+{ "id": "english-writing", "language": "英语", "skill": "写作", "label": "英语 写作", "enabled": false }, 
+{ "id": "french-speaking", "language": "法语", "skill": "口语", "label": "法语 口语", "enabled": false }, 
+{ "id": "french-writing", "language": "法语", "skill": "写作", "label": "法语 写作", "enabled": false }, 
+{ "id": "german-speaking", "language": "德语", "skill": "口语", "label": "德语 口语", "enabled": false }, 
+{ "id": "german-writing", "language": "德语", "skill": "写作", "label": "德语 写作", "enabled": false }];
+    const DRAFTS_KEY = "language-lab.standalone.spanish-writing.drafts.v1";
+
+    let activeFeature = "spanish-writing";
+    let activeTopic = 0;
+    let selectedExample = null;
+    let sidebarOpen = false;
+    let drafts = loadDrafts();
+
+    function escapeHTML(value) {
+      return String(value ?? "").replace(/[&<>"']/g, (char) => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;",
+      }[char]));
+    }
+
+    function countWords(text) {
+      const cleaned = String(text || "").trim();
+      if (!cleaned) return 0;
+      return cleaned.split(/\s+/).filter(Boolean).length;
+    }
+
+    function loadDrafts() {
+      try {
+        return JSON.parse(localStorage.getItem(DRAFTS_KEY) || "{}");
+      } catch {
+        return {};
+      }
+    }
+
+    function saveDrafts() {
+      localStorage.setItem(DRAFTS_KEY, JSON.stringify(drafts));
+    }
+
+    function icon(name, size = 16) {
+      const attrs = 'width="' + size + '" height="' + size + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"';
+      const paths = {
+        book: '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5z"/>',
+        mic: '<path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><path d="M12 19v3"/>',
+        pen: '<path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/>',
+        menu: '<path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h16"/>',
+        close: '<path d="M18 6 6 18"/><path d="m6 6 12 12"/>',
+        check: '<path d="M20 6 9 17l-5-5"/>',
+        left: '<path d="m15 18-6-6 6-6"/>',
+        right: '<path d="m9 18 6-6-6-6"/>',
+        sparkles: '<path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8Z"/><path d="M19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8Z"/>',
+      };
+      return '<svg ' + attrs + '>' + (paths[name] || "") + '</svg>';
+    }
+
+    function productNav() {
+      return '<header class="product-nav">' +
+        '<div class="product-brand">' + icon("book", 18) + '<span>Language Practice Lab</span></div>' +
+        '<nav class="feature-tabs" aria-label="Language practice modules">' +
+        FEATURES.map((feature) => {
+          const isActive = activeFeature === feature.id;
+          const disabled = feature.enabled ? "" : " disabled";
+          const title = feature.enabled ? feature.label : "即将上线";
+          return '<button class="feature-tab ' + (isActive ? "active" : "") + '" data-feature-id="' + escapeHTML(feature.id) + '"' + disabled + ' title="' + escapeHTML(title) + '" type="button">' +
+            icon(feature.skill === "口语" ? "mic" : "pen", 15) +
+            '<span>' + escapeHTML(feature.label) + '</span>' +
+            (feature.enabled ? "" : "<small>Soon</small>") +
+            '</button>';
+        }).join("") +
+        '</nav>' +
+        '</header>';
+    }
+
+    function mobileHeader() {
+      return '<div class="mobile-header">' +
+        '<div><div class="brand-mark small">Cuaderno</div><div class="mobile-title">Escritura</div></div>' +
+        '<button class="mobile-toggle" data-action="open-sidebar" type="button">' + icon("menu", 15) + 'Índice</button>' +
+        '</div>';
+    }
+
+    function sidebar() {
+      const completedCount = TOPICS.filter((topic) => countWords(drafts[topic.id]) >= 40).length;
+      const progress = TOPICS.length ? completedCount / TOPICS.length * 100 : 0;
+
+      return '<aside class="sidebar ' + (sidebarOpen ? "open" : "") + '">' +
+        '<button class="sidebar-close" data-action="close-sidebar" type="button" aria-label="Cerrar índice">' + icon("close", 16) + '</button>' +
+        '<div class="brand">' +
+        '<div class="brand-mark">Núm. Uno · Edición MMXXVI</div>' +
+        '<h1 class="brand-title">Cuaderno<br><em>de escritura</em></h1>' +
+        '<p class="brand-sub">Práctica de redacción · DELE A2-B2</p>' +
+        '</div>' +
+        '<div class="ornament" aria-hidden="true">*</div>' +
+        (activeFeature === "spanish-writing" ? (
+          '<div class="progress-bar"><div class="progress-fill" style="width:' + progress + '%"></div></div>' +
+          '<div class="progress-label"><span>Progreso</span><span>' + completedCount + ' / ' + TOPICS.length + '</span></div>' +
+          '<div class="ornament-rule">Índice</div>' +
+          '<ol class="toc">' +
+          TOPICS.map((topic, index) => {
+            const isDone = countWords(drafts[topic.id]) >= 40;
+            return '<li><button class="toc-item ' + (index === activeTopic ? "active " : "") + (isDone ? "done" : "") + '" data-topic-index="' + index + '" type="button">' +
+              '<span class="toc-num">' + (index + 1) + '.</span>' +
+              '<span class="toc-text">' + escapeHTML(topic.title) + '<small>' + escapeHTML(topic.category) + ' · ' + escapeHTML(topic.levelRange) + '</small></span>' +
+              '<span class="toc-status">' + (isDone ? icon("check", 13) : "") + '</span>' +
+              '</button></li>';
+          }).join("") +
+          '</ol>'
+        ) : '<div class="sidebar-note">这个模块先作为入口保留。当前可用内容在「西班牙语 写作」里。</div>') +
+        '</aside>';
+    }
+
+    function divider(label) {
+      return '<div class="divider"><span class="divider-mark">' + escapeHTML(label) + '</span></div>';
+    }
+
+    function exampleMarkup(topic, level) {
+      if (!level) return "";
+      const isB2 = level === "b2";
+      const body = isB2 ? topic.b2 : topic.b1;
+      const title = isB2 ? topic.b2Title : topic.b1Title;
+      const label = isB2 ? "B2 · Intermedio alto" : "B1 · Intermedio";
+      return '<article class="example ' + level + '">' +
+        '<div class="example-head">' +
+        '<span class="example-badge">' + label + '</span>' +
+        '<span class="example-words">' + countWords(body) + ' palabras</span>' +
+        '</div>' +
+        '<h3 class="example-tag">' + escapeHTML(title) + '</h3>' +
+        '<div class="example-body">' + escapeHTML(body) + '</div>' +
+        '</article>';
+    }
+
+    function writingWorkspace() {
+      const topic = TOPICS[activeTopic];
+      const draft = drafts[topic.id] || "";
+      const previousTopic = TOPICS[activeTopic - 1];
+      const nextTopic = TOPICS[activeTopic + 1];
+
+      return '<div class="main-inner">' +
+        '<div class="topic-meta">' +
+        '<span>' + escapeHTML(topic.category) + '</span><span class="dot"></span>' +
+        '<span class="level">Nivel ' + escapeHTML(topic.levelRange) + '</span><span class="dot"></span>' +
+        '<span>Capítulo ' + (activeTopic + 1) + '</span>' +
+        '</div>' +
+        '<div class="topic-numeral">' + (activeTopic + 1) + '.</div>' +
+        '<h2 class="topic-title">' + escapeHTML(topic.title) + '</h2>' +
+        '<p class="topic-prompt">' + escapeHTML(topic.prompt) + '</p>' +
+        '<p class="topic-format">' + escapeHTML(topic.format) + '</p>' +
+        divider("Tu redacción") +
+        '<div class="write-head">' +
+        '<span class="write-label">Escribe aquí abajo</span>' +
+        '<span class="write-tools"><span class="word-count"><strong id="wc">' + countWords(draft) + '</strong> palabras</span><button class="clear-btn" data-action="clear-draft" type="button">Borrar</button></span>' +
+        '</div>' +
+        '<div class="textarea-wrap"><textarea class="write-area" id="writeArea" placeholder="Empieza a escribir tu redacción en español...">' + escapeHTML(draft) + '</textarea></div>' +
+        divider("Ejemplos modelo") +
+        '<div class="examples-switcher">' +
+        '<button class="examples-toggle ' + (selectedExample === "b1" ? "is-active" : "") + '" data-example="b1" type="button">B1</button>' +
+        '<button class="examples-toggle ' + (selectedExample === "b2" ? "is-active" : "") + '" data-example="b2" type="button">B2</button>' +
+        '</div>' +
+        '<div class="examples-container ' + (selectedExample ? "open" : "") + '">' + exampleMarkup(topic, selectedExample) + '</div>' +
+        '<div class="topic-nav">' +
+        '<button class="nav-btn prev" data-action="prev-topic" type="button" ' + (previousTopic ? "" : "disabled") + '>' + icon("left", 18) + '<span><small>Anterior</small>' + escapeHTML(previousTopic?.title || "-") + '</span></button>' +
+        '<button class="nav-btn next" data-action="next-topic" type="button" ' + (nextTopic ? "" : "disabled") + '><span><small>Siguiente</small>' + escapeHTML(nextTopic?.title || "-") + '</span>' + icon("right", 18) + '</button>' +
+        '</div>' +
+        '</div>';
+    }
+
+    function comingSoon() {
+      const feature = FEATURES.find((item) => item.id === activeFeature);
+      return '<section class="state-panel">' + icon("sparkles", 24) + '<h2>' + escapeHTML(feature?.label || "功能") + ' 即将上线</h2><p>产品入口已经预留好。下一步可以为这个模块接入题库、评分或口语录音练习。</p></section>';
+    }
+
+    function render() {
+      const app = document.getElementById("standalone-root");
+      app.innerHTML =
+        productNav() +
+        mobileHeader() +
+        (sidebarOpen ? '<button class="backdrop" data-action="close-sidebar" type="button" aria-label="Cerrar índice"></button>' : "") +
+        '<div class="app-shell">' +
+        sidebar() +
+        '<main class="main">' + (activeFeature === "spanish-writing" ? writingWorkspace() : comingSoon()) + '</main>' +
+        '</div>';
+
+      const textarea = document.getElementById("writeArea");
+      if (textarea) {
+        textarea.addEventListener("input", (event) => {
+          const topic = TOPICS[activeTopic];
+          drafts[topic.id] = event.target.value;
+          saveDrafts();
+          document.getElementById("wc").textContent = countWords(event.target.value);
+          renderSidebarOnly();
+        });
+      }
+    }
+
+    function renderSidebarOnly() {
+      const aside = document.querySelector(".sidebar");
+      if (!aside) return;
+      const wrapper = document.createElement("div");
+      wrapper.innerHTML = sidebar();
+      aside.replaceWith(wrapper.firstElementChild);
+    }
+
+    function chooseTopic(index) {
+      activeTopic = index;
+      selectedExample = null;
+      sidebarOpen = false;
+      render();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    document.addEventListener("click", (event) => {
+      const featureButton = event.target.closest("[data-feature-id]");
+      if (featureButton && !featureButton.disabled) {
+        activeFeature = featureButton.dataset.featureId;
+        selectedExample = null;
+        render();
+        return;
+      }
+
+      const topicButton = event.target.closest("[data-topic-index]");
+      if (topicButton) {
+        chooseTopic(Number(topicButton.dataset.topicIndex));
+        return;
+      }
+
+      const exampleButton = event.target.closest("[data-example]");
+      if (exampleButton) {
+        const level = exampleButton.dataset.example;
+        selectedExample = selectedExample === level ? null : level;
+        render();
+        return;
+      }
+
+      const actionButton = event.target.closest("[data-action]");
+      if (!actionButton) return;
+
+      const action = actionButton.dataset.action;
+      if (action === "open-sidebar") {
+        sidebarOpen = true;
+        render();
+      }
+      if (action === "close-sidebar") {
+        sidebarOpen = false;
+        render();
+      }
+      if (action === "clear-draft") {
+        const topic = TOPICS[activeTopic];
+        if (!String(drafts[topic.id] || "").trim()) return;
+        if (confirm("¿Seguro que quieres borrar tu redacción? Esta acción no se puede deshacer.")) {
+          drafts[topic.id] = "";
+          saveDrafts();
+          render();
+        }
+      }
+      if (action === "prev-topic" && activeTopic > 0) {
+        chooseTopic(activeTopic - 1);
+      }
+      if (action === "next-topic" && activeTopic < TOPICS.length - 1) {
+        chooseTopic(activeTopic + 1);
+      }
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (document.activeElement && document.activeElement.tagName === "TEXTAREA") return;
+      if (event.key === "ArrowLeft" && activeTopic > 0) chooseTopic(activeTopic - 1);
+      if (event.key === "ArrowRight" && activeTopic < TOPICS.length - 1) chooseTopic(activeTopic + 1);
+    });
+
+    render();
+
+  </script>
+</body>
+
+</html>

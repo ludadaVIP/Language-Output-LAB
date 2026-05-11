@@ -1,0 +1,29 @@
+{
+  "id": "gesund-leben",
+  "language": "de",
+  "skill": "speaking",
+  "order": 3,
+  "category": "Gesundheit",
+  "title": "Gesund leben",
+  "prompt": "Sprechen Sie darüber, was für ein gesundes Leben wichtig ist. Nennen Sie Beispiele.",
+  "format": "Meinung · 2 Minuten",
+  "levelRange": "A2 - B1",
+  "levels": [
+    "A2",
+    "B1"
+  ],
+  "examples": [
+    {
+      "level": "A2",
+      "title": "Essen, Bewegung, Schlaf",
+      "body": "Für ein gesundes Leben sind drei Dinge wichtig: gutes Essen, Bewegung und Schlaf. Man sollte Obst und Gemüse essen und genug Wasser trinken.\n\nBewegung muss nicht kompliziert sein. Man kann spazieren gehen oder Fahrrad fahren. Außerdem sollte man nicht zu spät schlafen gehen."
+    },
+    {
+      "level": "B1",
+      "title": "Gesundheit im Alltag",
+      "body": "Gesund zu leben bedeutet für mich nicht, perfekt zu sein. Wichtig ist, im Alltag gute Entscheidungen zu treffen: regelmäßige Bewegung, ausgewogenes Essen und genug Schlaf.\n\nAuch die mentale Gesundheit spielt eine große Rolle. Wer ständig gestresst ist, fühlt sich auf Dauer nicht gesund. Deshalb versuche ich, Pausen zu machen, soziale Kontakte zu pflegen und nicht jeden Abend am Bildschirm zu verbringen."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.125Z"
+}

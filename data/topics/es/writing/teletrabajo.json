@@ -1,0 +1,31 @@
+{
+  "id": "teletrabajo",
+  "language": "es",
+  "skill": "writing",
+  "order": 3,
+  "category": "Mundo laboral",
+  "title": "Ventajas y desventajas del teletrabajo",
+  "prompt": "Desde la pandemia, muchas personas trabajan desde casa. Analiza los aspectos positivos y negativos de esta forma de trabajo y expresa tu opinión personal.",
+  "format": "Ensayo de ventajas e inconvenientes · 180–220 palabras",
+  "levelRange": "B1 – B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Trabajar desde casa",
+      "body": "Desde la pandemia, muchas personas trabajan desde casa. Esta forma de trabajar tiene cosas buenas y cosas malas.\n\nEntre las ventajas, la más importante es el tiempo. No tienes que coger el transporte público y puedes usar esas horas para descansar, hacer deporte o estar con tu familia. También es más cómodo, porque trabajas con tu propia ropa y tu propio ordenador. Además, ahorras dinero en comidas y en gasolina.\n\nSin embargo, también hay desventajas. La primera es que te sientes un poco solo. No ves a tus compañeros todos los días y a veces es difícil comunicarse bien solo por internet. La segunda es que en casa hay muchas distracciones: la familia, la televisión, la cocina... No siempre es fácil concentrarse durante ocho horas.\n\nPersonalmente, pienso que lo mejor es una solución intermedia. Creo que trabajar tres días en casa y dos días en la oficina es perfecto. Así tienes tiempo para ti, pero también ves a tus compañeros y no te sientes aislado.\n\nEn resumen, el teletrabajo tiene ventajas y desventajas, pero puede funcionar muy bien si lo organizamos con cabeza.",
+      "wordCount": 183
+    },
+    {
+      "level": "B2",
+      "title": "El teletrabajo, una revolución a medias",
+      "body": "El teletrabajo, impulsado definitivamente por la crisis sanitaria reciente, ha dejado de ser una opción excepcional para convertirse en una realidad consolidada en numerosos sectores. Como toda transformación profunda, presenta beneficios indiscutibles, pero también plantea desafíos que merecen una reflexión pausada.\n\nEntre sus virtudes más evidentes destaca la flexibilidad horaria, que permite conciliar la vida laboral con las responsabilidades familiares de una manera hasta ahora impensable. Asimismo, la eliminación de los desplazamientos no solo reduce el estrés cotidiano, sino que también supone un ahorro considerable, tanto económico como medioambiental. No menos relevante es la posibilidad de atraer talento sin las limitaciones geográficas tradicionales.\n\nAhora bien, sería ingenuo pasar por alto sus inconvenientes. El aislamiento social y la difuminación de los límites entre el hogar y el trabajo pueden derivar, a la larga, en problemas de salud mental y en una preocupante sensación de agotamiento. A esto se suma la dificultad de mantener una cultura corporativa cohesionada cuando el contacto directo brilla por su ausencia.\n\nEn mi opinión, el modelo híbrido representa la alternativa más razonable, puesto que combina la autonomía del teletrabajo con las ventajas insustituibles de la interacción presencial. Dicho esto, cada empresa debería adaptar sus políticas a las necesidades concretas de sus empleados.",
+      "wordCount": 205
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T22:49:21.589Z"
+}

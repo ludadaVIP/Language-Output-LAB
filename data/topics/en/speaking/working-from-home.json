@@ -1,0 +1,29 @@
+{
+  "id": "working-from-home",
+  "language": "en",
+  "skill": "speaking",
+  "order": 3,
+  "category": "Work",
+  "title": "Working from home",
+  "prompt": "Give your opinion about working from home. Mention benefits, challenges, and the kind of worker it suits best.",
+  "format": "Opinion speaking · 2 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Comfort and discipline",
+      "body": "Working from home has many advantages. You save time because you do not travel to the office, and you can organize your day in a more flexible way.\n\nHowever, it can be difficult to separate work and personal life. I think it is best for people who are disciplined and do not need constant contact with colleagues."
+    },
+    {
+      "level": "C1",
+      "title": "Freedom with hidden costs",
+      "body": "Remote work offers a kind of freedom that many employees understandably value: fewer commutes, more control over the environment, and a better chance of fitting work around ordinary life.\n\nYet that freedom has hidden costs. Boundaries can become blurred, informal learning may disappear, and isolation can grow slowly. In my view, it suits people who are self-directed, but it works best when combined with occasional face-to-face collaboration."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.123Z"
+}

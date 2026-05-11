@@ -1,0 +1,29 @@
+{
+  "id": "soziale-medien",
+  "language": "de",
+  "skill": "writing",
+  "order": 3,
+  "category": "Medien",
+  "title": "Soziale Medien",
+  "prompt": "Schreiben Sie über soziale Medien. Sind sie eher positiv oder negativ?",
+  "format": "Argumentativer Text · 130-180 Wörter",
+  "levelRange": "A2 - B1",
+  "levels": [
+    "A2",
+    "B1"
+  ],
+  "examples": [
+    {
+      "level": "A2",
+      "title": "Kontakt mit Freunden",
+      "body": "Soziale Medien haben gute und schlechte Seiten. Man kann mit Freunden schreiben, Fotos teilen und Informationen finden.\n\nAber viele Menschen verbringen zu viel Zeit am Handy. Manchmal vergleicht man sich auch mit anderen und fühlt sich schlecht. Ich denke, soziale Medien sind nützlich, wenn man sie nicht zu viel benutzt."
+    },
+    {
+      "level": "B1",
+      "title": "Nützlich, aber nicht harmlos",
+      "body": "Soziale Medien sind aus dem Alltag kaum noch wegzudenken. Sie helfen uns, mit Freunden in Kontakt zu bleiben, Nachrichten zu lesen und neue Ideen zu entdecken.\n\nTrotzdem sehe ich auch Nachteile. Viele Nutzer verbringen sehr viel Zeit mit kurzen Videos oder vergleichen ihr Leben mit perfekten Bildern. Das kann Stress verursachen. Meiner Meinung nach sind soziale Medien weder nur gut noch nur schlecht. Entscheidend ist, wie bewusst man sie nutzt."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.125Z"
+}

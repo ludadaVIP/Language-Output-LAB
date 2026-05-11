@@ -1,0 +1,29 @@
+{
+  "id": "offentliche-verkehrsmittel",
+  "language": "de",
+  "skill": "writing",
+  "order": 1,
+  "category": "Verkehr",
+  "title": "Öffentliche Verkehrsmittel",
+  "prompt": "Schreiben Sie über öffentliche Verkehrsmittel in der Stadt. Nennen Sie Vorteile und Probleme.",
+  "format": "Meinungstext · 120-170 Wörter",
+  "levelRange": "A2 - B1",
+  "levels": [
+    "A2",
+    "B1"
+  ],
+  "examples": [
+    {
+      "level": "A2",
+      "title": "Bus und Bahn",
+      "body": "Öffentliche Verkehrsmittel sind sehr praktisch. Viele Menschen fahren mit dem Bus oder mit der Bahn zur Arbeit, zur Schule oder in die Stadt.\n\nEin Vorteil ist, dass man kein Auto braucht. Das ist billiger und besser für die Umwelt. Ein Problem ist aber, dass Busse manchmal zu spät kommen. Ich finde, Städte sollten mehr in gute Verbindungen investieren."
+    },
+    {
+      "level": "B1",
+      "title": "Wichtig für die Stadt",
+      "body": "Öffentliche Verkehrsmittel sind für eine moderne Stadt sehr wichtig. Wenn Busse und Bahnen zuverlässig, sauber und sicher sind, benutzen mehr Menschen sie im Alltag.\n\nDas hat viele Vorteile: weniger Autos, weniger Stau und weniger Luftverschmutzung. Gleichzeitig gibt es oft Probleme mit Verspätungen oder hohen Preisen. Meiner Meinung nach sollte die Stadt den öffentlichen Verkehr verbessern, damit er für alle eine echte Alternative zum Auto wird."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.125Z"
+}

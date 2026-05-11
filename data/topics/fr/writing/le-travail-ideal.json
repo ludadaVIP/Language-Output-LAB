@@ -1,0 +1,29 @@
+{
+  "id": "le-travail-ideal",
+  "language": "fr",
+  "skill": "writing",
+  "order": 3,
+  "category": "Travail",
+  "title": "Le travail idéal",
+  "prompt": "Écrivez sur votre travail idéal. Expliquez les horaires, les tâches et l'ambiance.",
+  "format": "Texte personnel · 120-170 mots",
+  "levelRange": "A2 - B1",
+  "levels": [
+    "A2",
+    "B1"
+  ],
+  "examples": [
+    {
+      "level": "A2",
+      "title": "Un travail intéressant",
+      "body": "Mon travail idéal serait intéressant et pas trop stressant. Je voudrais travailler avec des personnes gentilles et apprendre de nouvelles choses.\n\nJ'aimerais avoir des horaires réguliers, mais aussi un peu de flexibilité. Pour moi, l'ambiance est très importante. Un bon salaire est utile, mais ce n'est pas la seule chose."
+    },
+    {
+      "level": "B1",
+      "title": "Équilibre et motivation",
+      "body": "Le travail idéal, pour moi, doit offrir un bon équilibre entre motivation et qualité de vie. J'aimerais avoir des tâches variées, des collègues respectueux et un responsable qui fait confiance à son équipe.\n\nJe ne cherche pas seulement un salaire élevé. Je voudrais surtout sentir que mon travail a du sens et qu'il me permet de progresser. La flexibilité serait aussi importante, par exemple avec quelques jours de télétravail."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.124Z"
+}

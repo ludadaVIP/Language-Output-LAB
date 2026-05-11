@@ -1,0 +1,29 @@
+{
+  "id": "ma-ville-preferee",
+  "language": "fr",
+  "skill": "speaking",
+  "order": 1,
+  "category": "Ville",
+  "title": "Ma ville préférée",
+  "prompt": "Parlez d'une ville que vous aimez. Décrivez l'ambiance, les lieux importants et ce que vous aimez y faire.",
+  "format": "Réponse orale · 2 minutes",
+  "levelRange": "A2 - B1",
+  "levels": [
+    "A2",
+    "B1"
+  ],
+  "examples": [
+    {
+      "level": "A2",
+      "title": "Une ville agréable",
+      "body": "Ma ville préférée est Lyon. J'aime cette ville parce qu'elle est belle et assez grande. Il y a des restaurants, des musées et des parcs.\n\nLe week-end, j'aime me promener dans le centre et boire un café avec mes amis. Pour moi, c'est une ville vivante mais pas trop stressante."
+    },
+    {
+      "level": "B1",
+      "title": "Une ville avec du caractère",
+      "body": "J'aime beaucoup Lyon parce qu'elle combine plusieurs choses importantes pour moi. C'est une ville historique, avec de beaux quartiers anciens, mais elle reste moderne et pratique.\n\nCe que je préfère, c'est l'ambiance près des quais. On peut marcher, discuter, regarder les gens passer et découvrir de petits restaurants. Je m'y sens à la fois curieux et tranquille."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.123Z"
+}

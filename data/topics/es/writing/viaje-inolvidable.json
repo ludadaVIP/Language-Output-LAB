@@ -1,0 +1,31 @@
+{
+  "id": "viaje-inolvidable",
+  "language": "es",
+  "skill": "writing",
+  "order": 6,
+  "category": "Viajes",
+  "title": "Un viaje inolvidable",
+  "prompt": "Recuerda un viaje que te haya marcado especialmente. Describe adónde fuiste, qué hiciste, qué sentiste y por qué lo recordarás siempre.",
+  "format": "Redacción narrativa · 180–220 palabras",
+  "levelRange": "B1 – B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Cinco días en Granada",
+      "body": "El verano pasado hice un viaje que nunca olvidaré. Fui con dos amigos a Granada, en el sur de España. Estuvimos allí cinco días y fue una experiencia maravillosa.\n\nEl primer día visitamos la Alhambra. Habíamos comprado las entradas por internet con un mes de antelación, porque es muy difícil conseguirlas. Cuando entramos, me quedé sin palabras. Los jardines, las fuentes y los techos decorados son realmente impresionantes. Pasamos toda la mañana allí y hasta comimos un bocadillo dentro del recinto.\n\nPor la tarde, subimos al Albaicín, que es el barrio antiguo árabe. Las calles son estrechas y tienen mucho encanto. Desde el mirador de San Nicolás vimos la Alhambra al atardecer, con las montañas de Sierra Nevada detrás. Fue una imagen increíble.\n\nLos otros días comimos tapas en bares tradicionales, escuchamos flamenco en una cueva del Sacromonte y hasta bailamos un poco, aunque muy mal. También hicimos nuevos amigos de otros países.\n\nFue un viaje corto, pero muy intenso. Ahora Granada es una de mis ciudades favoritas y quiero volver pronto, si es posible en primavera.",
+      "wordCount": 177
+    },
+    {
+      "level": "B2",
+      "title": "La Patagonia, un viaje al silencio",
+      "body": "Si tuviera que elegir un único viaje de entre todos los que he hecho, me quedaría sin dudarlo con la ruta que realicé el verano pasado por la Patagonia argentina. Habíamos estado soñando con aquella aventura durante casi dos años, y las expectativas eran tan altas que temíamos sentirnos defraudados. Sin embargo, la realidad acabó superándolas con creces.\n\nEmpezamos el recorrido en El Calafate, desde donde nos acercamos al glaciar Perito Moreno. Jamás olvidaré el momento en que, rodeados de un silencio sobrecogedor, escuchamos el estruendo de un enorme bloque de hielo desprendiéndose y cayendo al lago. Fue una experiencia casi mística, de esas que te hacen sentir diminuto ante la inmensidad de la naturaleza.\n\nDespués nos adentramos en El Chaltén, considerado la capital argentina del senderismo. Durante tres días recorrimos senderos exigentes que nos recompensaron con paisajes absolutamente espectaculares: lagunas turquesas, bosques de lengas teñidos de dorado y la imponente silueta del Fitz Roy recortándose contra un cielo imposiblemente azul.\n\nLo que más me impactó, no obstante, no fueron los paisajes, sino la calidez de sus habitantes. Cada conversación con un guía local o con los dueños de las hospederías se convertía en una pequeña lección sobre otra manera de entender la vida.",
+      "wordCount": 204
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T22:49:21.590Z"
+}

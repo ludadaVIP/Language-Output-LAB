@@ -1,0 +1,31 @@
+{
+  "id": "tecnologia-relaciones",
+  "language": "es",
+  "skill": "writing",
+  "order": 10,
+  "category": "Opinión personal",
+  "title": "La tecnología y las relaciones humanas",
+  "prompt": "¿Crees que la tecnología nos acerca o nos aleja de las personas que queremos? Reflexiona con ejemplos de tu propia vida.",
+  "format": "Ensayo de opinión · 180–230 palabras",
+  "levelRange": "B1 – B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Más conectados, ¿menos cerca?",
+      "body": "Hoy en día vivimos rodeados de tecnología. Todos tenemos móviles, ordenadores, tabletas y relojes inteligentes. Pero me pregunto: ¿la tecnología nos acerca o nos aleja de los demás?\n\nPor una parte, es verdad que la tecnología nos ayuda mucho a comunicarnos. Gracias a las videollamadas, puedo hablar con mi hermana, que vive en Alemania, como si estuviera en la habitación de al lado. Los grupos de WhatsApp también son muy útiles para organizar cenas con amigos o para estar en contacto con la familia cuando uno viaja.\n\nPero, por otra parte, también veo muchos problemas. En los restaurantes, a menudo veo parejas mirando cada una su móvil en lugar de hablar entre ellas. Algunos niños pasan más tiempo con una tableta que jugando con otros niños. Yo misma, a veces, respondo un mensaje mientras estoy con mis amigos, y sé que eso no está bien.\n\nEn mi opinión, la tecnología no es mala, pero hay que usarla con cabeza. Cuando estamos con alguien importante, lo mejor es dejar el móvil y prestar atención a la persona que tenemos delante. Las relaciones reales necesitan tiempo, silencio y atención verdadera.",
+      "wordCount": 188
+    },
+    {
+      "level": "B2",
+      "title": "La paradoja de la hiperconexión",
+      "body": "Resulta cuando menos paradójico que, en una época en la que disponemos de más medios que nunca para comunicarnos, muchas personas confiesen sentirse más solas que antaño. Esta aparente contradicción nos obliga a reflexionar con detenimiento sobre el papel que la tecnología desempeña en nuestras relaciones interpersonales.\n\nPor un lado, sería injusto no reconocer sus innegables beneficios. Plataformas como Zoom o WhatsApp han permitido mantener vínculos afectivos que, en circunstancias anteriores, se habrían debilitado inevitablemente por la distancia. Asimismo, las comunidades virtuales ofrecen espacios de encuentro a personas con intereses comunes que de otro modo jamás habrían llegado a conocerse.\n\nNo obstante, la omnipresencia de las pantallas en nuestra vida cotidiana también ha provocado transformaciones inquietantes. La conversación pausada ha sido sustituida, en muchos casos, por intercambios breves y superficiales. Cenamos con amigos sin soltar el móvil, asistimos a conciertos filmándolo todo en lugar de vivirlo plenamente y confundimos el número de seguidores con la calidad de nuestros afectos. Parece que hemos aprendido a conectarnos con todo el mundo al precio de desconectarnos de quienes tenemos más cerca.\n\nEn mi opinión, la solución no pasa por rechazar la tecnología, sino por aprender a usarla con criterio. Reservar momentos sin dispositivos, cultivar conversaciones reales y escuchar con atención auténtica son gestos imprescindibles.",
+      "wordCount": 211
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T22:49:21.591Z"
+}

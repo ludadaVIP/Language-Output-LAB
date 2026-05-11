@@ -1,0 +1,29 @@
+{
+  "id": "sprachen-lernen",
+  "language": "de",
+  "skill": "writing",
+  "order": 2,
+  "category": "Lernen",
+  "title": "Sprachen lernen",
+  "prompt": "Schreiben Sie darüber, warum Menschen Sprachen lernen und welche Methoden helfen.",
+  "format": "Persönlicher Text · 120-170 Wörter",
+  "levelRange": "A2 - B1",
+  "levels": [
+    "A2",
+    "B1"
+  ],
+  "examples": [
+    {
+      "level": "A2",
+      "title": "Jeden Tag ein bisschen",
+      "body": "Viele Menschen lernen Sprachen für Reisen, Arbeit oder Freunde. Eine neue Sprache ist interessant, aber manchmal auch schwer.\n\nMir helfen kurze Übungen. Ich höre Dialoge, schreibe neue Wörter auf und wiederhole Sätze. Ich glaube, man muss nicht jeden Tag lange lernen. Wichtig ist, regelmäßig zu üben."
+    },
+    {
+      "level": "B1",
+      "title": "Motivation und Praxis",
+      "body": "Menschen lernen Sprachen aus vielen Gründen: Sie möchten reisen, im Beruf bessere Chancen haben oder andere Kulturen verstehen. Für mich ist eine Sprache auch eine neue Art zu denken.\n\nBeim Lernen helfen vor allem regelmäßige Praxis und echte Situationen. Grammatik ist wichtig, aber man sollte auch sprechen, hören und schreiben. Fehler gehören dazu. Wer geduldig bleibt und die Sprache oft benutzt, macht mit der Zeit sichtbare Fortschritte."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.125Z"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "a-productive-morning",
+  "language": "en",
+  "skill": "speaking",
+  "order": 1,
+  "category": "Daily life",
+  "title": "A productive morning",
+  "prompt": "Talk about what makes a morning productive for you. Include habits, distractions, and one thing you would like to improve.",
+  "format": "Spoken answer · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "My best mornings",
+      "body": "A productive morning for me starts with a simple plan. I wake up early, drink some water, and write down the three most important things I need to do.\n\nThe biggest distraction is my phone. If I check messages too early, I lose time. I would like to improve my habit of doing exercise before work."
+    },
+    {
+      "level": "C1",
+      "title": "Protecting the first hour",
+      "body": "For me, a productive morning depends less on waking up dramatically early and more on protecting the first hour from noise. If I begin the day by reacting to messages, I immediately lose a sense of direction.\n\nWhat works best is a short routine: a clear list, a quiet breakfast, and one focused task before the day becomes fragmented. The habit I still need to strengthen is resisting the false urgency of notifications."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.122Z"
+}

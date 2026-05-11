@@ -1,0 +1,29 @@
+{
+  "id": "un-week-end-ideal",
+  "language": "fr",
+  "skill": "speaking",
+  "order": 2,
+  "category": "Loisirs",
+  "title": "Un week-end idéal",
+  "prompt": "Décrivez votre week-end idéal. Expliquez avec qui vous êtes, ce que vous faites et pourquoi.",
+  "format": "Monologue · 2 minutes",
+  "levelRange": "A2 - B1",
+  "levels": [
+    "A2",
+    "B1"
+  ],
+  "examples": [
+    {
+      "level": "A2",
+      "title": "Repos et amis",
+      "body": "Mon week-end idéal commence sans réveil. Le matin, je prends un bon petit déjeuner et je lis un peu.\n\nL'après-midi, je vois des amis. Nous allons au parc ou dans un café. Le soir, je regarde un film à la maison. C'est simple, mais très agréable."
+    },
+    {
+      "level": "B1",
+      "title": "Du temps sans pression",
+      "body": "Pour moi, un week-end idéal n'a pas besoin d'être exceptionnel. J'aimerais surtout avoir du temps sans pression, sans messages professionnels et sans horaires stricts.\n\nJe commencerais par dormir un peu plus, puis je sortirais marcher dans un quartier que je connais mal. Le soir, je dînerais avec des amis proches. Ce qui compte, c'est la sensation de respirer."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.124Z"
+}

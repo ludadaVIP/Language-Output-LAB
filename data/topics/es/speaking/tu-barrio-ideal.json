@@ -1,0 +1,29 @@
+{
+  "id": "tu-barrio-ideal",
+  "language": "es",
+  "skill": "speaking",
+  "order": 1,
+  "category": "Vida cotidiana",
+  "title": "Tu barrio ideal",
+  "prompt": "Habla de cómo sería tu barrio ideal. Describe los servicios, el ambiente y las cosas que te gustaría tener cerca.",
+  "format": "Respuesta oral · 2-3 minutos",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Un barrio cómodo",
+      "body": "Mi barrio ideal sería tranquilo, pero no demasiado lejos del centro. Me gustaría tener un supermercado, una farmacia y una parada de metro cerca de casa.\n\nTambién sería importante tener parques, porque me gusta caminar después del trabajo. Si hubiera cafeterías pequeñas y una biblioteca, sería perfecto para mí."
+    },
+    {
+      "level": "B2",
+      "title": "Un lugar con vida propia",
+      "body": "Para mí, el barrio ideal no es necesariamente el más elegante, sino aquel en el que se puede vivir con comodidad y sentir cierta pertenencia. Necesitaría buenos servicios, transporte público frecuente y espacios verdes donde desconectar.\n\nAdemás, valoraría mucho que hubiera comercio local: panaderías, librerías, mercados y cafeterías donde la gente se conoce. Esa mezcla de utilidad y vida comunitaria haría que el barrio resultara realmente acogedor."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.114Z"
+}

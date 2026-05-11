@@ -1,0 +1,31 @@
+{
+  "id": "carta-amigo",
+  "language": "es",
+  "skill": "writing",
+  "order": 5,
+  "category": "Correspondencia personal",
+  "title": "Carta a un amigo sobre tu nueva ciudad",
+  "prompt": "Acabas de mudarte a una nueva ciudad. Escribe una carta o un correo a un amigo contándole cómo es, qué te gusta, qué te cuesta acostumbrarte e invítalo a visitarte.",
+  "format": "Carta informal · 150–200 palabras",
+  "levelRange": "A2 – B1",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Querido Javier…",
+      "body": "Querido Javier:\n\n¡Hola! ¿Qué tal estás? Espero que todo vaya bien por Madrid. Yo ya llevo dos meses en Valencia y tengo muchas cosas que contarte.\n\nLa ciudad me encanta. Es más pequeña que Madrid, pero eso me gusta porque todo está cerca y puedo ir andando o en bici a casi todos los sitios. El centro es precioso, con calles antiguas, plazas llenas de bares y una catedral muy bonita. Además, la playa está a solo veinte minutos en metro, ¡no me lo puedo creer!\n\nLa gente aquí es muy simpática y abierta. En el trabajo ya he hecho algunos amigos y salimos juntos los fines de semana. La comida también es fantástica: ya he probado la paella de verdad, y te prometo que no tiene nada que ver con la de los restaurantes turísticos.\n\nLo único malo es que en verano hace muchísimo calor y hay demasiada humedad.\n\nTienes que venir a visitarme pronto. Puedes quedarte en mi casa todo el tiempo que quieras.\n\nUn abrazo muy fuerte,\nMarta",
+      "wordCount": 171
+    },
+    {
+      "level": "B2",
+      "title": "Una carta desde Sevilla",
+      "body": "Querida Laura:\n\n¡No sabes cuánto me alegra por fin escribirte con calma! Perdona que haya tardado tanto en dar señales de vida, pero las últimas semanas han sido una auténtica locura entre la mudanza, el nuevo trabajo y los cientos de trámites burocráticos a los que nadie te prepara cuando decides cambiar de ciudad.\n\nComo ya sabes, llevo instalada en Sevilla desde principios de marzo y, aunque al principio echaba bastante de menos Barcelona, debo reconocer que este lugar está conquistándome poco a poco. Es una ciudad con un encanto difícil de describir: los patios floridos, el olor a azahar por las mañanas, el bullicio de la gente charlando en las terrazas hasta bien entrada la madrugada. Todo invita a disfrutar de las pequeñas cosas, algo que en el ritmo frenético de antes había olvidado por completo.\n\nPor supuesto, no todo es idílico. El calor del verano me tiene algo asustada y aún me cuesta acostumbrarme al ritmo más pausado, sobre todo cuando tengo prisa. Aun así, tengo la sensación de haber tomado la decisión correcta.\n\nTendrías que animarte a pasar un fin de semana aquí. Avísame con tiempo y te prepararé el mejor recorrido posible.\n\nUn abrazo enorme,\nCarolina",
+      "wordCount": 200
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T22:49:21.589Z"
+}

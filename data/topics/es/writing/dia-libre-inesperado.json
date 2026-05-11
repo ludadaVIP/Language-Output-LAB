@@ -1,0 +1,31 @@
+{
+  "id": "dia-libre-inesperado",
+  "language": "es",
+  "skill": "writing",
+  "order": 11,
+  "category": "Vida cotidiana",
+  "title": "Un día libre inesperado",
+  "prompt": "Imagina que, de repente, tienes un día entero libre sin responsabilidades. ¿Qué harías? Cuéntalo con detalles.",
+  "format": "Redacción narrativa · 170–210 palabras",
+  "levelRange": "A2 – B1",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Un miércoles perfecto",
+      "body": "Si mañana, por casualidad, tuviera un día entero libre, creo que sé exactamente lo que haría. Lo primero es que no pondría el despertador. Dormiría hasta despertarme de forma natural, algo que casi nunca puedo hacer.\n\nDespués, prepararía un desayuno enorme. Unos huevos revueltos, tostadas con aguacate, un zumo de naranja recién hecho y un café muy bueno. Desayunaría despacio, leyendo un libro en la terraza. Nada de mirar el móvil ni contestar correos.\n\nHacia las once, saldría a pasear por el parque del Retiro, en Madrid. Me encantaría ir sin auriculares, solo escuchando los pájaros y a la gente alrededor. Después, comería en un pequeño restaurante italiano que conozco, donde hacen unas pastas caseras riquísimas.\n\nPor la tarde, iría al cine. Vería una película en versión original, de esas que normalmente no tengo tiempo de ver entre semana. Al salir, me tomaría un helado, aunque fuera invierno.\n\nPor la noche, llamaría a una amiga vieja a la que hace tiempo que no veo. Cenaríamos en algún sitio con velas, hablando de todo y de nada.\n\nUn día así sería un pequeño regalo.",
+      "wordCount": 183
+    },
+    {
+      "level": "B2",
+      "title": "Una jornada para mí",
+      "body": "Si, por alguna circunstancia feliz, me regalaran mañana una jornada entera sin responsabilidades, sin correos pendientes ni obligaciones familiares, sé con razonable precisión cómo me gustaría vivirla. No tiene que ver con grandes aventuras ni con destinos exóticos; más bien al contrario, consistiría en recuperar ese tipo de tiempo pausado que la vida adulta ha terminado convirtiendo en un auténtico lujo.\n\nEmpezaría, naturalmente, durmiendo hasta que mi cuerpo decidiera levantarse por sí solo, sin la tiranía habitual del despertador. Una vez despierto, prepararía un desayuno elaborado y me sentaría junto a la ventana a leer durante al menos una hora, ese tipo de lectura reposada que uno apenas se permite entre semana. Por supuesto, dejaría el móvil en otra habitación durante toda la mañana.\n\nA media mañana, saldría a caminar sin rumbo fijo por el centro histórico de la ciudad. Me gusta observar detalles que normalmente paso por alto: una fachada, un escaparate anticuado, una conversación robada al vuelo. Comería sin prisas en algún restaurante pequeño, pidiendo sin prisa, sin consultar apenas las notificaciones.\n\nLa tarde la reservaría para algo que rara vez concedo tiempo: escribir. No por motivos profesionales, sino por el simple placer de dejar fluir las ideas en papel. Terminaría el día con una película en casa, acompañada de una copa de vino y de esa sensación reparadora de haberme tratado, por una vez, con la misma consideración con la que trato a los demás.\n\nPocas formas de autocuidado resultan tan eficaces como una jornada así.",
+      "wordCount": 249
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T22:49:21.591Z"
+}

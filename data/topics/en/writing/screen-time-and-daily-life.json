@@ -1,0 +1,29 @@
+{
+  "id": "screen-time-and-daily-life",
+  "language": "en",
+  "skill": "writing",
+  "order": 3,
+  "category": "Technology",
+  "title": "Screen time and daily life",
+  "prompt": "Write about how screen time affects daily life. Include both positive and negative points.",
+  "format": "Balanced essay · 180-220 words",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Useful but tiring",
+      "body": "Screens are part of modern life. We use them for work, study, shopping, entertainment, and talking to friends. In many ways, they make life easier and faster.\n\nHowever, too much screen time can be a problem. It can make people tired, reduce sleep quality, and take time away from exercise or face-to-face conversations.\n\nI think the solution is not to stop using screens completely. Instead, we should use them with limits. For example, we can turn off notifications, take breaks, and avoid phones before going to bed."
+    },
+    {
+      "level": "C1",
+      "title": "Attention as a scarce resource",
+      "body": "Screen time is often discussed as if the screen itself were the problem. In reality, the deeper issue is attention. Digital devices give us extraordinary access to information, work tools, entertainment, and relationships, but they also compete constantly for mental space.\n\nThe benefits are undeniable: remote work, online learning, instant communication, and creative tools have expanded what many people can do. Yet the costs are equally real. Constant scrolling can flatten concentration, weaken sleep, and make silence feel uncomfortable.\n\nA healthier relationship with screens requires deliberate boundaries. We need spaces in the day where attention is not being auctioned to the loudest notification."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.123Z"
+}

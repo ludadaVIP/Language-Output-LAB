@@ -1,0 +1,29 @@
+{
+  "id": "la-tecnologia-en-las-clases",
+  "language": "es",
+  "skill": "speaking",
+  "order": 3,
+  "category": "Tecnología",
+  "title": "La tecnología en las clases",
+  "prompt": "Da tu opinión sobre el uso de tecnología en clase. Menciona ventajas, problemas y una recomendación.",
+  "format": "Opinión oral · 2 minutos",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Una herramienta útil",
+      "body": "Creo que la tecnología en clase puede ser muy útil. Por ejemplo, los estudiantes pueden ver vídeos, buscar información y practicar con aplicaciones.\n\nSin embargo, también hay un problema: el móvil distrae mucho. Por eso pienso que el profesor debe decidir cuándo usar la tecnología y cuándo guardar los dispositivos."
+    },
+    {
+      "level": "B2",
+      "title": "Equilibrio antes que entusiasmo",
+      "body": "La tecnología puede enriquecer muchísimo una clase si se utiliza con un objetivo claro. Permite acceder a materiales auténticos, adaptar actividades al nivel del alumno y practicar de forma más interactiva.\n\nAhora bien, no debería convertirse en una solución automática para todo. Si sustituye la conversación, la concentración o el pensamiento crítico, pierde parte de su valor. La clave está en integrarla con criterio."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.122Z"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "proteger-la-planete",
+  "language": "fr",
+  "skill": "writing",
+  "order": 1,
+  "category": "Environnement",
+  "title": "Protéger la planète",
+  "prompt": "Écrivez un texte sur les gestes simples pour protéger l'environnement.",
+  "format": "Texte d'opinion · 120-170 mots",
+  "levelRange": "A2 - B1",
+  "levels": [
+    "A2",
+    "B1"
+  ],
+  "examples": [
+    {
+      "level": "A2",
+      "title": "Des gestes simples",
+      "body": "Pour protéger la planète, on peut faire des choses simples. Par exemple, on peut éteindre la lumière, prendre une douche courte et recycler le papier et le plastique.\n\nOn peut aussi marcher ou prendre le bus quand c'est possible. À mon avis, chaque personne peut aider un peu. Ce n'est pas toujours facile, mais c'est important pour l'avenir."
+    },
+    {
+      "level": "B1",
+      "title": "Changer les habitudes",
+      "body": "La protection de l'environnement commence souvent par des habitudes quotidiennes. Réduire les déchets, économiser l'eau et utiliser moins la voiture sont des gestes simples mais utiles.\n\nBien sûr, les gouvernements et les entreprises ont une grande responsabilité. Cependant, les citoyens peuvent aussi agir. Quand beaucoup de personnes changent leur manière de consommer, cela peut influencer la société et encourager des décisions plus écologiques."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.124Z"
+}

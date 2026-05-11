@@ -1,0 +1,29 @@
+{
+  "id": "apprendre-une-langue",
+  "language": "fr",
+  "skill": "speaking",
+  "order": 3,
+  "category": "Apprentissage",
+  "title": "Apprendre une langue",
+  "prompt": "Parlez de votre expérience avec l'apprentissage des langues. Mentionnez les difficultés et les méthodes utiles.",
+  "format": "Réponse orale · 2-3 minutes",
+  "levelRange": "A2 - B1",
+  "levels": [
+    "A2",
+    "B1"
+  ],
+  "examples": [
+    {
+      "level": "A2",
+      "title": "Petit à petit",
+      "body": "J'apprends une langue parce que je veux voyager et parler avec plus de personnes. Pour moi, la grammaire est parfois difficile.\n\nJ'aime écouter des dialogues courts et répéter les phrases. Je pense qu'il faut pratiquer un peu chaque jour, même seulement dix minutes."
+    },
+    {
+      "level": "B1",
+      "title": "La régularité aide beaucoup",
+      "body": "Apprendre une langue demande du temps, mais je trouve cette expérience très positive. La difficulté principale est de parler sans avoir peur de faire des erreurs.\n\nCe qui m'aide le plus, c'est la régularité. J'écoute des podcasts simples, j'écris de petites phrases et j'essaie de réutiliser le vocabulaire dans des situations concrètes. Petit à petit, je gagne en confiance."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.124Z"
+}

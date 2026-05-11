@@ -1,0 +1,29 @@
+{
+  "id": "mon-quartier",
+  "language": "fr",
+  "skill": "writing",
+  "order": 2,
+  "category": "Vie quotidienne",
+  "title": "Mon quartier",
+  "prompt": "Décrivez votre quartier. Dites ce que vous aimez et ce que vous voudriez améliorer.",
+  "format": "Description · 120-160 mots",
+  "levelRange": "A2 - B1",
+  "levels": [
+    "A2",
+    "B1"
+  ],
+  "examples": [
+    {
+      "level": "A2",
+      "title": "Un quartier calme",
+      "body": "J'habite dans un quartier calme. Il y a un parc, une boulangerie, une pharmacie et quelques cafés. J'aime ce quartier parce qu'il est pratique.\n\nLe matin, je peux acheter du pain frais. Le soir, je me promène dans le parc. Je voudrais seulement avoir plus de bus, parce que le centre-ville est un peu loin."
+    },
+    {
+      "level": "B1",
+      "title": "Un endroit pratique",
+      "body": "Mon quartier est assez agréable à vivre. Il n'est pas très célèbre, mais il offre beaucoup de services utiles: des magasins, une bibliothèque, des écoles et plusieurs espaces verts.\n\nCe que j'aime le plus, c'est l'ambiance tranquille. Les voisins se saluent et les rues sont sûres. En revanche, il manque des transports le soir. Si la ville améliorait ce point, le quartier serait presque idéal."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.124Z"
+}

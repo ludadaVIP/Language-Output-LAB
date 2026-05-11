@@ -1,0 +1,29 @@
+{
+  "id": "should-cities-improve-public-transport",
+  "language": "en",
+  "skill": "writing",
+  "order": 1,
+  "category": "Transport",
+  "title": "Should cities improve public transport?",
+  "prompt": "Write about why public transport matters in modern cities. Give examples and your opinion.",
+  "format": "Opinion essay · 180-220 words",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Better buses, better cities",
+      "body": "Public transport is very important in big cities. If buses, trains, and underground systems are good, people can move around more easily and spend less money on cars.\n\nThere are also environmental benefits. When more people use public transport, there are fewer cars on the road and less pollution. This is better for everyone, especially children and older people.\n\nIn my opinion, cities should invest more money in clean, safe, and frequent public transport. It should also be affordable, because many workers and students need it every day."
+    },
+    {
+      "level": "C1",
+      "title": "A public system, not a backup plan",
+      "body": "Public transport should not be treated as a second-class option for people who cannot afford cars. In a well-designed city, it is the backbone of daily movement: efficient, predictable, and accessible to people of different ages and incomes.\n\nInvestment in buses, trains, and cycling connections reduces congestion, improves air quality, and gives residents more freedom. However, quality matters. A system that is unreliable or unsafe will not persuade drivers to change their habits.\n\nFor that reason, cities need long-term planning rather than occasional upgrades. Public transport is not merely a transport issue; it is a question of equality, health, and urban dignity."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.123Z"
+}

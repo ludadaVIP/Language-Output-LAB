@@ -1,0 +1,29 @@
+{
+  "id": "una-decision-importante",
+  "language": "es",
+  "skill": "speaking",
+  "order": 2,
+  "category": "Experiencias",
+  "title": "Una decisión importante",
+  "prompt": "Cuenta una decisión importante que tomaste. Explica la situación, las opciones y cómo te sientes ahora.",
+  "format": "Monólogo narrativo · 2-3 minutos",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Cambiar de trabajo",
+      "body": "Hace dos años tomé una decisión importante: cambié de trabajo. Tenía miedo porque mi empleo anterior era seguro, pero no estaba aprendiendo nada nuevo.\n\nAl final acepté una oferta en una empresa más pequeña. Al principio fue difícil, pero ahora estoy contento. Tengo más responsabilidades y siento que he crecido mucho."
+    },
+    {
+      "level": "B2",
+      "title": "Salir de la zona conocida",
+      "body": "Una de las decisiones que más me ha marcado fue dejar un trabajo estable para empezar en un sector distinto. No se trataba solo de cambiar de oficina, sino de admitir que necesitaba un reto más acorde con mis intereses.\n\nDurante semanas dudé muchísimo, porque la seguridad pesa bastante cuando uno ya tiene responsabilidades. Sin embargo, con el tiempo comprendí que aquella incomodidad inicial era precisamente la señal de que estaba avanzando."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.121Z"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "eine-reise-die-sie-mogen",
+  "language": "de",
+  "skill": "speaking",
+  "order": 2,
+  "category": "Reisen",
+  "title": "Eine Reise, die Sie mögen",
+  "prompt": "Erzählen Sie von einer Reise. Wohin sind Sie gefahren, was haben Sie gemacht und warum war sie besonders?",
+  "format": "Erzählung · 2-3 Minuten",
+  "levelRange": "A2 - B1",
+  "levels": [
+    "A2",
+    "B1"
+  ],
+  "examples": [
+    {
+      "level": "A2",
+      "title": "Ein Wochenende in Berlin",
+      "body": "Letztes Jahr war ich ein Wochenende in Berlin. Ich bin mit dem Zug gefahren und habe bei einem Freund geschlafen.\n\nWir haben Museen besucht, viel gegessen und sind durch die Stadt gelaufen. Die Reise war kurz, aber sehr schön, weil ich viel gesehen habe."
+    },
+    {
+      "level": "B1",
+      "title": "Mehr als ein kurzer Ausflug",
+      "body": "Eine Reise, die ich besonders mochte, war ein Wochenende in Berlin. Ich kannte die Stadt vorher nur aus Bildern, deshalb war ich sehr neugierig.\n\nWir haben nicht nur bekannte Sehenswürdigkeiten besucht, sondern auch kleine Cafés und ruhige Straßen entdeckt. Besonders schön fand ich die Mischung aus Geschichte, Kreativität und Alltag. Nach der Reise hatte ich das Gefühl, bald wiederkommen zu wollen."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.125Z"
+}

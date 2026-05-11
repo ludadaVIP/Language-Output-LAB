@@ -1,0 +1,29 @@
+{
+  "id": "mein-tagesablauf",
+  "language": "de",
+  "skill": "speaking",
+  "order": 1,
+  "category": "Alltag",
+  "title": "Mein Tagesablauf",
+  "prompt": "Sprechen Sie über einen normalen Tag. Beschreiben Sie Ihre Routine und was Sie gern ändern möchten.",
+  "format": "Mündliche Antwort · 2 Minuten",
+  "levelRange": "A2 - B1",
+  "levels": [
+    "A2",
+    "B1"
+  ],
+  "examples": [
+    {
+      "level": "A2",
+      "title": "Ein normaler Tag",
+      "body": "Mein Tag beginnt meistens um sieben Uhr. Ich stehe auf, dusche und frühstücke zu Hause. Dann fahre ich zur Arbeit oder lerne am Computer.\n\nAm Abend koche ich etwas Einfaches und lese ein bisschen. Ich möchte früher ins Bett gehen, weil ich morgens oft müde bin."
+    },
+    {
+      "level": "B1",
+      "title": "Routine mit kleinen Pausen",
+      "body": "An einem normalen Tag versuche ich, eine klare Struktur zu haben. Morgens erledige ich die wichtigsten Aufgaben, weil ich dann am meisten Energie habe.\n\nNachmittags mache ich gern eine kurze Pause und gehe spazieren. Das hilft mir, den Kopf frei zu bekommen. Was ich ändern möchte, ist mein Umgang mit dem Handy. Manchmal verliere ich dadurch zu viel Zeit."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.124Z"
+}

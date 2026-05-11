@@ -1,0 +1,31 @@
+{
+  "id": "vida-saludable",
+  "language": "es",
+  "skill": "writing",
+  "order": 7,
+  "category": "Salud y bienestar",
+  "title": "Hábitos para llevar una vida saludable",
+  "prompt": "¿Qué hábitos consideras esenciales para mantener una buena salud física y mental? Explica tu respuesta con recomendaciones concretas.",
+  "format": "Texto informativo · 180–220 palabras",
+  "levelRange": "B1 – B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Los tres pilares de la salud",
+      "body": "Todos queremos estar sanos y vivir muchos años, pero no siempre sabemos cómo conseguirlo. En mi opinión, para tener una vida saludable hay que cuidar tres cosas principales: la comida, el ejercicio y el descanso.\n\nEn primer lugar, es muy importante comer bien. Hay que tomar muchas frutas y verduras todos los días, beber bastante agua y evitar los productos con mucho azúcar o mucha grasa. Cocinar en casa también es mejor que comer comida rápida, porque así sabes exactamente qué estás comiendo.\n\nEn segundo lugar, hay que hacer ejercicio con regularidad. No es necesario ir al gimnasio todos los días; basta con caminar media hora, montar en bicicleta o nadar dos o tres veces por semana. Lo importante es moverse y no pasar demasiado tiempo sentado delante del ordenador.\n\nPor último, hay que dormir lo suficiente. Los expertos dicen que los adultos necesitan entre siete y ocho horas cada noche. Si no dormimos bien, estamos cansados, de mal humor y nos concentramos peor durante todo el día.\n\nEn conclusión, cuidar la salud no es difícil. Solo hay que tener buenos hábitos y ser constante.",
+      "wordCount": 185
+    },
+    {
+      "level": "B2",
+      "title": "Más allá de la dieta y el gimnasio",
+      "body": "En una sociedad que cada vez nos exige más y nos deja menos tiempo para nosotros mismos, llevar una vida verdaderamente saludable se ha convertido en un auténtico desafío. Pese a que solemos asociar la salud únicamente con la alimentación y el deporte, la realidad es bastante más compleja y abarca aspectos que a menudo pasamos por alto.\n\nPara empezar, resulta innegable que una dieta equilibrada, basada en productos frescos y de temporada, constituye la base de cualquier estilo de vida sano. No obstante, la obsesión actual por las dietas milagro y los superalimentos puede resultar contraproducente: más que restricciones severas, lo que verdaderamente funciona es la moderación y la sensatez a largo plazo.\n\nIgual de relevante es la actividad física regular, si bien conviene matizar que no se trata únicamente de quemar calorías, sino de cuidar también la salud mental. Multitud de estudios han demostrado que caminar, nadar o practicar yoga reduce significativamente los niveles de estrés y ansiedad, males especialmente extendidos en las grandes ciudades.\n\nAhora bien, ningún hábito físico resulta verdaderamente eficaz si descuidamos el descanso y las relaciones personales. Dormir las horas necesarias y cultivar amistades auténticas son aspectos tan importantes como cualquier rutina alimentaria.",
+      "wordCount": 199
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T22:49:21.590Z"
+}

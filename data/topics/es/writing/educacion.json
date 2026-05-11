@@ -1,0 +1,31 @@
+{
+  "id": "educacion",
+  "language": "es",
+  "skill": "writing",
+  "order": 2,
+  "category": "Educación",
+  "title": "La importancia de la educación",
+  "prompt": "¿Por qué es importante la educación, tanto para la persona como para la sociedad? Expón tus ideas con argumentos claros y un registro formal.",
+  "format": "Texto argumentativo formal · 180–220 palabras",
+  "levelRange": "B1 – B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Aprender para crecer",
+      "body": "La educación es una de las cosas más importantes en la vida de cualquier persona. Gracias a ella, podemos aprender, desarrollarnos y tener más oportunidades en el futuro.\n\nEn primer lugar, la educación nos ayuda a encontrar un buen trabajo. Hoy en día, casi todas las empresas piden estudios, y sin un título es muy difícil conseguir un empleo estable. Además, las personas con más formación suelen ganar mejores salarios y tener trabajos más seguros.\n\nEn segundo lugar, la educación no solo sirve para el trabajo. También nos enseña a pensar, a tener nuestras propias opiniones y a respetar las ideas de los demás. Una sociedad con gente educada es una sociedad más justa y más pacífica, porque las personas saben dialogar en lugar de pelear.\n\nPor otra parte, creo que la educación debería estar al alcance de todos. Por desgracia, en muchos países todavía hay niños que no pueden ir a la escuela. Esto es un problema grave que los gobiernos tienen que solucionar con más dinero y mejores programas.\n\nEn conclusión, la educación es fundamental, tanto para cada persona como para el conjunto de la sociedad.",
+      "wordCount": 188
+    },
+    {
+      "level": "B2",
+      "title": "La educación, cimiento del progreso",
+      "body": "La educación constituye, sin lugar a dudas, uno de los pilares fundamentales sobre los que se asienta cualquier sociedad que aspire al progreso. Más allá de su función instrumental, representa un derecho humano básico cuya ausencia condena a generaciones enteras a la exclusión y a la desigualdad.\n\nEn primer lugar, resulta evidente que una formación sólida amplía considerablemente las oportunidades laborales y económicas de los individuos. No obstante, reducir la educación a una mera herramienta para conseguir empleo supondría empobrecer su verdadero significado. De hecho, su valor más profundo reside en la capacidad de formar ciudadanos críticos, capaces de cuestionar lo establecido y de contribuir al debate público con rigor y responsabilidad.\n\nPor otra parte, conviene señalar que, pese a los innegables avances de las últimas décadas, la brecha educativa entre países desarrollados y en vías de desarrollo sigue siendo alarmante. Sería deseable que los gobiernos, en colaboración con organismos internacionales, destinaran mayores recursos a garantizar un acceso universal y de calidad, especialmente para las niñas y los colectivos más vulnerables.\n\nEn definitiva, apostar por la educación no es solamente una cuestión ética, sino también una inversión inteligente a largo plazo. Una ciudadanía bien formada es la mejor garantía frente a la manipulación, la intolerancia y el estancamiento social.",
+      "wordCount": 209
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T22:49:21.589Z"
+}

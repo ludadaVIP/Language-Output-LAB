@@ -1,0 +1,32 @@
+{
+  "id": "dia-tipico",
+  "language": "es",
+  "skill": "writing",
+  "order": 1,
+  "category": "Vida cotidiana",
+  "title": "Un día típico en tu vida",
+  "prompt": "Describe cómo es un día normal en tu vida, desde que te levantas hasta que te acuestas. Cuenta tus rutinas, lo que más disfrutas y lo que te gustaría cambiar.",
+  "format": "Redacción informal · 150–200 palabras",
+  "levelRange": "A2 – B1",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Mi rutina diaria",
+      "body": "Normalmente, mi día empieza muy temprano. Me levanto a las siete de la mañana, aunque a veces me cuesta mucho salir de la cama. Después de ducharme, desayuno café con leche y una tostada con mermelada en la cocina, mientras escucho las noticias en la radio.\n\nA las ocho y media salgo de casa para ir a la universidad. Voy en autobús porque es más barato que el coche y, además, puedo leer un poco durante el viaje. Las clases duran hasta las dos de la tarde y son bastante interesantes, sobre todo la de literatura española.\n\nDespués de comer con mis compañeros en la cafetería, estudio en la biblioteca durante dos o tres horas. Siempre intento hacer los deberes antes de volver a casa, así puedo descansar un poco por la tarde y salir con mis amigos.\n\nPor la noche, ceno con mi familia y vemos la televisión juntos. Me encanta hablar con ellos sobre cómo ha ido el día. Antes de dormir, leo un libro durante media hora. Es mi momento favorito.",
+      "wordCount": 174
+    },
+    {
+      "level": "B2",
+      "title": "Entre la rutina y la calma",
+      "body": "Aunque cada día es distinto, mi rutina suele seguir un patrón bastante definido que, sinceramente, me aporta cierta tranquilidad en medio del ritmo acelerado de la vida moderna. Me despierto alrededor de las siete, momento en el que aprovecho para hacer unos estiramientos y revisar brevemente mi agenda antes de desayunar sin prisas.\n\nPor las mañanas trabajo desde casa, algo que al principio me costó asimilar pero que ahora valoro enormemente. Me permite concentrarme sin interrupciones y organizar las tareas según mis propias prioridades. A pesar de las ventajas, reconozco que a veces echo de menos el contacto cotidiano con mis compañeros de oficina.\n\nAl mediodía salgo a caminar por el parque cercano. Este pequeño ritual se ha convertido en algo imprescindible, pues me ayuda a desconectar y a volver al ordenador con la mente despejada. Por las tardes dedico un par de horas a estudiar idiomas; actualmente, estoy mejorando mi español, lo cual supone un desafío tan exigente como estimulante.\n\nLa jornada termina con una cena ligera y una conversación larga con mi pareja, durante la cual comentamos lo que nos ha sucedido. Considero que estos pequeños momentos de complicidad son los que realmente dan sentido al día a día.",
+      "wordCount": 201
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:45:43.027876+00:00",
+  "coreTakeaway": ""
+}

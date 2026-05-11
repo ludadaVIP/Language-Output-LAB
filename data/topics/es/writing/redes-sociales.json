@@ -1,0 +1,31 @@
+{
+  "id": "redes-sociales",
+  "language": "es",
+  "skill": "writing",
+  "order": 4,
+  "category": "Tecnología",
+  "title": "El impacto de las redes sociales",
+  "prompt": "Las redes sociales forman parte de nuestra vida diaria. ¿Consideras que su influencia es positiva o negativa? Argumenta tu postura con ejemplos.",
+  "format": "Texto de opinión · 180–220 palabras",
+  "levelRange": "B1 – B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "¿Amigas o enemigas?",
+      "body": "Las redes sociales forman parte de nuestra vida diaria. Casi todo el mundo tiene una cuenta en Instagram, TikTok o WhatsApp, pero ¿son realmente buenas o malas?\n\nPor un lado, las redes sociales tienen muchas ventajas. Nos permiten estar en contacto con amigos y familiares que viven lejos. También son útiles para compartir fotos, aprender cosas nuevas o seguir a personas interesantes. Muchas empresas las usan para vender productos o para dar información importante a los clientes.\n\nPor otro lado, también hay problemas. Algunas personas pasan demasiadas horas mirando el móvil y no hablan con su familia. Además, en internet hay mucha información falsa, y a veces es difícil saber qué es verdad y qué no lo es. Otro problema es que algunos jóvenes se comparan con los 'influencers' y se sienten mal consigo mismos.\n\nEn mi opinión, las redes sociales no son ni buenas ni malas: depende de cómo las usemos. Lo importante es no abusar de ellas y recordar que la vida real siempre es más importante que la vida virtual. Si las usamos con moderación, pueden ser una herramienta muy útil.",
+      "wordCount": 184
+    },
+    {
+      "level": "B2",
+      "title": "La paradoja de estar siempre conectados",
+      "body": "Resulta prácticamente imposible imaginar la vida actual sin las redes sociales. En apenas dos décadas, plataformas como Instagram, TikTok o X han transformado radicalmente la manera en que nos comunicamos, nos informamos e incluso nos relacionamos con nosotros mismos. Este fenómeno, lejos de ser neutral, plantea cuestiones que merecen un análisis sereno.\n\nPor una parte, no cabe duda de que estas herramientas han democratizado el acceso a la información y han dado voz a colectivos que tradicionalmente habían permanecido en los márgenes del discurso público. Movimientos sociales de gran calado, como el feminismo de cuarta ola o las protestas climáticas, difícilmente habrían alcanzado la repercusión actual sin ellas.\n\nSin embargo, no podemos ignorar sus consecuencias menos amables. Numerosos estudios apuntan a un aumento preocupante de la ansiedad y la depresión entre adolescentes, estrechamente vinculado al uso excesivo de estas plataformas. A ello se añade la proliferación de bulos y contenidos polarizadores, alimentados por algoritmos diseñados para maximizar la permanencia del usuario más que para favorecer un debate enriquecedor.\n\nEn última instancia, considero que el problema no radica tanto en la tecnología en sí como en la falta de una educación digital crítica. Si aprendiéramos, desde la infancia, a cuestionar lo que vemos, las redes podrían seguir siendo útiles sin resultar tan destructivas.",
+      "wordCount": 212
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T22:49:21.589Z"
+}

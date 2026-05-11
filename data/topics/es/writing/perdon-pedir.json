@@ -1,0 +1,31 @@
+{
+  "id": "perdon-pedir",
+  "language": "es",
+  "skill": "writing",
+  "order": 12,
+  "category": "Relaciones personales",
+  "title": "Saber pedir perdón",
+  "prompt": "Pedir perdón de verdad no siempre es fácil. ¿Qué requiere una disculpa sincera? ¿Por qué a muchas personas les cuesta tanto hacerlo?",
+  "format": "Ensayo reflexivo · 180–230 palabras",
+  "levelRange": "B1 – B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Lo siento, de verdad",
+      "body": "Pedir perdón parece una cosa fácil, pero en realidad es una de las cosas más difíciles de la vida adulta. Conozco a personas muy inteligentes, con muchos estudios, que son incapaces de decir \"lo siento\" cuando se equivocan. ¿Por qué pasa esto?\n\nCreo que pedir perdón requiere dos cosas muy difíciles. La primera es reconocer que hemos hecho algo mal. Aceptar un error es doloroso: significa que no somos perfectos, que podemos hacer daño a otras personas. A muchos adultos no les gusta sentirse así.\n\nLa segunda cosa difícil es bajar el orgullo. Pedir perdón es, en cierto modo, ponerse por debajo del otro durante unos minutos. Decir: \"He fallado, y tú tienes razón\". Para personas con mucho orgullo, esto es casi imposible.\n\nSin embargo, cuando alguien pide perdón de forma sincera, hace magia. Las peleas se calman, las amistades se salvan, los matrimonios se recuperan. Un perdón bien dicho tiene un poder enorme.\n\nPor supuesto, no vale cualquier disculpa. El \"lo siento si te ha molestado\" no es un perdón: es una trampa. El perdón verdadero reconoce el error concretamente y promete cambiar.\n\nEs un gesto pequeño, pero profundamente valiente.",
+      "wordCount": 191
+    },
+    {
+      "level": "B2",
+      "title": "El arte difícil del perdón sincero",
+      "body": "Pocos gestos cotidianos poseen un poder transformador comparable al de una disculpa verdaderamente sincera. Sin embargo, pocas cosas resultan tan escasas en nuestras relaciones humanas. Pedir perdón —de verdad, no con fórmulas vacías— exige un tipo de madurez emocional que no se adquiere con los años ni con los estudios, y esta dificultad explica, al menos en parte, por qué tantos conflictos se enquistan durante décadas.\n\nUna disculpa auténtica requiere, cuanto menos, tres ingredientes difíciles de combinar. En primer lugar, reconocer el error con concreción: no basta con un genérico \"si te he molestado\", fórmula que traslada sutilmente la responsabilidad al ofendido. Debe identificarse qué se hizo, cómo afectó al otro y por qué resultó incorrecto. En segundo lugar, asumir sin atenuantes la propia responsabilidad, resistiendo la tentación casi automática de justificarse o de buscar circunstancias eximentes. Por último, y quizá lo más exigente, comprometerse con un cambio efectivo; una disculpa que no implica una modificación posterior del comportamiento se revela, tarde o temprano, como una formalidad vacía.\n\nLo que hace tan difícil este ejercicio es que enfrenta al adulto con una imagen de sí mismo que preferiría no ver. Requiere aceptar la propia imperfección, descender del pedestal del orgullo y reconocer que el otro tiene, al menos parcialmente, razón. Para personalidades con una autoimagen rígida, este descenso puede resultar sencillamente insoportable.\n\nNo obstante, la recompensa de una disculpa sincera es extraordinaria. Desactiva conflictos enquistados, restaura relaciones valiosas y, paradójicamente, fortalece la dignidad de quien la pronuncia. Pedir perdón no es un acto de debilidad: es una de las formas más altas de valentía adulta.",
+      "wordCount": 265
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T22:49:21.594Z"
+}

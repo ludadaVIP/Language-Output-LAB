@@ -1,0 +1,29 @@
+{
+  "id": "a-meal-you-remember",
+  "language": "en",
+  "skill": "speaking",
+  "order": 2,
+  "category": "Memories",
+  "title": "A meal you remember",
+  "prompt": "Describe a meal that you remember clearly. Explain where you were, who you were with, and why it stayed in your mind.",
+  "format": "Narrative speaking · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Dinner by the sea",
+      "body": "One meal I remember was a dinner by the sea with my family. We ate grilled fish, salad, and fresh bread at a small restaurant.\n\nThe food was simple, but the evening was special because everyone was relaxed. We talked for a long time and watched the sunset. I remember it because it felt peaceful."
+    },
+    {
+      "level": "C1",
+      "title": "More than the food",
+      "body": "The meal that comes back to me most vividly was not remarkable because of the menu, but because of the atmosphere surrounding it. We were sitting outside a modest restaurant near the coast, tired after a long day of travelling.\n\nThere was seafood, bread, and a bottle of local wine, but what I remember most is the unhurried conversation. It was one of those rare evenings when nobody was performing or rushing; we were simply present."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.122Z"
+}

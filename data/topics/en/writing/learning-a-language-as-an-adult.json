@@ -1,0 +1,29 @@
+{
+  "id": "learning-a-language-as-an-adult",
+  "language": "en",
+  "skill": "writing",
+  "order": 2,
+  "category": "Education",
+  "title": "Learning a language as an adult",
+  "prompt": "Write about the advantages and difficulties of learning a new language as an adult.",
+  "format": "Reflective essay · 170-220 words",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Never too late",
+      "body": "Learning a language as an adult is not always easy, but it is very rewarding. Adults often have clear reasons for studying, such as travel, work, or communication with friends.\n\nThe main difficulty is time. Many adults are busy with jobs and families, so they cannot study every day. They may also feel embarrassed when they make mistakes.\n\nHowever, adults can learn well if they are patient and consistent. In my opinion, the best method is to practise a little every day and use the language in real situations."
+    },
+    {
+      "level": "C1",
+      "title": "Motivation with memory",
+      "body": "Adults often approach language learning with a seriousness that younger learners may lack. They usually know why they are studying, can connect new vocabulary to real experiences, and are capable of reflecting on their own progress.\n\nAt the same time, adulthood brings obstacles: limited time, fear of sounding foolish, and the frustration of understanding more than one can produce. Progress can feel painfully uneven.\n\nStill, these difficulties do not make adult learning inferior. They simply require a different strategy: frequent exposure, meaningful output, and tolerance for imperfection. A language becomes usable not when it is flawless, but when the learner is willing to live inside it."
+    }
+  ],
+  "tags": [],
+  "updatedAt": "2026-05-09T23:22:55.123Z"
+}
