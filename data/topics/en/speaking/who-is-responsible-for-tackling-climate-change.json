@@ -1,0 +1,34 @@
+{
+  "id": "who-is-responsible-for-tackling-climate-change",
+  "language": "en",
+  "skill": "speaking",
+  "order": 19,
+  "category": "Environment",
+  "title": "Who Is Responsible for Tackling Climate Change?",
+  "prompt": "Present a short talk on the question of climate change responsibility. Discuss the roles of governments, large companies, and individual citizens. Who do you think has the greatest responsibility, and what specific actions should each group take? Try to give a balanced view.",
+  "format": "Short presentation · neutral/formal · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Shared Responsibility for a Shared Problem",
+      "body": "Climate change is one of the biggest problems facing the world today, and I think it is something that everyone has a role in solving — governments, companies, and individuals.\n\nGovernments have the most power to make a difference, in my opinion. They can create laws and policies that reduce pollution and promote renewable energy. For example, they can give financial incentives to people who buy electric cars or solar panels, and they can introduce rules that stop companies from polluting too much. Without strong government action, I think it is very difficult to make the changes we need at the speed we need.\n\nLarge companies also have a big responsibility. Many of the world's biggest sources of pollution are corporations, so if companies choose to use cleaner energy and more sustainable processes, the impact would be huge. I think companies should also be honest about their environmental impact and not try to mislead people with false green claims.\n\nIndividuals can also contribute, though our impact is smaller. We can reduce the amount of meat we eat, use public transport, buy less, and choose more sustainable products. We can also use our voices as citizens to push for better policies.\n\nOverall, I think the responsibility is shared, but it is not equal. Governments and companies have much more power to create systemic change, and they should lead the way. But I also think that individuals have a role to play, both in changing habits and in putting pressure on those with more power.\n\nClimate change is a problem that requires everyone to work together, and the longer we wait, the harder it will be to solve.",
+      "notes": "",
+      "wordCount": 276
+    },
+    {
+      "level": "C1",
+      "title": "Responsibility, Scale, and the Politics of Climate Action",
+      "body": "The question of who bears responsibility for tackling climate change is not merely a political or ethical one — it's a question about how we design effective systems for producing collective goods in the face of fragmented incentives. And the answer is considerably more complicated than either individual lifestyle choices matter most or only government policy can solve it.\n\nThe structural case for prioritising government and corporate action is strong. The data on where emissions actually originate is fairly clear: a small number of energy, agriculture, and manufacturing companies account for a disproportionate share of global greenhouse gas emissions. The decisions made by policymakers about carbon pricing, energy subsidies, planning regulations, and international agreements operate at scales that dwarf anything achievable through aggregated individual choices. If you care about outcomes rather than symbolic gestures, this is where the leverage is.\n\nThat said, I want to resist the increasingly fashionable argument that individual action is therefore meaningless or, worse, a corporate distraction strategy. Consumer demand does shape production. The shift in investment flows towards renewable energy has been driven partly by changing social attitudes that originated in individual and civil society pressure. Political will to enact ambitious climate legislation is correlated with public salience of the issue, which in turn is shaped by visible behavioural change and cultural norm-shifting. These are not independent variables.\n\nWhat I find most intellectually honest is a framework that takes scale seriously without using it to license inaction. Governments should be decarbonising energy systems, reforming agriculture subsidies, and regulating corporate emissions — and citizens should be demanding that they do so. Large corporations should be held to enforceable standards, not allowed to self-regulate through voluntary targets that have a poor track record of delivery. And individuals, particularly those in high-income countries with large per-capita footprints, have a genuine responsibility to reduce their consumption — both because it has direct effect and because it maintains the moral credibility to demand structural change.\n\nThe version of the debate that treats this as either/or — either policy or behaviour, either corporations or consumers — is, I think, a distraction. The scale of what's needed requires every lever to be pulled simultaneously, and arguing about whose responsibility it is primarily can become a way of deferring the action itself.",
+      "notes": "",
+      "wordCount": 379
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T11:31:20.564417+00:00"
+}

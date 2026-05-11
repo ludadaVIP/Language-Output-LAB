@@ -1,0 +1,34 @@
+{
+  "id": "how-do-you-learn-best",
+  "language": "en",
+  "skill": "speaking",
+  "order": 5,
+  "category": "Education",
+  "title": "How Do You Learn Best?",
+  "prompt": "Talk about the ways you prefer to study or learn new things. Describe your preferred learning style, the methods that work best for you, and compare these with methods you find less effective. Give examples from your own experience and explain why you think different people learn in different ways.",
+  "format": "Personal monologue · neutral/personal · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Learning by Doing",
+      "body": "I think everyone has a different way of learning, and for me, I learn best by doing things, not just by reading about them. For example, when I was learning to cook, I didn't follow recipes very carefully. I just tried to make the food and then I learned from my mistakes.\n\nIn school, I also found it easier to understand something when the teacher gave us practical examples. If a teacher just talked for a long time, I often lost concentration. But when we did activities or worked in groups, I remembered things much better.\n\nFor studying, I like to make notes in my own words. I don't copy things directly from the book. Writing things in my own way helps me understand and remember them. I also like to study in a quiet place without music or noise, because distractions make it hard for me to focus.\n\nI find it quite difficult to study only from textbooks. Reading long texts can be boring for me, and my mind often wanders. I prefer watching videos or listening to podcasts when I want to learn something new because it feels more engaging.\n\nI think people learn differently because we all have different experiences and personalities. Some people are very organised and they like to follow a plan, while others prefer to explore things freely. I think both styles can work, depending on the subject.\n\nIn the future, I'd like to get better at learning from reading, because I know it's an important skill for studying at a higher level.",
+      "notes": "",
+      "wordCount": 259
+    },
+    {
+      "level": "C1",
+      "title": "Beyond Learning Styles: What Actually Helps Me Learn",
+      "body": "The question of how I learn best is one I've reflected on quite seriously, particularly because I spent years at school using strategies that didn't really suit me, and only later — largely through trial and error — worked out what actually helped.\n\nI'm most effective when I can engage with material actively rather than passively absorbing it. For me, this means things like summarising content in my own words, teaching concepts to someone else, or working through problems without looking at solutions first. There's a significant body of research supporting the idea that retrieval practice — essentially testing yourself — leads to stronger retention than re-reading, and I've found this to be true in my own experience. When I started using spaced repetition and spacing my study sessions rather than cramming, the difference was noticeable.\n\nThat said, I think the concept of fixed learning styles — the idea that people are definitively visual, auditory, or kinaesthetic learners — has largely been discredited, and rightly so. What matters more, I think, is the quality of engagement with the material, and that varies depending on the subject. When I'm learning something technical, I need silence, a structured approach, and written notes. When I'm developing a language skill or something creative, I benefit from exposure to authentic, varied input — conversations, films, real-world contexts — rather than explicit instruction.\n\nWhat I find genuinely difficult is sustaining concentration over extended periods, especially on material I find intrinsically dry. I've had to become quite honest with myself about this and work around it — keeping sessions shorter, alternating between different types of tasks, and removing distractions from my environment before I start. Willpower is a finite resource, and designing your schedule around that reality is far more effective than simply trying harder.\n\nWhat strikes me about the broader question of why people learn differently is that it's rarely just about ability. Motivation, context, prior knowledge, and self-belief all interact in complex ways. I've seen highly intelligent people struggle with learning because they'd been told they were bad at something, and I've seen people with modest academic records achieve impressive results because they were deeply curious and persistent. That interplay between the cognitive and the psychological is something I find genuinely fascinating.",
+      "notes": "",
+      "wordCount": 377
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T11:31:20.560413+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "a-person-who-has-inspired-me",
+  "language": "en",
+  "skill": "writing",
+  "order": 8,
+  "category": "Relationships",
+  "title": "A Person Who Has Inspired Me",
+  "prompt": "Think of someone in your life – a family member, teacher, friend, or mentor – who has had a significant positive influence on you. Write a personal essay describing who this person is, what they did or said that inspired you, and how they changed the way you think or behave. Try to include a specific moment or memory that brings their influence to life.",
+  "format": "Personal reflective essay · informal/neutral · 150–250 words",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "My Teacher Changed My Life",
+      "body": "The person who has inspired me the most is my secondary school English teacher, Mr Santos. He was my teacher when I was fourteen, and he had a very big influence on my life.\n\nBefore his class, I did not enjoy reading or writing. I thought they were boring. But Mr Santos always made lessons interesting. He chose books that were relevant to our lives and he always listened carefully to our opinions.\n\nOne day, he asked us to write a short story about something we cared about. I wrote about my grandmother. Afterwards, he told the class that my story was very moving. That was the first time I felt truly proud of my writing. From that moment, I started to love reading.\n\nBecause of Mr Santos, I decided to study languages at university. He showed me that words are powerful and that everyone has something important to say.\n\nI am very grateful to him, and I still think about his lessons today. He taught me that with encouragement, you can discover abilities you never knew you had.",
+      "notes": "",
+      "wordCount": 179
+    },
+    {
+      "level": "B2",
+      "title": "The Quiet Determination of My Grandmother",
+      "body": "If I had to name one person who has shaped who I am today, it would be my grandmother, Elena. She never held an impressive job title or achieved public recognition, yet the values she demonstrated throughout her life have influenced me more profoundly than any book or formal education ever could.\n\nGrowing up, I watched her navigate considerable hardship with a composure that I found remarkable. She had raised four children largely alone following my grandfather's early death, working two jobs simultaneously while somehow maintaining a household full of warmth and quiet humour. She never complained. More than that, she seemed to approach every difficulty as a practical problem to be solved rather than an injustice to be resented.\n\nOne particular memory stands out clearly. When I was seventeen and seriously considering dropping out of school, she sat me down and said, very calmly, \"Nobody can take your education away from you.\" There was no lecture, no drama – just absolute certainty. I went back the following Monday.\n\nMy grandmother taught me that resilience is not about being unaffected by hardship but about choosing to move forward regardless. Whenever I face a challenge that feels overwhelming, I think of her and find that I am more capable than I assumed. That is perhaps the greatest gift one person can give another.",
+      "notes": "",
+      "wordCount": 222
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T03:14:54.525779+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "simulacion-de-entrevista-de-trabajo",
+  "language": "es",
+  "skill": "speaking",
+  "order": 6,
+  "category": "Trabajo",
+  "title": "Simulación de entrevista de trabajo",
+  "prompt": "Imagina que estás en una entrevista de trabajo para un puesto de asistente de comunicación en una empresa internacional. El entrevistador te pregunta: ¿Por qué quieres trabajar aquí? ¿Cuáles son tus puntos fuertes y tus áreas de mejora? ¿Cómo reaccionas ante situaciones de presión o conflicto? Responde de forma natural y estructurada, como si fuera una entrevista real.",
+  "format": "Simulación de juego de rol · registro formal · 2-3 minutos (B1) / 3-4 minutos (B2)",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Una presentación honesta y directa",
+      "body": "Gracias por recibirme. Es un placer estar aquí hoy.\n\nQuiero trabajar en esta empresa porque tiene muy buena reputación y me interesan mucho los proyectos internacionales en los que trabaja. He investigado un poco sobre la compañía y me parece que los valores que defiende coinciden con los míos, especialmente en lo relacionado con la comunicación clara y el trabajo en equipo.\n\nEn cuanto a mis puntos fuertes, creo que soy una persona organizada y responsable. Me gusta terminar las tareas a tiempo y prestar atención a los detalles. También me comunico bien con las personas y me adapto con facilidad a entornos nuevos. He trabajado en dos empresas anteriores y en las dos aprendí a colaborar con compañeros de diferentes departamentos.\n\nMi principal área de mejora es que a veces me cuesta delegar. Prefiero hacer las cosas yo mismo para asegurarme de que están bien hechas, pero soy consciente de que en un equipo grande esto puede ser un problema. Estoy trabajando en ello.\n\nCuando hay situaciones de presión, intento mantener la calma y establecer prioridades. Si hay un conflicto con un compañero, prefiero hablar directamente con esa persona para entender su punto de vista antes de tomar ninguna decisión. Creo que la comunicación abierta siempre es la mejor solución.\n\nEstoy muy motivado para unirme a este equipo y espero poder contribuir desde el primer día.",
+      "notes": "",
+      "wordCount": 227
+    },
+    {
+      "level": "B2",
+      "title": "Seguridad y autoconocimiento profesional",
+      "body": "Muchas gracias por recibirme. Es un gusto tener la oportunidad de presentarme en persona.\n\nHe seguido la trayectoria de esta empresa con bastante interés durante los últimos meses y lo que más me ha llamado la atención es la coherencia entre su discurso y sus acciones, especialmente en lo relativo a la comunicación corporativa responsable. Eso no es algo que se vea en todas las organizaciones, y para mí representa un criterio de peso a la hora de elegir dónde quiero desarrollarme profesionalmente.\n\nEn cuanto a mis fortalezas, destacaría tres. En primer lugar, tengo una sólida capacidad para gestionar varios proyectos simultáneamente sin perder el hilo ni la calidad. En segundo lugar, me desenvuelvo bien tanto en entornos muy estructurados como en contextos más dinámicos donde los planes cambian con rapidez. Y en tercer lugar, me considero un buen comunicador: sé adaptar el mensaje al interlocutor, ya sea un cliente, un directivo o un colega de otro departamento.\n\nRespecto a mis áreas de mejora, soy consciente de que tiendo a la perfección en los detalles, lo que puede ralentizar ciertos procesos. He aprendido a distinguir cuándo ese nivel de exigencia aporta valor y cuándo es más útil avanzar con un resultado suficientemente bueno. Es un equilibrio que sigo afinando.\n\nAnte situaciones de presión, mi primera reacción es jerarquizar: ¿qué es urgente, qué es importante y qué puede esperar? Eso me permite actuar con claridad incluso cuando el entorno es caótico. En situaciones de conflicto, mi enfoque siempre es buscar la conversación directa y orientada a soluciones, sin personalizar el problema.\n\nEstoy convencido de que puedo aportar valor a este equipo desde el principio, y espero que esta conversación sea el inicio de una colaboración larga y productiva.",
+      "notes": "",
+      "wordCount": 287
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T03:02:57.351985+00:00"
+}

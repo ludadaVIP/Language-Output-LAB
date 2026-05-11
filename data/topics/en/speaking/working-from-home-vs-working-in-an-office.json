@@ -1,0 +1,34 @@
+{
+  "id": "working-from-home-vs-working-in-an-office",
+  "language": "en",
+  "skill": "speaking",
+  "order": 14,
+  "category": "Work",
+  "title": "Working from Home vs. Working in an Office",
+  "prompt": "Compare the experience of working from home with working in an office. What are the main advantages and disadvantages of each? Which do you prefer, or which do you think is better for most people? Use your own experience or observations to support your points.",
+  "format": "Comparison task · neutral · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Home or Office: Which Is Better?",
+      "body": "Working from home became very common during the pandemic, and now many companies offer a mix of both options. I have experienced both, so I can compare them quite well.\n\nThe biggest advantage of working from home is flexibility. You don't have to commute, which saves a lot of time and money. You can also organise your day more freely — for example, you might take a break to do some exercise and then continue working later. This makes it easier to have a better work-life balance.\n\nHowever, working from home can also be difficult. For me, the hardest part is separating work from personal life. When you work from home, your office is also your living space, and it can be hard to switch off at the end of the day. I also sometimes feel lonely because I miss talking to colleagues.\n\nIn an office, on the other hand, it's easier to collaborate and communicate with your team. You can ask a question quickly without sending an email and waiting for a reply. There is also a clearer separation between work time and personal time.\n\nThe main disadvantage of the office is the commute, which can be tiring and stressful, especially in a big city. Open-plan offices can also be noisy and it can be hard to concentrate.\n\nPersonally, I prefer a combination of both — a few days at home and a few days in the office. I think this gives the best of both worlds: the flexibility of home working and the social connection of the office. I think most people would agree that a flexible hybrid model is the best solution for knowledge workers today.",
+      "notes": "",
+      "wordCount": 279
+    },
+    {
+      "level": "C1",
+      "title": "The Hybrid Question and What It Reveals",
+      "body": "The debate about remote versus office work has become one of the defining organisational questions of the past few years, and I think the way companies handle it reveals quite a lot about their underlying assumptions regarding trust, productivity, and what work actually is.\n\nThe case for remote work is compelling and reasonably well-evidenced. The elimination of commuting — which in many cities can consume one to two hours of every working day — represents a genuine quality-of-life improvement, particularly for people with caring responsibilities or long travel distances. Autonomy over one's environment also matters: some people are significantly more productive without the ambient noise, interruptions, and performative aspects of office presence. The research on deep work strongly suggests that sustained concentration — the kind needed for complex, creative tasks — is harder to achieve in most open-plan offices than at home.\n\nHowever, the blanket enthusiasm for remote work that emerged during the pandemic has collided with some messier realities. Real collaboration — not just video calls — is harder to replicate asynchronously. The informal, unplanned interactions that happen in physical proximity — the corridor conversation, the overheard remark that redirects thinking — are genuinely difficult to engineer online. Junior employees, in particular, seem to benefit disproportionately from proximity to experienced colleagues, and I think the remote-work era has been harder on early-career development than is always acknowledged.\n\nThere's also a psychological dimension that gets underweighted. Not everyone has a home environment conducive to focused work — whether because of space, noise, other household members, or simply the psychological associations of the space. The romanticised image of productive home working assumes a lot about domestic circumstances that not everyone shares.\n\nMy own view is that the value of each arrangement is highly context-dependent — on the person, the role, the team, and the organisation's culture. Rigid mandates in either direction strike me as evidence that the decision is being made for symbolic or managerial-control reasons rather than genuine thinking about outcomes. A thoughtful hybrid model, built around the nature of the work rather than a formula, is almost certainly the right answer for most knowledge-work environments — but getting that right requires a degree of organisational trust and nuance that many companies still struggle with.",
+      "notes": "",
+      "wordCount": 375
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T11:31:20.563416+00:00"
+}

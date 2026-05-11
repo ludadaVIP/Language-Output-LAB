@@ -1,0 +1,34 @@
+{
+  "id": "la-amistad-en-la-vida-adulta",
+  "language": "es",
+  "skill": "speaking",
+  "order": 8,
+  "category": "Relaciones personales",
+  "title": "La amistad en la vida adulta",
+  "prompt": "Habla sobre cómo cambian las amistades a medida que crecemos. ¿Es más difícil hacer amigos de adulto que de niño o adolescente? ¿Qué cualidades valoras más en un amigo? Describe una amistad importante en tu vida y explica por qué es significativa para ti.",
+  "format": "Monólogo personal con reflexión · registro personal · 2-3 minutos (B1) / 3-4 minutos (B2)",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Los amigos de verdad son difíciles de encontrar",
+      "body": "Creo que la amistad cambia mucho con la edad. De niño, es más fácil hacer amigos porque pasas muchas horas con los mismos compañeros en el colegio y tienes muchas oportunidades de conocer a gente nueva. De adulto, la situación es diferente: trabajas, tienes más responsabilidades y tienes menos tiempo libre.\n\nEn mi caso, he notado que mis amistades de la infancia y de la adolescencia son las más sólidas. Nos conocemos desde hace mucho tiempo y hay mucha confianza entre nosotros. Con las personas que he conocido en el trabajo o en otras actividades de adulto, las relaciones son más superficiales, aunque también hay excepciones.\n\nLas cualidades que más valoro en un amigo son la honestidad, la lealtad y el sentido del humor. Para mí es muy importante tener amigos con quienes pueda hablar de cualquier tema sin sentirme juzgado.\n\nTengo un amigo que conocí en la universidad y que sigue siendo muy importante en mi vida. Aunque ahora vivimos en ciudades distintas, seguimos hablando regularmente y cuando nos vemos es como si no hubiera pasado el tiempo. Eso, para mí, es una señal de que la amistad es auténtica. Creo que mantener esa conexión requiere esfuerzo de las dos partes, pero merece la pena.",
+      "notes": "",
+      "wordCount": 206
+    },
+    {
+      "level": "B2",
+      "title": "La amistad adulta: menos cantidad, más profundidad",
+      "body": "Hay una frase que me resulta cada vez más certera: de adulto no se hacen amigos, se hacen conocidos. Es una afirmación algo pesimista, pero captura algo verdadero sobre cómo cambia la naturaleza de las relaciones a lo largo de la vida.\n\nDe niño y de adolescente, la amistad se construye casi por osmosis: compartes espacio físico durante horas, atraviesas experiencias formativas juntos y la intimidad surge de manera casi espontánea. De adulto, en cambio, el tiempo es un recurso escaso y las oportunidades de construir algo profundo con alguien nuevo requieren una intención que antes no era necesaria. No es que sea imposible —he conocido personas muy importantes para mí en la treintena— pero sí exige más esfuerzo consciente.\n\nLas cualidades que más valoro en una amistad han cambiado con los años. De joven me importaba mucho compartir aficiones; ahora valoro más cosas como la capacidad de escuchar de verdad, la honestidad sin crueldad y la reciprocidad. Un buen amigo, para mí, es alguien que está cuando las cosas no van bien, no solo cuando hay algo que celebrar.\n\nHay una persona en mi vida que encarna todo esto. Nos conocimos hace más de diez años en circunstancias bastante ordinarias, y sin embargo la amistad creció hasta convertirse en algo que considero fundamental. Lo que más valoro de esa relación es que podemos pasar meses sin vernos y retomar exactamente donde lo dejamos, sin reproches ni explicaciones. Eso requiere una base de confianza que no se construye de la noche a la mañana, y cuando existe, es algo que hay que cuidar con la misma atención que cualquier otra cosa importante en la vida.",
+      "notes": "",
+      "wordCount": 275
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T03:02:57.352862+00:00"
+}

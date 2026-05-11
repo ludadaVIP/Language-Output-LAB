@@ -1,0 +1,34 @@
+{
+  "id": "the-impact-of-social-media-on-daily-life",
+  "language": "en",
+  "skill": "speaking",
+  "order": 7,
+  "category": "Technology",
+  "title": "The Impact of Social Media on Daily Life",
+  "prompt": "Give your opinion on how social media has changed the way people communicate, spend their time, and see themselves. Discuss both the benefits and the drawbacks of social media in everyday life, using personal examples or observations where possible. Do you think the positives outweigh the negatives?",
+  "format": "Opinion response · neutral · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Social Media: Good and Bad",
+      "body": "Social media is a very big part of life today, and I think it has both good and bad sides. On the positive side, it helps people stay in touch with friends and family, even if they live in different countries. For example, I use social media to see photos and updates from relatives who live abroad. Without it, I would feel much more disconnected from them.\n\nSocial media is also useful for finding information and following the news. I often come across interesting articles or videos that I would never have found otherwise. It can also help small businesses reach more customers, which I think is a great benefit.\n\nHowever, there are some problems too. I think people sometimes spend too much time on social media and it can affect their sleep or productivity. I have definitely experienced this myself — I sometimes look at my phone before bed and then it's difficult to sleep.\n\nAnother problem is that social media can make people feel bad about themselves. When you see photos of other people's perfect lives or holidays, you might feel like your own life is not good enough. Of course, most people only share the best parts of their lives online, but it's easy to forget that.\n\nOverall, I think social media is more positive than negative if you use it sensibly. The key is to be aware of how much time you spend on it and how it makes you feel. If it's making you unhappy, it's probably better to take a break.",
+      "notes": "",
+      "wordCount": 257
+    },
+    {
+      "level": "C1",
+      "title": "Connectivity, Comparison, and the Cost of the Feed",
+      "body": "Social media has reshaped the texture of daily life so thoroughly that it's now genuinely difficult to remember what communication looked like before it. I think that deserves careful examination rather than a simple verdict of good or bad.\n\nThe benefits are real and shouldn't be dismissed. Social media has democratised the ability to share information and reach an audience, which has had meaningful consequences — from political organising to public health communication to the visibility of communities that were previously marginalised. On a personal level, it sustains relationships across distances in a way that letter-writing or even phone calls never quite could. I have friendships that would almost certainly have faded without the ambient awareness social media provides.\n\nBut I think the way it structures attention and self-perception is genuinely troubling, and I say that not as a technophobe but as someone who uses these platforms daily. The engagement model that most platforms are built around — optimising for time spent, using variable reward mechanisms not unlike those found in slot machines — is explicitly designed to override deliberate choice. We're not simply using social media in any neutral sense; we're navigating a system that has been engineered, at considerable expense, to keep us on it.\n\nThe impact on self-image is another area I think about seriously. The comparison culture that social media amplifies — the constant, involuntary benchmarking of your life against curated highlights of others — is not a bug in these platforms; it's arguably a feature, because comparison drives engagement. The research on social media's association with anxiety and depression, particularly among young women, is consistent enough that I think it warrants genuine policy attention, not just individual willpower.\n\nSo do the positives outweigh the negatives? I think the honest answer is that it depends enormously on how you use it, and for whom. For someone using it primarily to maintain relationships and access information, the balance probably tips positive. For a teenager whose identity is still forming and who is spending hours a day on algorithmically curated content, I'm much less confident. The technology is neutral; the design choices behind it are not.",
+      "notes": "",
+      "wordCount": 358
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T11:31:20.561415+00:00"
+}

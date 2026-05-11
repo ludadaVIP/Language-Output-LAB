@@ -1,0 +1,34 @@
+{
+  "id": "should-governments-ban-petrol-and-diesel-cars",
+  "language": "en",
+  "skill": "writing",
+  "order": 11,
+  "category": "Environment",
+  "title": "Should Governments Ban Petrol and Diesel Cars?",
+  "prompt": "Many governments are planning to ban the sale of new petrol and diesel cars within the coming decades in order to reduce carbon emissions and air pollution. Write a balanced essay that presents the arguments both for and against such a ban. Give equal consideration to each side before reaching your own conclusion.",
+  "format": "Balanced opinion essay · neutral/formal · 150–250 words",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Should Petrol Cars Be Banned? Two Sides of the Argument",
+      "body": "Many countries are considering banning petrol and diesel cars in the future. This is an important topic and there are good arguments on both sides.\n\nOn the one hand, petrol and diesel cars produce a lot of pollution. This is bad for the environment and for our health. Electric cars do not produce harmful gases, so banning petrol cars would help reduce air pollution and slow down climate change.\n\nOn the other hand, not everyone can afford an electric car. Electric cars are often more expensive than petrol cars, and this could be very unfair for people with less money. Also, in many rural areas, there are not yet enough charging stations, which makes electric cars difficult to use every day.\n\nIn my opinion, banning petrol and diesel cars is a good idea in the long term. However, governments need to help people by making electric cars cheaper and by building many more charging points first.\n\nOverall, clean transport is essential for the future of our planet, but the change must happen gradually and fairly so that everyone can make the switch.",
+      "notes": "",
+      "wordCount": 182
+    },
+    {
+      "level": "B2",
+      "title": "The Case For and Against Banning Combustion Engine Vehicles",
+      "body": "As the urgency of the climate crisis intensifies, the proposal to ban new petrol and diesel vehicles has moved from fringe policy to mainstream political debate. It is a complex issue that merits careful consideration of both the environmental imperative and the practical realities facing consumers.\n\nThe environmental arguments in favour of a ban are well established. Road transport accounts for a significant share of global carbon emissions, and conventional combustion engines also release nitrogen oxides and particulates that are directly harmful to public health, particularly in urban areas. A transition to electric vehicles at scale would meaningfully reduce both problems and is widely regarded as essential to meeting international climate targets.\n\nHowever, the practical challenges surrounding such a ban are equally real. Electric vehicles remain substantially more expensive than their petrol equivalents, placing them out of reach for many lower-income households. The charging infrastructure, particularly in rural and less affluent areas, is still inadequate to support mass adoption. There are also legitimate questions about the environmental costs of lithium mining and battery production.\n\nOn balance, I believe a phased ban on combustion engines is the right direction, provided it is accompanied by meaningful public investment in charging infrastructure and financial support for those who would otherwise be left behind. Environmental progress and social equity are not mutually exclusive – both must be built into the transition plan from the outset.",
+      "notes": "",
+      "wordCount": 231
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T03:14:54.525779+00:00"
+}

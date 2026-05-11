@@ -1,0 +1,34 @@
+{
+  "id": "is-social-media-doing-more-harm-than-good",
+  "language": "en",
+  "skill": "writing",
+  "order": 13,
+  "category": "Personal Opinion",
+  "title": "Is Social Media Doing More Harm Than Good?",
+  "prompt": "Social media platforms have transformed the way people communicate, access information, and spend their leisure time. However, concerns have been raised about their effects on mental health, the spread of misinformation, and the quality of public debate. Write an opinion essay arguing whether social media is, on balance, more harmful or more beneficial to society. Support your position with specific reasons.",
+  "format": "Opinion essay · neutral/formal · 150–250 words",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Social Media Causes More Problems Than It Solves",
+      "body": "Social media is used by billions of people every day. While it has some advantages, I believe it causes more problems than it solves.\n\nOne serious problem is that social media can damage mental health. Many young people compare themselves to others online and feel unhappy because their own life seems less exciting. This can lead to low self-esteem and sometimes depression.\n\nAnother problem is that false information spreads very quickly on social media. People often share news without checking whether it is true. This can cause confusion and even panic in society.\n\nI know that social media also has good points. It helps people stay connected with friends and family around the world, and it can be useful for sharing important information quickly. Some people also use it to promote their small businesses.\n\nHowever, I believe the negative effects are stronger than the positive ones. We need clearer rules about how these platforms operate, especially to protect younger users.\n\nIn conclusion, although social media has some real benefits, I think it is currently doing more harm than good. Stronger regulation is needed to make these platforms safer for everyone.",
+      "notes": "",
+      "wordCount": 190
+    },
+    {
+      "level": "B2",
+      "title": "The Double-Edged Nature of Social Media",
+      "body": "Few developments in recent decades have reshaped human behaviour as profoundly as the rise of social media. While these platforms have delivered genuine benefits, I believe that, on balance, their negative consequences currently outweigh the positive ones.\n\nThe most serious concern relates to mental health, particularly among young people. Research has repeatedly linked heavy social media use to heightened rates of anxiety, depression, and body image issues. The curated, highlight-reel nature of most platforms creates an environment of relentless comparison that is psychologically damaging, especially for adolescents who are still forming their sense of identity and self-worth.\n\nEqually troubling is social media's role in amplifying misinformation. Algorithms designed to maximise engagement rather than accuracy have proven highly effective at spreading sensationalist or factually dubious content, with real-world consequences ranging from vaccine hesitancy to political polarisation. The speed at which false narratives circulate now far outpaces the ability of fact-checkers to contain them.\n\nThat said, it would be disingenuous to dismiss the genuine value these platforms provide. Social media has given marginalised communities a meaningful voice, facilitated remarkable forms of collective action, and kept people connected across vast distances in ways that were previously unimaginable.\n\nNevertheless, good intentions cannot compensate for a business model built on maximising screen time rather than user wellbeing. Until meaningful regulation addresses this fundamental flaw, social media will continue to cause more harm than good.",
+      "notes": "",
+      "wordCount": 229
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T03:14:54.525779+00:00"
+}

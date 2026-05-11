@@ -1,0 +1,34 @@
+{
+  "id": "should-university-education-be-free",
+  "language": "en",
+  "skill": "speaking",
+  "order": 15,
+  "category": "Education",
+  "title": "Should University Education Be Free?",
+  "prompt": "Give a balanced response to the question of whether university education should be free for all students. Present arguments on both sides, then give your own view and explain why. Consider the impact on students, governments, and the quality of education.",
+  "format": "Balanced opinion task · neutral/formal · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "The Argument for and Against Free University",
+      "body": "This is a topic that many people feel strongly about, and I can see arguments on both sides.\n\nOn one hand, there are good reasons why university should be free. If students have to pay high fees, many people from poorer families might not be able to go to university, even if they are very talented. This is not fair. Education is very important for someone's future, and everyone should have the same opportunity to study, regardless of how much money their family has. Some countries in Europe, like Germany and Norway, offer free university education, and it seems to work well there.\n\nOn the other hand, university is very expensive to run. If the government pays for everything, this money has to come from somewhere — usually from taxes. Some people think it is fairer for students to pay, because they are the ones who will benefit most from their degree, often by getting better-paid jobs. There is also an argument that if something is free, people might not value it as much.\n\nIn my opinion, I think university should not be completely free, but the fees should be much lower, and there should be very good financial support for students from lower-income families. I also think that students should only pay back their loans when they start earning enough money. This seems like a fair balance.\n\nOverall, I believe that access to good education should not depend on how rich your family is. Finding a way to make university affordable for everyone is something governments should work hard on.",
+      "notes": "",
+      "wordCount": 261
+    },
+    {
+      "level": "C1",
+      "title": "Free at the Point of Use: What Do We Actually Mean?",
+      "body": "The question of whether university should be free is one that tends to generate more heat than clarity, partly because it conflates several distinct questions: free to whom, funded how, and to what end?\n\nThe strongest argument for free higher education rests on a foundational principle about equal opportunity. When access to university depends substantially on your ability to absorb either immediate costs or the long-term weight of debt, you are effectively rationing education by economic background rather than aptitude or motivation. The evidence suggests that fee-based systems deter applications from working-class and first-generation students even when loan systems exist to mitigate upfront costs — the prospect of debt itself has a deterrent effect, and that effect is not evenly distributed. Countries that fund higher education publicly do tend to show stronger social mobility outcomes, though the causal relationship is complex.\n\nThe counterargument is not simply about fiscal austerity, though that's often how it's characterised. There's a genuine philosophical question about who should bear the cost of an education whose primary beneficiary — in financial terms — is the individual graduate rather than the collective. Average wage premiums for degree holders are substantial, and there's a reasonable case that asking graduates to contribute to the system that produced those premiums is not unjust, particularly when repayment is income-contingent rather than immediate.\n\nWhere I think the debate gets distorted is in the binary framing: either students pay, or taxpayers pay. In practice, every system is a mix; the question is where you set the balance and what protections you build in. Income-contingent loans that function more like graduate taxes blur the line between these positions considerably.\n\nMy own view is that the goal should be universal access rather than universal zero-cost provision, and that achieving the former doesn't necessarily require the latter. What it does require is robust means-testing, income-contingent repayment structures, and serious investment in the guidance and support that helps under-represented students imagine themselves as university-goers in the first place. The barrier isn't always fees; it's often aspiration, information, and a sense of belonging — and those are harder to solve with a price tag than with structural investment in people.",
+      "notes": "",
+      "wordCount": 362
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T11:31:20.563416+00:00"
+}

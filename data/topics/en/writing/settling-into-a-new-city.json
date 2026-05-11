@@ -1,0 +1,34 @@
+{
+  "id": "settling-into-a-new-city",
+  "language": "en",
+  "skill": "writing",
+  "order": 4,
+  "category": "Daily Life",
+  "title": "Settling Into a New City",
+  "prompt": "Your English-speaking friend Sam has recently moved to a new city and is feeling lonely and unsettled. Write an email to Sam offering advice on how to make new friends and feel more at home. Include at least three practical suggestions, briefly explain why each one might help, and end your email on a warm, encouraging note.",
+  "format": "Informal email · informal · 150–250 words",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Cheer Up – Things Will Get Better!",
+      "body": "Hi Sam,\n\nThank you for your message. I was sad to hear that you are feeling lonely, but please don't worry – things will improve soon!\n\nFirst, I think you should join a local club or class. There are usually classes for things like cooking, yoga, or languages. You can meet people with the same interests, and it gives you something to look forward to each week.\n\nSecond, try to spend some time exploring your neighbourhood on foot. Walk around your local streets, find a café you like, or discover a nearby park. You might even get to know your neighbours this way!\n\nFinally, look for online groups for people living in your area. Many cities have social media groups where residents organise meetups and events. It can feel a little scary at first, but most people are very welcoming.\n\nI really hope these ideas help. Please keep in touch and let me know how things are going. Maybe I can come and visit you next month!\n\nTake care,\n[Name]",
+      "notes": "",
+      "wordCount": 170
+    },
+    {
+      "level": "B2",
+      "title": "My Honest Advice for Making a New City Feel Like Home",
+      "body": "Hi Sam,\n\nIt was lovely to hear from you, even if your news wasn't exactly cheerful! Feeling out of place in a new city is completely normal, and I promise it does get easier. Here are a few ideas that might help.\n\nThe most effective thing you can do is join a group centred around something you genuinely enjoy. Whether it's a running club, an art workshop, or a weekend hiking group, shared activities take the pressure off making conversation and let friendships develop more naturally.\n\nIt's also worth making a point of getting to know the area on foot. Wandering without a fixed destination is a surprisingly good way to discover hidden gems – a great local café, a quiet park, or even a friendly shopkeeper who gradually becomes a familiar face.\n\nOn top of that, I'd strongly recommend downloading a few apps designed for people who have relocated, such as Meetup or Bumble BFF. They can feel a little awkward at first, but plenty of genuinely lasting friendships start exactly that way.\n\nDon't be too hard on yourself – building a social life takes time. I'm already looking at dates to come and see you, so hold that thought!\n\nWarmly,\n[Name]",
+      "notes": "",
+      "wordCount": 203
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T03:14:54.524778+00:00"
+}

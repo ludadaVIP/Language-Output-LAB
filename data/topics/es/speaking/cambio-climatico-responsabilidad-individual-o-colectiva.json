@@ -1,0 +1,34 @@
+{
+  "id": "cambio-climatico-responsabilidad-individual-o-colectiva",
+  "language": "es",
+  "skill": "speaking",
+  "order": 11,
+  "category": "Medioambiente",
+  "title": "Cambio climático: ¿responsabilidad individual o colectiva?",
+  "prompt": "Existe un debate sobre si el cambio climático debe combatirse principalmente a través de cambios individuales en el estilo de vida o a través de políticas y regulaciones a gran escala. Presenta los argumentos de ambas posturas y explica con cuál te identificas más y por qué. Incluye ejemplos concretos para apoyar tu argumento.",
+  "format": "Presentación de opinión equilibrada · registro neutro/formal · 2-3 minutos (B1) / 3-4 minutos (B2)",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Entre lo que podemos hacer y lo que deben hacer otros",
+      "body": "El cambio climático es uno de los problemas más grandes de nuestro tiempo. Hay personas que dicen que cada individuo debe cambiar su forma de vivir para ayudar al planeta. Otras dicen que los gobiernos y las grandes empresas son los principales responsables. Creo que las dos cosas son verdad.\n\nPor un lado, los ciudadanos podemos hacer muchas cosas: usar menos el coche, consumir menos carne, reducir el uso de plásticos y ahorrar energía en casa. Estas acciones, si las hace mucha gente, pueden tener un impacto positivo. Además, cuando los consumidores cambian sus hábitos, también cambian los mercados.\n\nPor otro lado, es verdad que las empresas y los gobiernos tienen mucho más poder para hacer cambios grandes. Una ley que reduzca las emisiones industriales puede tener más impacto que millones de personas reciclando. Y no todo el mundo tiene las mismas posibilidades económicas de cambiar sus hábitos.\n\nEn mi opinión, las dos cosas son necesarias. No podemos esperar solo a que los gobiernos actúen, pero tampoco debemos pensar que el problema se resuelve solo con pequeños gestos individuales. Necesitamos las dos cosas al mismo tiempo. Yo intento hacer mi parte, pero también creo que es importante votar y apoyar a políticos y empresas que toman en serio el medioambiente.",
+      "notes": "",
+      "wordCount": 210
+    },
+    {
+      "level": "B2",
+      "title": "Una trampa retórica que nos paraliza",
+      "body": "El debate entre responsabilidad individual y responsabilidad sistémica frente al cambio climático me parece, en buena medida, una trampa retórica que nos lleva a un callejón sin salida. Permíteme explicar por qué.\n\nQuienes defienden que el cambio debe comenzar por el individuo tienen razón en señalar que los hábitos de consumo colectivos tienen un impacto real. Reducir el consumo de carne, optar por el transporte público, evitar vuelos innecesarios o reducir el desperdicio alimentario son acciones que, a escala masiva, generan diferencia. Además, hay un argumento moral poderoso: si sabemos que algo daña el planeta, tenemos cierta responsabilidad de actuar en consecuencia, independientemente de lo que hagan los demás.\n\nSin embargo, la narrativa de la responsabilidad individual tiene también un lado oscuro: fue popularizada, en parte, por las propias industrias contaminantes como estrategia para desviar la atención de la necesidad de regulación. La idea de la huella de carbono personal, por ejemplo, fue promovida originalmente por BP. Eso no la invalida, pero sí pone en perspectiva a quién beneficia que el debate se centre en si reciclamos o no en lugar de en si se regulan las emisiones industriales.\n\nMi postura es que ambos niveles de acción son necesarios e inseparables, pero no equivalentes en impacto. Las decisiones individuales importan y dan coherencia personal, pero sin marcos regulatorios ambiciosos, inversión pública en infraestructuras limpias y responsabilización real de las grandes emisoras, los gestos individuales son insuficientes para afrontar la escala del problema.\n\nLo más útil, en mi opinión, no es elegir entre las dos opciones, sino entender que la acción individual incluye también la acción política: votar, exigir, organizarse. Eso es responsabilidad individual con mayúsculas.",
+      "notes": "",
+      "wordCount": 275
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T03:02:57.353862+00:00"
+}

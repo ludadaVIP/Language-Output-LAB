@@ -1,0 +1,34 @@
+{
+  "id": "recommending-a-place-to-visit-in-your-country",
+  "language": "en",
+  "skill": "writing",
+  "order": 9,
+  "category": "Travel",
+  "title": "Recommending a Place to Visit in Your Country",
+  "prompt": "A travel website has invited readers to submit a short article recommending a destination in their home country. Write an article recommending a specific city, region, or attraction. Include what makes it special, what visitors can see and do there, and any practical advice for people planning a trip. Aim to make the place sound genuinely appealing to an adult audience of independent travellers.",
+  "format": "Recommendation article · neutral/semi-formal · 150–250 words",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Why You Should Visit Porto",
+      "body": "If you are looking for a beautiful and interesting city to visit in Europe, I strongly recommend Porto in Portugal. It is a city with a lot of history, wonderful food, and friendly people.\n\nPorto is famous for its colourful buildings and its historic riverside district, called the Ribeira. You can walk along the river, visit old churches, and take beautiful photographs. The city is also known for Port wine. You can visit a wine cellar, learn how it is made, and taste different varieties.\n\nThere is also a lot of delicious food to try in Porto. You must taste the local dish called francesinha, which is a sandwich covered in a rich, spicy sauce. It sounds unusual, but it is absolutely delicious!\n\nFor getting around, the city has a good metro system and many areas are easy to explore on foot. I recommend visiting in spring or autumn when the weather is warm but not too hot.\n\nPorto has something for everyone – history, culture, great food, and beautiful views. It is definitely worth a visit!",
+      "notes": "",
+      "wordCount": 177
+    },
+    {
+      "level": "B2",
+      "title": "Porto: Europe's Most Underrated City Break",
+      "body": "Overshadowed for years by its more glamorous neighbour Lisbon, Porto has quietly established itself as one of Europe's most captivating destinations – and once you visit, it is easy to understand why it commands such devoted loyalty among travellers who know it.\n\nThe city's character is best understood on foot. Wander through the steep, narrow streets of the Ribeira district and you will encounter ornate azulejo-tiled façades, crumbling baroque churches, and riverside wine cellars that have been maturing Port wine since the seventeenth century. The Livraria Lello, said to have inspired J.K. Rowling, is worth the modest entry fee for its sweeping Art Nouveau staircase alone.\n\nBeyond the sightseeing, Porto genuinely rewards those who slow down. Settle into a traditional pastelaria with a strong bica and a pastel de nata, or cross the iconic Dom Luís I Bridge to Vila Nova de Gaia for a guided tour of a Port wine lodge. The views from the upper deck at sunset are, quite simply, unforgettable.\n\nPractically speaking, Porto remains considerably more affordable than most comparable Western European cities. Spring and early autumn offer the best balance of good weather and manageable crowds. For a more authentic experience, consider staying in the Bonfim or Cedofeita neighbourhoods rather than the main tourist areas.\n\nPorto is, in short, a city that gets under your skin.",
+      "notes": "",
+      "wordCount": 221
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T03:14:54.525779+00:00"
+}

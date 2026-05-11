@@ -1,0 +1,34 @@
+{
+  "id": "el-teletrabajo-revolucion-laboral-o-ilusion-de-libertad",
+  "language": "es",
+  "skill": "speaking",
+  "order": 13,
+  "category": "Opinión personal",
+  "title": "El teletrabajo: ¿revolución laboral o ilusión de libertad?",
+  "prompt": "El teletrabajo se ha expandido enormemente en los últimos años. Describe tus experiencias o las de personas que conoces con esta modalidad de trabajo. ¿Cuáles son sus principales ventajas e inconvenientes? ¿Crees que el teletrabajo beneficia a todos por igual o hay grupos que se ven más perjudicados? Justifica tu respuesta.",
+  "format": "Respuesta de opinión con ejemplos · registro neutro · 2-3 minutos (B1) / 3-4 minutos (B2)",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Trabajar desde casa tiene sus ventajas, pero también sus problemas",
+      "body": "El teletrabajo es algo que muchas personas empezaron a hacer durante la pandemia y que ahora sigue siendo muy común. Yo he tenido experiencia con él y tengo opiniones bastante claras sobre sus ventajas e inconvenientes.\n\nLas ventajas más importantes para mí son el ahorro de tiempo en el transporte y la posibilidad de organizar el día con más flexibilidad. Antes pasaba casi una hora en el metro cada día. Ahora ese tiempo lo puedo usar para descansar, hacer deporte o simplemente tomar un café tranquilo antes de empezar a trabajar.\n\nPero el teletrabajo también tiene problemas. El más importante para mí es que es más difícil separar el trabajo de la vida personal. Cuando trabajas en casa, a veces es difícil saber cuándo termina la jornada laboral. También echo de menos el contacto con los compañeros de trabajo. Las reuniones virtuales no son lo mismo que una conversación cara a cara.\n\nSobre si beneficia a todos por igual, creo que no. Las personas que tienen casas pequeñas o que viven con muchas personas lo tienen mucho más difícil. También hay trabajos que no se pueden hacer desde casa, como los de hostelería o sanidad. Así que el teletrabajo es una ventaja principalmente para quienes tienen ciertos tipos de trabajo y buenas condiciones en casa. Para los demás, no cambia nada.",
+      "notes": "",
+      "wordCount": 221
+    },
+    {
+      "level": "B2",
+      "title": "El teletrabajo como espejo de las desigualdades existentes",
+      "body": "El teletrabajo es uno de esos fenómenos que ha llegado para quedarse, pero que seguimos analizando con demasiada frecuencia desde la perspectiva de quienes han tenido una experiencia mayoritariamente positiva con él. Me interesa hablar también de los márgenes.\n\nParaempezar con lo innegable: para un perfil como el mío —trabajo de conocimiento, espacio en casa, sin hijos pequeños— el teletrabajo ha sido una ganancia neta en calidad de vida. La eliminación del desplazamiento diario, la posibilidad de estructurar el tiempo de forma más autónoma y la reducción de las interrupciones en entornos de open space son ventajas reales y documentables en términos de productividad y bienestar.\n\nSin embargo, esa narrativa oculta una realidad mucho más fragmentada. El teletrabajo ha amplificado desigualdades preexistentes: quienes viven en espacios reducidos, tienen hijos en edad escolar o comparten vivienda con muchas personas han vivido la misma situación como una fuente de estrés añadido, no de liberación. Además, el teletrabajo es, por definición, un privilegio de clase: los empleos que permiten trabajar a distancia están concentrados en sectores mejor remunerados, mientras que quienes trabajan en hostelería, transporte, limpieza o salud —es decir, trabajos esenciales— no han tenido acceso a ninguna de estas ventajas.\n\nHay también una dimensión de desigualdad de género que merece mención: los estudios realizados tras la pandemia muestran que las mujeres han asumido una carga desproporcionada del trabajo doméstico y de cuidados durante el teletrabajo, lo que ha erosionado en muchos casos los beneficios teóricos de la flexibilidad horaria.\n\nEn conclusión, el teletrabajo puede ser una herramienta valiosa, pero tratarlo como una solución universal es un error. Su impacto real depende de en qué condiciones se implementa y para quién. Sin políticas que garanticen el derecho a la desconexión, espacios de trabajo adecuados y una distribución equitativa de las responsabilidades domésticas, la promesa de libertad del teletrabajo seguirá siendo, para muchos, más ilusión que realidad.",
+      "notes": "",
+      "wordCount": 313
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T03:02:57.353862+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "adapting-to-a-different-culture",
+  "language": "en",
+  "skill": "speaking",
+  "order": 17,
+  "category": "Travel",
+  "title": "Adapting to a Different Culture",
+  "prompt": "Describe an experience of being in a place with a very different culture from your own — as a traveller, an exchange student, or an immigrant. What differences did you notice? What did you find challenging, and what did you appreciate? What did the experience teach you about your own culture?",
+  "format": "Comparison task · neutral/personal · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "A Different Way of Living",
+      "body": "I had a really interesting experience of this when I spent three months in Japan as part of a student exchange programme. Before I went, I thought I knew a lot about Japanese culture from films and books, but when I arrived, I realised how much I still had to learn.\n\nOne of the first things I noticed was how polite and quiet people were in public spaces. On the underground, for example, people almost never spoke loudly or on their phones. Coming from a country where people often talk quite freely on public transport, I found this very different, but also quite calm and pleasant.\n\nI also found the rules around eating and social situations a bit confusing at first. For example, you shouldn't eat or drink while walking in many public places, and there are customs about how to give and receive things respectfully. I made some mistakes at the beginning, but people were very patient and kind about explaining things.\n\nWhat I really appreciated was the level of care and attention to detail that seemed to be in everything — from the way food was presented to the cleanliness of the streets. It made me reflect on my own culture and notice some things I had never thought about before.\n\nThe experience taught me that no culture is better or worse — just different. It also taught me to be more open-minded and curious about people's customs and traditions. I came back home with a new perspective, and I think it made me a more understanding person.",
+      "notes": "",
+      "wordCount": 260
+    },
+    {
+      "level": "C1",
+      "title": "The Mirror Effect of Cross-Cultural Experience",
+      "body": "There's a paradox in cross-cultural experience that I find genuinely interesting: the more time you spend immersed in a culture very different from your own, the more you understand your own culture — its assumptions, its blindspots, the things it takes for granted and normalises without examination. The unfamiliar, when sustained long enough, becomes revelatory.\n\nI spent the better part of a year living in Japan in my mid-twenties, and the experience was formative in ways I'm still unpacking. The surface cultural differences — the social codes around noise, space, and formality; the elaborate choreography of greetings and gift-giving; the relationship to hierarchy and group membership — were legible quickly enough. What took longer was understanding the logic beneath them: the ways in which Japanese social norms had evolved to manage the extraordinary density and interdependence of urban life, the prioritisation of collective harmony over individual expression, the aesthetic value placed on restraint.\n\nWhat I found most challenging wasn't any single rule or custom but the sustained cognitive load of operating in a context where I couldn't read social situations with the automatic fluency I was used to. I was perpetually slightly off-tempo — a beat behind in conversations, uncertain whether my behaviour was appropriate, conscious of taking up space in ways that felt wrong without being able to articulate exactly why. That low-level disorientation is tiring in a way that's hard to explain to people who haven't experienced it.\n\nWhat I came to appreciate most was the quality of attention that people brought to ordinary things — the craft embedded in food preparation, in garden design, in the presentation of everyday objects. A kind of visible care that my own culture tends to reserve for exceptional occasions rather than extending into daily life. I found it genuinely affecting.\n\nThe most lasting effect, though, was what it did to my perception of home. Coming back, I saw my own culture with the same slightly detached, curious eye I'd been using abroad — its informality, its directness, its enormous hidden assumptions about individualism and time. Not as flaws exactly, but as choices: cultural products rather than natural laws. That shift in perspective — the recognition that home is also, in its own way, foreign — felt like something genuinely worth having.",
+      "notes": "",
+      "wordCount": 380
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T11:31:20.564417+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "is-technology-making-us-less-social",
+  "language": "en",
+  "skill": "speaking",
+  "order": 16,
+  "category": "Technology",
+  "title": "Is Technology Making Us Less Social?",
+  "prompt": "Some people argue that modern technology — smartphones, social media, streaming services — is causing people to spend less time connecting with others in meaningful ways. Do you agree? Discuss the ways technology affects human connection, using examples from your own experience or observation.",
+  "format": "Opinion response · neutral · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Connected but Alone?",
+      "body": "I think this is an interesting question, and my answer is yes and no. Technology can definitely make us less social in some ways, but it can also help us connect with people in new ways.\n\nOn the negative side, I have noticed that when people are together, they often look at their phones instead of talking to each other. For example, when I go to a restaurant with friends, someone almost always ends up checking their phone at some point. I think this can make conversations feel less focused and less deep. People are physically together but mentally somewhere else.\n\nI also think that watching too many programmes or spending too much time on social media alone can replace time that people used to spend with others. Instead of calling a friend or visiting family, some people might just scroll through their phone for an hour. That doesn't feel like real social connection.\n\nHowever, technology also helps people connect across distances. I use video calls to talk to my family who live in another city, and without technology, I would feel much less connected to them. Social media also helps me keep in touch with old friends that I don't see very often.\n\nI think the problem is not technology itself, but the way we use it. If we are intentional about when and how we use our devices, technology can actually support our social lives. The problem is when technology becomes a habit or an escape from real-life interaction.\n\nSo my view is that technology is making some people less social, but it doesn't have to. It depends on how you manage it.",
+      "notes": "",
+      "wordCount": 275
+    },
+    {
+      "level": "C1",
+      "title": "The Substitution Problem",
+      "body": "The claim that technology is making us less social has become almost a cliché, trotted out at dinner tables by people who are, ironically, more connected than any previous generation in human history. And yet I don't think the concern is simply a moral panic. The more nuanced version of the argument deserves serious engagement.\n\nThe distinction I'd draw is between connection and contact. Technology — particularly smartphones and social media — has dramatically increased the quantity of contact we have with other people. Notifications, messages, likes, replies: the sheer volume of interpersonal signal we process daily would be unrecognisable to someone from thirty years ago. But whether this constitutes richer social connection is a different question entirely.\n\nThere's reasonable evidence that much of what technology facilitates is a kind of ambient sociality — the low-intensity awareness of others' lives that social media provides — which may actually substitute for, rather than supplement, deeper interaction. Scrolling through someone's photos can create the feeling of having caught up without any of the cognitive and emotional engagement that a real conversation demands. It's connection with the nutritional value extracted.\n\nI'm also struck by the attention displacement argument. The hours spent on devices are hours that were previously spent on something else — and for many people, some of that something else was face-to-face socialising. The research on loneliness, particularly among younger adults who are the heaviest technology users, is striking, though the causal direction is debated: does technology cause loneliness, or do lonely people use technology more? Probably both are true simultaneously.\n\nWhere I resist the simple pessimistic narrative is in dismissing the genuine social function that technology serves for people who are geographically isolated, socially anxious, or part of communities that don't exist in their physical environment. Online communities can provide real belonging, real support, and real relationships — and to dismiss them as inferior is often a position of privilege available only to people whose offline social needs are already well-met.\n\nSo my view is that technology is changing the texture of social life — compressing some dimensions, extending others — in ways that our instincts and social norms haven't fully caught up with. Whether that's a net loss depends heavily on the individual and what they're substituting for what.",
+      "notes": "",
+      "wordCount": 380
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T11:31:20.563416+00:00"
+}

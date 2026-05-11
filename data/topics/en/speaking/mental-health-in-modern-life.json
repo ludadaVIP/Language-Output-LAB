@@ -1,0 +1,34 @@
+{
+  "id": "mental-health-in-modern-life",
+  "language": "en",
+  "skill": "speaking",
+  "order": 18,
+  "category": "Health",
+  "title": "Mental Health in Modern Life",
+  "prompt": "Talk about the importance of mental health and the challenges people face in looking after it in today's world. Why do you think mental health problems are becoming more common? What can individuals, employers, and governments do to improve mental health? Share your personal perspective.",
+  "format": "Opinion response · neutral · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Taking Mental Health Seriously",
+      "body": "I think mental health is just as important as physical health, but for a long time many people didn't talk about it openly. Fortunately, I think this is starting to change, and more people are beginning to understand that it's okay to struggle sometimes and to ask for help.\n\nI believe mental health problems are becoming more common for several reasons. Modern life can be very stressful — people have a lot of pressure at work or school, there are financial worries, and there can be a lot of loneliness, especially in cities. Social media also plays a role, because it can make people feel anxious or not good enough when they compare themselves to others.\n\nFrom my own experience, I know that exercise and spending time in nature really help my mental health. When I go for a walk or do some sport, I always feel better afterwards. Getting enough sleep and talking to people I trust also makes a big difference.\n\nI think employers can help by creating a less stressful work environment and making it easy for employees to talk about their mental health without feeling judged. Governments can help by making mental health services more available and affordable, because waiting lists are very long in many countries.\n\nI think the most important thing is reducing the stigma around mental health. If people feel they can talk about their feelings openly, they are more likely to get help before their problems become serious. Mental health should be a normal topic of conversation, just like any other health issue.",
+      "notes": "",
+      "wordCount": 261
+    },
+    {
+      "level": "C1",
+      "title": "A Crisis of Context",
+      "body": "Mental health has become one of the defining public health concerns of our era, and the scale of that concern warrants something beyond the self-care language that tends to dominate the conversation.\n\nThe statistics are striking enough to deserve taking seriously. Rates of depression, anxiety, and stress-related illness have risen significantly across most high-income countries over the past two decades, with particularly sharp increases among adolescents and young adults. Whether this reflects genuine increases in prevalence or improving recognition and reduced stigma — both of which shift reporting rates — is genuinely contested, but the honest answer is probably both: real increases, made more visible by better language.\n\nWhat interests me is the gap between how we typically respond to this and what the evidence suggests is actually driving it. The dominant cultural response has been to locate the problem in individuals — to reach for mindfulness apps, resilience training, and gratitude journals. These things aren't without value, but they treat mental health as something you manage rather than something substantially shaped by context: by economic insecurity, precarious employment, housing stress, social isolation, and environments optimised for distraction and comparison rather than connection and depth.\n\nThere's a growing body of research suggesting that the social determinants of mental health — loneliness, inequality, lack of autonomy and purpose in work — are more powerful predictors of poor mental health than individual psychological traits. If that's right, then an exclusive focus on individual coping skills is, at best, addressing symptoms while the causes remain unexamined.\n\nFor employers, I think there's a genuine difference between performative mental health initiatives and actual structural change: addressing workloads, normalising boundaries, creating genuine psychological safety. The former is common; the latter is far rarer and requires a different conversation about how work is organised.\n\nFor governments, the priority should be access: the gap between the need for mental health treatment and the available supply is vast in most countries, and the cost — in human suffering and economic productivity — of leaving it unaddressed is substantial. Personally, I've found that the things most reliably associated with my own mental wellbeing are relational and structural rather than purely behavioural: feeling that my work has meaning, having genuine time for the people I care about, and not living under sustained financial stress. The meditation is nice, but it's not the point.",
+      "notes": "",
+      "wordCount": 392
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T11:31:20.564417+00:00"
+}

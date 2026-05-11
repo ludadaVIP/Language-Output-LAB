@@ -1,0 +1,34 @@
+{
+  "id": "staying-healthy-with-a-busy-schedule",
+  "language": "en",
+  "skill": "speaking",
+  "order": 10,
+  "category": "Health",
+  "title": "Staying Healthy with a Busy Schedule",
+  "prompt": "Many people find it difficult to maintain healthy habits when they are busy with work or study. Talk about the challenges of staying healthy when life is hectic, describe strategies that can help, and give your own experience of managing health and wellbeing alongside other responsibilities.",
+  "format": "Problem-solving response · neutral/personal · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Finding Time for Health",
+      "body": "I think it can be very difficult to stay healthy when you are busy, because healthy habits — like cooking, exercising, and sleeping enough — all take time. When you have a lot of work or study, these things are often the first to go.\n\nFrom my own experience, I know that when I am very busy, I often eat unhealthy food because it's quick and easy. I might order a takeaway instead of cooking, or skip breakfast because I don't have time. I also exercise less when I'm stressed, even though I know that exercise actually helps with stress.\n\nI think one of the best strategies is to plan ahead. For example, if you prepare meals for the week at the weekend, you always have healthy food ready and you don't need to think about it during the busy week. This is something I try to do when I can.\n\nAnother strategy is to build small amounts of exercise into your daily routine instead of going to the gym for a long time. For example, you could walk to work, take the stairs instead of the lift, or do a ten-minute workout at home. These small things add up over time.\n\nSleep is also very important. I sometimes stay up late to finish work, but I always feel much worse the next day. I've learned that it's usually better to go to sleep and continue in the morning.\n\nOverall, I think staying healthy when you're busy requires planning and small, consistent habits rather than big changes. It's not always easy, but I think it's worth the effort because your health affects everything else in your life.",
+      "notes": "",
+      "wordCount": 277
+    },
+    {
+      "level": "C1",
+      "title": "Health as a System, Not a Discipline",
+      "body": "The standard advice about staying healthy when you're busy — meal prep, sleep hygiene, fitting in exercise — is broadly correct, but I think it misses something important about why most people struggle to follow it. The problem isn't knowledge; it's the mistaken belief that health is primarily a question of willpower and discipline rather than system design.\n\nI say this from experience. There was a period in my life — during a particularly demanding stretch at work — where I was genuinely trying to maintain healthy habits and failing at almost all of them. I was telling myself a story about discipline: that I simply needed to try harder, want it more, be more consistent. It wasn't until I started thinking about my environment and default choices differently that things began to shift.\n\nThe most effective change I made was reducing the friction involved in healthy choices. I stopped keeping snacks I'd mindlessly eat in the flat and started keeping fruit and nuts visible on the counter. I booked exercise classes in advance rather than deciding day by day whether to go — because I knew that when I was tired and stressed, I would always rationalise not going. I set a hard boundary on work after nine in the evening, not because I suddenly had more discipline, but because the rule was clearer than a daily decision.\n\nSleep, I think, is the variable that most people undervalue most severely. The research on chronic sleep restriction is fairly unambiguous — cognitive performance, emotional regulation, immune function, and metabolic health all deteriorate meaningfully with sustained poor sleep. I've stopped treating sleep as the thing I sacrifice to get more done, partly because I've observed that what I produce in a sleep-deprived state is often just not very good.\n\nThe honest difficulty is that none of this resolves the fundamental tension between a demanding life and the time that health genuinely requires. Some of that tension simply has to be sat with. But accepting the constraints rather than fighting them — being realistic about what's possible in a given week and prioritising accordingly — is far more sustainable than an all-or-nothing approach that collapses the moment life becomes unpredictable.",
+      "notes": "",
+      "wordCount": 368
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T11:31:20.562414+00:00"
+}

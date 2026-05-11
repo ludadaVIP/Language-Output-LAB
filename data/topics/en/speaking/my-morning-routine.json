@@ -1,0 +1,34 @@
+{
+  "id": "my-morning-routine",
+  "language": "en",
+  "skill": "speaking",
+  "order": 4,
+  "category": "Daily Life",
+  "title": "My Morning Routine",
+  "prompt": "Describe your typical morning routine on a weekday. Talk about what you do from the moment you wake up until you leave the house or start work. Include what you enjoy about your mornings, what you find difficult, and any changes you would like to make to your routine.",
+  "format": "Personal monologue · informal/personal · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "A Simple Start to the Day",
+      "body": "My morning routine is quite simple, but I think it works well for me. I usually wake up at around seven o'clock, and the first thing I do is turn off my alarm. I'm not really a morning person, so this is always a bit difficult for me.\n\nAfter that, I go to the bathroom, wash my face, and brush my teeth. Then I go to the kitchen and make breakfast. I normally have toast with butter and a cup of coffee. I think breakfast is very important because it gives me energy for the day.\n\nWhile I eat, I usually look at my phone and check my messages or the news. I know some people say this is a bad habit, but I enjoy it. It helps me wake up slowly.\n\nThen I get dressed and pack my bag. I try to do this quickly because I don't want to be late. I usually leave the house at about eight-fifteen.\n\nOne thing I find difficult is getting up early, especially in winter when it's cold and dark outside. I sometimes press the snooze button too many times and then I feel rushed.\n\nIf I could change something, I would like to wake up earlier so I have more time. I think it would be nice to do some exercise in the morning, like going for a short walk or doing some stretching. I've tried this a few times, but I always find it hard to keep the habit. Maybe one day I'll manage to do it regularly.",
+      "notes": "",
+      "wordCount": 258
+    },
+    {
+      "level": "C1",
+      "title": "Rituals, Resistance, and the Art of Starting the Day",
+      "body": "I've thought quite a lot about my morning routine recently, partly because I went through a period where I felt completely disorganised at the start of every day, and it was affecting everything that came after. So I made a deliberate effort to build a structure that actually works for me.\n\nI get up at six-thirty, which wasn't easy to commit to at first. I used to have a deeply dysfunctional relationship with my alarm — I'd hit snooze two or three times, eventually drag myself out of bed in a mild panic, and rush through everything. It sounds absurd, but losing those thirty minutes of proper sleep wasn't even making me feel better rested. Once I understood that, it became easier to just get up.\n\nThe first thing I do now is avoid my phone entirely for at least twenty minutes. I know that sounds almost radical given how most people start their day, but I found that checking notifications the moment I woke up was setting a reactive tone for the whole morning. Instead, I make coffee — properly, with a French press — and sit for a few minutes in what I can only describe as deliberate quiet. It might sound indulgent, but I genuinely think it makes a difference to how I approach the first few hours of work.\n\nAfter that I have breakfast, which I try to make fairly substantial. I've noticed a clear correlation between eating properly in the morning and staying focused until lunchtime. Then I'll usually spend ten minutes reviewing what I need to get done that day — not obsessively, just a quick mental map.\n\nWhat I find hardest, honestly, is maintaining this routine when my schedule is disrupted — when I've had a late night, or when I'm travelling, or when the week simply gets away from me. On those days I notice how quickly the whole structure can unravel, and it reminds me that routines are more fragile than they feel when they're working well.\n\nIf I could refine anything further, it would be incorporating some form of physical movement in the morning. I've experimented with yoga and short runs, and both made a noticeable difference to my energy levels and mood throughout the day. The challenge is sustaining that when motivation is low — and I think that's something most people struggle with, not just me.",
+      "notes": "",
+      "wordCount": 398
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T11:31:20.560413+00:00"
+}

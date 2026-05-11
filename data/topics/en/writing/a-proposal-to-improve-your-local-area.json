@@ -1,0 +1,34 @@
+{
+  "id": "a-proposal-to-improve-your-local-area",
+  "language": "en",
+  "skill": "writing",
+  "order": 12,
+  "category": "Social Issues",
+  "title": "A Proposal to Improve Your Local Area",
+  "prompt": "Your local council has invited residents to submit written proposals for improving the local community. Write a proposal suggesting two or three specific changes that could be made to your town, neighbourhood, or city. For each idea, identify the problem it addresses, describe your proposed solution, and explain how local residents would benefit. Use a clear and formal tone throughout.",
+  "format": "Proposal · formal · 150–250 words",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Proposal to Improve Our Local Neighbourhood",
+      "body": "Introduction\n\nThe aim of this proposal is to suggest two improvements that could make our local area a better and more enjoyable place to live.\n\nMore Green Spaces\n\nAt the moment, there are very few parks or green areas in our neighbourhood. This is a problem because people, especially children and elderly residents, have nowhere pleasant to relax outside. I suggest that the council converts some empty land near the town centre into a small park with benches, trees, and a path for walking. This would give all residents a place to exercise and spend time outdoors.\n\nSafer Cycling Paths\n\nThere are also not enough safe cycling paths in our town. Many people would like to cycle to work or school, but the roads can be dangerous. Building dedicated cycle lanes on the main roads would encourage people to use their bikes instead of cars, which would help to reduce both traffic and air pollution.\n\nConclusion\n\nI believe these two improvements would make a real difference to the daily lives of local residents. Both projects are realistic and could be completed without very high costs. I hope the council will give these suggestions serious consideration.",
+      "notes": "",
+      "wordCount": 195
+    },
+    {
+      "level": "B2",
+      "title": "Proposal for Community Improvement Initiatives",
+      "body": "Introduction\n\nThis proposal outlines two targeted recommendations for improving quality of life in our local area. Both suggestions address issues that have been raised consistently by residents in recent community consultations.\n\nEnhancing Green and Recreational Spaces\n\nOur neighbourhood currently lacks adequate green space, with the nearest public park located over two kilometres from the town centre. This is a significant issue for families with young children, elderly residents, and anyone seeking accessible outdoor recreation without the means to travel further afield. I propose that the council develops the disused lot on Merchant Street into a well-maintained community garden and seating area. Research consistently demonstrates that access to green space reduces stress, promotes physical activity, and strengthens community bonds – all outcomes that would benefit the area in measurable ways.\n\nExpanding Sustainable Transport Infrastructure\n\nDespite growing demand for cycling among residents, the existing road network offers minimal safe provision for cyclists. Introducing dedicated cycle lanes along the three main arterial routes into the town centre would substantially reduce traffic congestion and carbon emissions while making active travel a realistic daily option for commuters of all ages and abilities.\n\nConclusion\n\nBoth proposals are practical, cost-effective relative to larger infrastructure projects, and would deliver lasting improvements to residents' wellbeing. I respectfully encourage the council to prioritise these initiatives in the forthcoming budget review and would welcome any opportunity to discuss them in greater detail.",
+      "notes": "",
+      "wordCount": 231
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T03:14:54.525779+00:00"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "what-does-success-mean-to-you",
+  "language": "en",
+  "skill": "speaking",
+  "order": 13,
+  "category": "Personal Opinion",
+  "title": "What Does Success Mean to You?",
+  "prompt": "Give your personal view on what success means. Do you think success is mainly about money and career, or are there other ways to measure it? Has your idea of success changed over time? Give examples and explain your reasoning.",
+  "format": "Opinion response · neutral/personal · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "More Than Just Money",
+      "body": "I think success means different things to different people, and it's important to have your own definition rather than following what society tells you.\n\nWhen I was younger, I thought success was mainly about having a good job and earning a lot of money. I think this is what many people believe, especially when they are just starting their careers. Society often judges people by what job they have or how much they earn, so it's easy to think these things are the most important.\n\nBut as I've got older, I've changed my view. Now I think success is more about being happy and having balance in your life. For me, this means doing work that I find meaningful, having good relationships with the people I care about, and having enough time to enjoy my hobbies and interests. I also think health is very important — if you are not well, it is difficult to enjoy other things.\n\nI know someone who has a very well-paid job but works very long hours and never has time for their family or friends. From the outside, they might look successful. But I don't think they feel very happy. In contrast, I have other friends who earn less but love what they do and have time for the people they love. I think they are more truly successful.\n\nOf course, money is necessary — you need enough to live comfortably and without stress. But beyond a certain point, I don't think more money makes you much happier. I think real success is about living a life that feels meaningful and satisfying to you personally.",
+      "notes": "",
+      "wordCount": 271
+    },
+    {
+      "level": "C1",
+      "title": "Redefining the Metric",
+      "body": "The question of what success means is one I've had to revisit several times as my circumstances and values have changed, and I've come to think that the conventional metrics — career status, income, visible achievement — are seductive precisely because they're legible. They offer a clear scoreboard in a domain where the real measures are much harder to quantify.\n\nI grew up in an environment where professional achievement was the dominant currency of respect. That shaped my ambitions in ways I wasn't always aware of — I made choices in my early twenties that were less about what I genuinely wanted than about what would look impressive from the outside, or what would satisfy expectations I'd absorbed without examining. I'm not sure I can claim to have fully escaped that influence, but I'm at least more conscious of it now.\n\nMy own working definition of success has gradually shifted towards something more relational and internal. Do I have enough autonomy to work in ways that suit my thinking? Am I engaged in things I'd find worth doing even if nobody was measuring them? Do I have time and energy for the people and interests that sustain me? These questions feel more honest to me than how am I doing relative to my peers, which is what career success often reduces to in practice.\n\nI'm also struck by the research on what people actually regret, which rarely includes wishing they'd worked harder or earned more. The patterns are more consistently relational — time with people, experiences not taken, connections not maintained. That seems like important data.\n\nWhere I want to push back a little is on the easy counter-narrative that money and ambition are simply traps. Financial security matters enormously for wellbeing — the anxiety of genuine insecurity is corrosive and restricts everything else. And there's real satisfaction in doing something well, in developing mastery, in achieving something difficult. I don't want to romanticise a rejection of ambition any more than I want to uncritically accept the cultural narrative of productivity as virtue.\n\nThe version of success I find most persuasive is something like: a life that you'd endorse on reflection, in which your choices align reasonably well with your actual values, and in which you've remained curious and connected. That's not a scoreboard — but I don't think success should be.",
+      "notes": "",
+      "wordCount": 392
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T11:31:20.562414+00:00"
+}

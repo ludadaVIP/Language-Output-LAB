@@ -1,0 +1,34 @@
+{
+  "id": "la-conciliacion-entre-trabajo-y-vida-personal",
+  "language": "es",
+  "skill": "speaking",
+  "order": 12,
+  "category": "Cuestiones sociales",
+  "title": "La conciliación entre trabajo y vida personal",
+  "prompt": "La conciliación entre la vida laboral y la vida personal es un tema cada vez más relevante en muchas sociedades. Describe el problema tal como lo ves, habla sobre sus causas y consecuencias, y propón medidas concretas que podrían ayudar tanto a nivel individual como a nivel empresarial o gubernamental.",
+  "format": "Presentación corta estructurada · registro neutro/formal · 2-3 minutos (B1) / 3-4 minutos (B2)",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Trabajar para vivir, no vivir para trabajar",
+      "body": "La conciliación entre el trabajo y la vida personal es un problema real para muchas personas. Yo lo he sentido en mi propia experiencia y lo veo también en personas de mi entorno.\n\nEl principal problema es que muchos trabajos exigen demasiadas horas y no dejan tiempo para la familia, los amigos o el descanso. Esto puede causar estrés, problemas de salud y dificultades en las relaciones personales. Las personas que tienen hijos pequeños lo notan especialmente, porque tienen que organizar el cuidado de los niños mientras trabajan.\n\nHay varias medidas que podrían ayudar. Por parte de las empresas, sería útil ofrecer horarios más flexibles y la posibilidad de trabajar desde casa cuando sea posible. También sería importante respetar el tiempo libre de los empleados y no enviarles correos fuera del horario laboral.\n\nPor parte del gobierno, se podrían crear más guarderías públicas y mejorar los permisos de maternidad y paternidad para que sean más largos e iguales para los dos progenitores.\n\nY a nivel individual, creo que es importante aprender a poner límites y a decir que no cuando el trabajo invade demasiado la vida personal. No siempre es fácil, pero es necesario para el bienestar. En resumen, este es un problema que requiere soluciones de todos: empresas, gobiernos y también nosotros mismos.",
+      "notes": "",
+      "wordCount": 214
+    },
+    {
+      "level": "B2",
+      "title": "Cuando la productividad se convierte en identidad",
+      "body": "Vivimos en una cultura que ha convertido la ocupación en un valor en sí mismo. Decir que estás muy ocupado se ha vuelto casi un indicador de estatus, lo cual dice mucho sobre por qué la conciliación sigue siendo tan difícil a pesar de los avances tecnológicos que, en teoría, deberían habernos liberado tiempo.\n\nLas causas del problema son múltiples y se refuerzan mutuamente. Por un lado, hay estructuras laborales que siguen premiando la presencialidad y las horas de trabajo sobre los resultados reales. Por otro, muchas personas han interiorizado tan profundamente la lógica productiva que sienten culpa genuina cuando descansan. A eso hay que añadir el impacto de la tecnología: los dispositivos móviles han borrado la frontera entre el tiempo de trabajo y el tiempo personal de una manera que antes era físicamente imposible.\n\nLas consecuencias son bien documentadas: deterioro de la salud mental, dificultades en las relaciones familiares y de pareja, y paradójicamente, menor rendimiento a largo plazo, porque la creatividad y la concentración requieren periodos de descanso real.\n\nEn cuanto a soluciones, me parece fundamental actuar en tres frentes simultáneamente. En el ámbito legislativo, medidas como el derecho a la desconexión digital o la regulación de jornadas máximas reales —no solo formales— son imprescindibles. En el ámbito empresarial, la cultura organizacional es clave: ninguna política de conciliación funciona si los mandos intermedios no dan ejemplo. Y en el plano individual, redefinir el éxito personal de una manera que incluya el bienestar y no solo el logro profesional es, quizás, el cambio más difícil pero también el más transformador.\n\nLa conciliación no debería ser un privilegio para quienes tienen empleos bien remunerados o jefes comprensivos. Debería ser un derecho estructural.",
+      "notes": "",
+      "wordCount": 282
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T03:02:57.353862+00:00"
+}

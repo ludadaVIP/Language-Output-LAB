@@ -1,0 +1,34 @@
+{
+  "id": "is-it-worth-taking-risks-in-life",
+  "language": "en",
+  "skill": "speaking",
+  "order": 22,
+  "category": "Personal Opinion",
+  "title": "Is It Worth Taking Risks in Life?",
+  "prompt": "Give your opinion on the value of taking risks — in your career, relationships, or personal life. What kinds of risks do you think are worth taking? Have you ever taken a risk that paid off, or one that didn't? What does your experience tell you about how to approach risk?",
+  "format": "Opinion response · neutral/personal · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Taking a Chance",
+      "body": "I think taking risks is an important part of life, even though it can be scary. If we never take any risks, we might miss a lot of opportunities and always wonder what might have been.\n\nI took a risk a couple of years ago when I decided to leave a job that was stable but that I didn't really enjoy. I wasn't sure if I would find something better, and some people around me thought it was a bad idea. But I decided to try, and after a few months of uncertainty, I found a job that I find much more interesting and rewarding. I'm very glad I took that risk.\n\nOf course, not all risks work out. I have also taken risks that didn't go as planned. Once I invested time and money in a project that didn't succeed. It was disappointing, but I also learned a lot from the experience and I didn't regret trying.\n\nI think the key is to think carefully before taking a risk. It's good to ask yourself: what is the worst that could happen, and could I deal with that? If the worst case is manageable, then maybe the risk is worth taking. I also think it helps to have some kind of plan or safety net before you leap.\n\nI believe risks that are related to your personal growth — like trying something new, speaking up, or making a big change — are often worth taking. The risks I would be more careful about are ones that could seriously harm other people or that are completely irreversible.\n\nOverall, I think a life without any risk is a life with fewer possibilities, and I would rather try and sometimes fail than never try at all.",
+      "notes": "",
+      "wordCount": 293
+    },
+    {
+      "level": "C1",
+      "title": "Risk, Regret, and the Asymmetry of Inaction",
+      "body": "There's an asymmetry in how we process risk that I find worth examining. We tend to feel potential losses more acutely than equivalent gains — a cognitive pattern that's well-documented in behavioural economics — which means that our intuitive risk assessments are systematically biased towards inaction. We overweight the concrete cost of trying and failing; we underweight the diffuse, harder-to-see cost of not trying at all. Regret for things not done, research consistently shows, dominates regret for things attempted over the long term. That seems like important information.\n\nI've taken a few risks in my life that I'd call genuinely significant. One was leaving a stable position to pursue work I found more meaningful, at a point when the financial timing was not particularly sensible. Another was moving abroad with no job confirmed and an imperfect grasp of the language. In both cases, the decision was uncomfortable precisely because it couldn't be made rationally in the usual sense — there was no analysis that would resolve the uncertainty, only a judgment about whether the potential gain was worth the possible cost.\n\nWhat I've noticed, reflecting on both experiences, is that the risks that were most worth taking were not the ones with the highest upside, but the ones most aligned with a clear sense of what I actually valued. Risk for its own sake — the thrill of uncertainty, the social cachet of being someone who makes bold moves — tends not to produce much beyond a good story. Risk in the service of something you genuinely care about is different in quality.\n\nI'm also wary of the culturally popular narrative that reframes every failure as a gift. Sometimes failures are instructive; sometimes they're just failures, and that needs to be acknowledged honestly before the learning can be extracted. Refusing to sit with the fact that something went wrong doesn't help you understand why.\n\nWhat I'd say about how to approach risk is this: distinguish between reversible and irreversible decisions, and apply much more scrutiny to the latter. For reversible decisions, the cost of experimentation is low and the potential gain from information is high — a bias towards action makes sense. For truly irreversible decisions — ones that foreclose options permanently — more caution is warranted. That distinction, rather than a blanket philosophy of boldness or caution, is what I try to apply.",
+      "notes": "",
+      "wordCount": 394
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T11:31:20.565417+00:00"
+}

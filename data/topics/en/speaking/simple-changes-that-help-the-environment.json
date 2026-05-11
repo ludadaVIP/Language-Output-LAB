@@ -1,0 +1,34 @@
+{
+  "id": "simple-changes-that-help-the-environment",
+  "language": "en",
+  "skill": "speaking",
+  "order": 11,
+  "category": "Environment",
+  "title": "Simple Changes That Help the Environment",
+  "prompt": "Talk about small, everyday changes that individuals can make to reduce their environmental impact. Describe the changes you have made or would like to make in your own life, explain why you think individual action matters, and address the argument that governments and large companies should be responsible instead.",
+  "format": "Opinion response · neutral · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "My Part in Protecting the Planet",
+      "body": "I think everyone can do small things to help the environment, and these small things add up. In my own life, I have already made some changes. For example, I try to use a reusable bag when I go shopping instead of taking plastic bags. I also try to recycle as much as possible — paper, glass, and plastic.\n\nAnother change I have made is drinking tap water instead of buying plastic bottles. This is better for the environment and also cheaper. I have also started to eat less meat. I don't think everyone needs to become a vegetarian, but eating meat a few times a week instead of every day can make a real difference.\n\nOne thing I would like to do in the future is use public transport more. At the moment, I sometimes drive because it is more convenient, but I know that cars produce a lot of pollution. I think if more people used buses or trains, it would be much better for air quality in cities.\n\nSome people say that it's not fair to ask individuals to change when big companies and governments cause most of the pollution. I think this is a fair point, and governments definitely need to do more. But I don't think we should use that as an excuse to do nothing ourselves. If millions of people make small changes, it really does make a difference. We can also use our choices as a kind of message — buying more sustainable products tells companies that this is what people want.\n\nI think environmental responsibility is something we all share, and every action counts.",
+      "notes": "",
+      "wordCount": 272
+    },
+    {
+      "level": "C1",
+      "title": "Individual Action and Its Limits",
+      "body": "The question of what individuals can and should do about the environment is one I find genuinely complex, and I want to resist the temptation to give either a comfortably optimistic or a cynically dismissive answer.\n\nOn the practical side, I've made changes to my own habits that I think are meaningful: I haven't owned a car for several years, I eat a predominantly plant-based diet, I'm careful about flying, and I try to buy secondhand where it's feasible. These aren't sacrifices I find particularly burdensome — most of them have become habitual — but I'm under no illusion that they're sufficient, or that the sum of individual behavioural changes is going to avert a systemic crisis.\n\nThe counterargument — that framing environmental action as primarily an individual responsibility deflects attention from the fossil fuel industry's role and governments' regulatory failures — has real force. That history matters, and I think the environmental movement has sometimes been too willing to place the burden on consumer behaviour when structural change is what actually moves the needle at scale.\n\nAnd yet I don't think individual action is therefore pointless. The choices people make collectively do shape markets, signal values, and normalise behaviours that can then be built upon. When enough people stop treating single-use plastic as inevitable, it becomes politically easier to regulate it. Consumer behaviour is not disconnected from political and economic change; it's one of the inputs.\n\nWhat I find most persuasive is the argument for engaged citizenship rather than pure lifestyle adjustment. Voting for policies that price carbon, advocating for better public transport, supporting planning decisions that enable denser, lower-carbon living — these are forms of individual action too, and probably more consequential than any amount of reusable bags. The most honest position is that both matter, but they matter at different scales, and we shouldn't confuse doing one with having done enough.",
+      "notes": "",
+      "wordCount": 314
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T11:31:20.562414+00:00"
+}

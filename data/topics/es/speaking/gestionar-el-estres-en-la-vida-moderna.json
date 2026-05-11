@@ -1,0 +1,34 @@
+{
+  "id": "gestionar-el-estres-en-la-vida-moderna",
+  "language": "es",
+  "skill": "speaking",
+  "order": 10,
+  "category": "Salud",
+  "title": "Gestionar el estrés en la vida moderna",
+  "prompt": "El estrés es uno de los problemas de salud más comunes en la sociedad actual. Describe las principales causas del estrés en tu vida o en la vida de las personas que conoces. Propón soluciones concretas y explica cuáles funcionan mejor en tu experiencia. ¿Crees que la sociedad trata el tema del bienestar mental con suficiente seriedad?",
+  "format": "Respuesta de resolución de problemas · registro neutro/reflexivo · 2-3 minutos (B1) / 3-4 minutos (B2)",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Pequeños cambios para sentirse mejor",
+      "body": "El estrés es algo que muchas personas sienten hoy en día, incluyéndome a mí. Las causas principales en mi caso son el trabajo, las responsabilidades económicas y, a veces, la sensación de no tener suficiente tiempo para todo.\n\nPara manejar el estrés, hay varias cosas que me ayudan. La primera es hacer ejercicio regularmente. Cuando voy al gimnasio o salgo a correr, me siento mucho mejor después. También intento dormir al menos ocho horas, porque cuando duermo poco todo me parece más difícil.\n\nOtra cosa que funciona para mí es hablar con alguien de confianza cuando me siento agobiado. A veces solo necesito explicar lo que me pasa para sentirme más tranquilo. Y siempre intento desconectar del móvil al menos una hora antes de dormir.\n\nSobre si la sociedad toma en serio la salud mental, creo que ha mejorado mucho en los últimos años. Antes era un tema del que no se hablaba. Ahora hay más programas de ayuda y menos estigma. Pero todavía hay mucho que hacer. Muchas empresas no ofrecen apoyo psicológico a sus empleados, y en algunos países el acceso a un psicólogo es muy caro. Creo que la salud mental debería tratarse igual que la salud física.",
+      "notes": "",
+      "wordCount": 201
+    },
+    {
+      "level": "B2",
+      "title": "El estrés como síntoma de algo más profundo",
+      "body": "El estrés se ha convertido en una especie de estado de fondo de la vida contemporánea: tan presente que a veces ya ni lo reconocemos como algo anormal. Pero antes de hablar de soluciones, creo que vale la pena detenerse un momento en las causas, porque a menudo las abordamos de forma superficial.\n\nEn mi experiencia y en la de las personas de mi entorno, el estrés rara vez tiene una sola causa. Es, más bien, la acumulación de factores: la presión laboral, la incertidumbre económica, la hiperconectividad que hace que el trabajo invada el tiempo personal, y la sensación de que hay que estar en todo y rendir en todo simultáneamente. A eso se añade, paradójicamente, el exceso de opciones que caracteriza a las sociedades modernas: más libertad formal no siempre se traduce en más bienestar real.\n\nEn cuanto a soluciones, las que funcionan en mi caso son las que tienen consistencia en el tiempo: el ejercicio regular, no como moda sino como hábito; el sueño prioritario —algo que muchos sacrifican sin darse cuenta del coste cognitivo y emocional—; y establecer límites claros entre el tiempo de trabajo y el tiempo personal, lo cual en la era del teletrabajo exige una disciplina activa.\n\nDicho esto, me parece importante no reducir el problema al individuo. Hablar solo de técnicas de gestión del estrés sin cuestionar las estructuras que lo generan es como poner una tirita sobre algo que requiere una intervención más profunda. En ese sentido, creo que la sociedad avanza, pero lentamente: el bienestar mental está ganando visibilidad, pero todavía hay un abismo entre el discurso y las políticas concretas que lo respaldan, tanto en el ámbito empresarial como en el sanitario.",
+      "notes": "",
+      "wordCount": 283
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T03:02:57.352862+00:00"
+}

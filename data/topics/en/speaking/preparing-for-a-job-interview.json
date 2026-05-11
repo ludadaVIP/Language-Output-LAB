@@ -1,0 +1,34 @@
+{
+  "id": "preparing-for-a-job-interview",
+  "language": "en",
+  "skill": "speaking",
+  "order": 6,
+  "category": "Work",
+  "title": "Preparing for a Job Interview",
+  "prompt": "Imagine you have a job interview coming up for a position you really want. Describe how you would prepare for it. Talk about the steps you would take before the interview, what you think interviewers are looking for, and how you would handle a question you find difficult to answer. You can refer to a real or imaginary job.",
+  "format": "Problem-solving response · neutral/personal · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Getting Ready for the Big Day",
+      "body": "I think preparing for a job interview is very important because it helps you feel more confident. If I had an interview coming up, the first thing I would do is research the company. I would look at their website to understand what they do and what kind of people they are looking for.\n\nThen I would think about common interview questions and practise my answers. Questions like 'Tell me about yourself' or 'What are your strengths and weaknesses?' are very common, so I would prepare these in advance. I might also practise with a friend or in front of a mirror so I get used to speaking out loud.\n\nI would also prepare some questions to ask the interviewer, because I think this shows that you are interested in the job. Questions like 'What does a typical day look like?' or 'What are the opportunities for development?' are good ones to ask.\n\nOn the day of the interview, I would make sure to arrive a few minutes early and wear appropriate clothes. First impressions are very important.\n\nIf I got a difficult question that I didn't know how to answer, I think I would try to stay calm and take a moment to think. It's okay to say 'That's a good question — let me think for a moment.' I think being honest is better than making something up.\n\nInterviewers are probably looking for someone who is motivated, reliable, and able to communicate well. So I would try to show those qualities in everything I say and do during the interview.",
+      "notes": "",
+      "wordCount": 262
+    },
+    {
+      "level": "C1",
+      "title": "The Interview as a Two-Way Conversation",
+      "body": "Preparing for a job interview is something I take quite seriously, and over time I've developed an approach that goes well beyond simply rehearsing answers to predictable questions.\n\nThe first thing I do is research the organisation thoroughly — not just their website, but recent news, their stated values, and any publicly available information about their culture or challenges. I want to understand not only what they do, but where they're heading and what kind of problems they're trying to solve. This shapes how I frame my experience and makes it far easier to draw genuine connections between my background and their actual needs.\n\nIn terms of preparing answers, I try to use structured frameworks to ensure my examples are specific and relevant rather than vague generalisations. I also think carefully about the narrative I'm presenting: how the arc of my career makes sense, what I've learned from setbacks, and what genuinely motivates me. Authenticity matters enormously in interviews; most experienced interviewers are very good at detecting when someone is performing rather than communicating.\n\nHandling difficult questions is something I've had to become more comfortable with. My instinct used to be to fill silence immediately, which often led to poorly constructed answers. Now I give myself explicit permission to pause — to actually think before speaking. If a question catches me off guard, I'll acknowledge it directly: 'That's something I haven't been asked before; let me take a moment.' I find that interviewers generally respect this far more than a confident but hollow response.\n\nWhat I think interviewers are fundamentally assessing — beyond technical competence — is judgment, self-awareness, and the ability to communicate clearly under mild pressure. They want to know whether you understand yourself well enough to describe your contribution honestly, and whether you're curious enough to have thought carefully about the role.\n\nOne thing I've come to believe strongly is that a good interview should feel like a two-way conversation. I ask substantive questions about the team, the decision-making culture, and what success looks like in the role — not to impress, but because those things genuinely matter to me. If I leave an interview feeling I've learned nothing about the organisation, that itself tells me something important.",
+      "notes": "",
+      "wordCount": 371
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T11:31:20.560413+00:00"
+}

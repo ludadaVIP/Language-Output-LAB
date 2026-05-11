@@ -1,0 +1,34 @@
+{
+  "id": "managing-personal-finances",
+  "language": "en",
+  "skill": "speaking",
+  "order": 23,
+  "category": "Daily Life",
+  "title": "Managing Personal Finances",
+  "prompt": "Talk about the challenges of managing money in everyday life. How do you approach budgeting and saving? What financial habits do you think are most important, and why? What advice would you give to someone who is finding it hard to manage their money?",
+  "format": "Problem-solving response · neutral/personal · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Simple Steps for Saving",
+      "body": "Managing money is something that many people find difficult, especially when they are young or when their income is not very high. I think it's a really important skill to develop, and it's something I have had to learn gradually.\n\nThe most helpful thing I have done is to track my spending. I use an app on my phone that shows me where my money goes each month. When I started doing this, I was quite surprised — I was spending a lot more on small things like coffee and takeaways than I had realised. Seeing the numbers helped me make better decisions.\n\nI also try to follow a simple rule: I save a small amount from every month's income before I spend anything else. Even if it's not a lot, putting something aside regularly means your savings grow over time. I think the key is to make saving automatic rather than trying to save whatever is left over at the end of the month, because often there is nothing left.\n\nFor someone who is struggling with money, I would suggest starting by writing down all their regular expenses — rent, bills, food, transport — so they can see what they must spend each month. Then they can look at what's left and think about where they can make small cuts. It doesn't have to be drastic — reducing one or two unnecessary expenses can already make a difference.\n\nI also think it's worth building a small emergency fund — enough to cover one or two months of essential expenses. This gives you a safety net if something unexpected happens, which reduces a lot of financial stress.\n\nOverall, I think the most important financial habits are tracking your spending, saving regularly, and avoiding debt for things you don't really need.",
+      "notes": "",
+      "wordCount": 300
+    },
+    {
+      "level": "C1",
+      "title": "The Psychology of Money and the Limits of Willpower",
+      "body": "Personal finance is an area where the gap between what people know they should do and what they actually do is particularly large — and that gap is interesting, because it reveals something important about how financial behaviour actually works.\n\nThe standard advice — budget carefully, spend less than you earn, save consistently, avoid high-interest debt — is not wrong. But it frames financial management as primarily a question of knowledge and discipline, when the evidence from behavioural economics suggests it's more fundamentally a question of psychology and system design. People make consistently irrational decisions around money not because they lack information, but because money is emotionally loaded, temporally distorted — we systematically discount future costs and benefits — and subject to the same cognitive biases that affect every other domain of decision-making.\n\nMy own financial behaviour changed most significantly not when I learned more about personal finance in the abstract, but when I changed my defaults. I set up automatic transfers to savings on the day my salary arrives, so the decision doesn't need to be made repeatedly in competition with immediate spending impulses. I removed my card details from online shopping platforms, which created just enough friction to reduce impulsive purchases substantially. These are relatively small structural interventions, but their effect has been more durable than any amount of resolving to be more disciplined.\n\nFor someone genuinely struggling, I think the most important first step is diagnostic honesty: understanding where the money is actually going, without the rounding errors and selective memory that tend to distort our self-assessments. Most people significantly underestimate certain categories of spending — food, socialising, subscriptions — because the transactions are small and frequent rather than large and visible. A month of honest tracking tends to be revelatory.\n\nBeyond that, I'd emphasise the importance of establishing a small emergency buffer before focusing on longer-term goals. The absence of any financial cushion means that every unexpected expense becomes a crisis, and crisis conditions are exactly when people make the most financially damaging decisions: taking on high-interest debt, cashing out savings, or simply shutting down financially because the stress is too great.\n\nThe deeper issue, which personal advice can only partially address, is that financial precarity is partly structural — produced by stagnant wages, housing costs, and a weakened social safety net in many countries. Treating it as purely a problem of individual financial literacy risks obscuring the ways in which the system makes responsible behaviour genuinely difficult for a significant proportion of people. That context deserves acknowledgment, even in a conversation primarily about personal strategies.",
+      "notes": "",
+      "wordCount": 430
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T11:31:20.565417+00:00"
+}

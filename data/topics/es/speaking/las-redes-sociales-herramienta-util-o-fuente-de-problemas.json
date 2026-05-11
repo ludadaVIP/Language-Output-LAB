@@ -1,0 +1,34 @@
+{
+  "id": "las-redes-sociales-herramienta-util-o-fuente-de-problemas",
+  "language": "es",
+  "skill": "speaking",
+  "order": 7,
+  "category": "Tecnología",
+  "title": "Las redes sociales: ¿herramienta útil o fuente de problemas?",
+  "prompt": "Compara el uso de las redes sociales desde dos perspectivas distintas: sus beneficios para la comunicación, la información y las oportunidades profesionales, y sus efectos negativos sobre la salud mental, la privacidad y las relaciones interpersonales. Al final, expresa tu postura personal con argumentos concretos.",
+  "format": "Tarea de comparación y opinión · registro neutro · 2-3 minutos (B1) / 3-4 minutos (B2)",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Ventajas e inconvenientes de las redes sociales",
+      "body": "Las redes sociales forman parte de la vida de mucha gente hoy en día. Yo las uso todos los días, así que tengo una opinión bastante clara sobre sus ventajas e inconvenientes.\n\nPor un lado, son muy útiles para comunicarse con personas que están lejos, para compartir información rápidamente y para estar al día de las noticias. También pueden ser una buena herramienta para encontrar trabajo o para dar a conocer un negocio. Muchos artistas y pequeñas empresas han conseguido más clientes gracias a las redes sociales.\n\nPor otro lado, tienen efectos negativos que no podemos ignorar. Muchas personas pasan demasiado tiempo mirando el móvil y se sienten mal cuando comparan su vida con la de otros. Además, hay problemas serios de privacidad, porque las empresas utilizan nuestros datos sin que siempre lo sepamos. También es fácil encontrar información falsa en estas plataformas.\n\nEn mi opinión, las redes sociales pueden ser muy útiles si las usamos de forma consciente y con límites. El problema no es la tecnología en sí misma, sino cómo la usamos. Yo intento no mirar el móvil antes de dormir y limitar el tiempo que paso en estas aplicaciones. Creo que es importante aprender a usarlas bien desde pequeño.",
+      "notes": "",
+      "wordCount": 203
+    },
+    {
+      "level": "B2",
+      "title": "Una relación de amor y dependencia con las redes",
+      "body": "Las redes sociales son probablemente la innovación tecnológica que más ha transformado la vida cotidiana en las últimas dos décadas, y el debate sobre su impacto está lejos de ser sencillo. Intentaré abordarlo desde ambos lados antes de dar mi postura.\n\nDesde una perspectiva favorable, es innegable que han democratizado el acceso a la información y a la comunicación de una manera sin precedentes. Una persona en un pueblo remoto puede hoy conectar con comunidades, acceder a conocimiento especializado o hacer crecer un proyecto profesional con herramientas que antes solo estaban al alcance de grandes organizaciones. En el ámbito del activismo social, las redes han jugado un papel fundamental en movimientos que habrían tenido mucho más difícil visibilizarse con los medios tradicionales.\n\nSin embargo, los efectos secundarios son igualmente significativos. La evidencia acumulada sobre el impacto de estas plataformas en la salud mental —especialmente en adolescentes— es cada vez más preocupante. Los mecanismos de recompensa variable que utilizan para mantener la atención del usuario están diseñados deliberadamente para generar dependencia, no para favorecer el bienestar. A eso hay que añadir la proliferación de desinformación y la mercantilización sistemática de datos personales.\n\nMi postura es ambivalente, y creo que lo honesto es reconocer esa ambigüedad. Las redes sociales no son intrínsecamente buenas ni malas: son herramientas cuyo impacto depende en parte del usuario, pero también —y esto me parece crucial— del diseño de los propios sistemas y de los marcos regulatorios que los gobiernan. Exigir responsabilidad a las plataformas me parece igual de importante que fomentar una alfabetización digital crítica desde edades tempranas. Sin ambas cosas, el equilibrio es muy difícil de alcanzar.",
+      "notes": "",
+      "wordCount": 272
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T03:02:57.352862+00:00"
+}

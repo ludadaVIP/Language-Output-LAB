@@ -1,0 +1,34 @@
+{
+  "id": "complaining-about-a-faulty-product",
+  "language": "en",
+  "skill": "writing",
+  "order": 6,
+  "category": "Work",
+  "title": "Complaining About a Faulty Product",
+  "prompt": "You recently bought a laptop from an online store. When it arrived, the screen was cracked and the keyboard was not working properly. You have already tried to contact the company by phone three times but received no response. Write a formal complaint email to the company's customer service department. Explain what happened, describe the faults clearly, and state what action you would like the company to take.",
+  "format": "Formal complaint email · formal · 150–250 words",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Complaint About a Damaged Laptop",
+      "body": "Dear Customer Service,\n\nI am writing to complain about a laptop that I ordered from your website on 15 April. My order number is 784521.\n\nWhen the laptop arrived, I was very disappointed. The screen was cracked and the keyboard was not working correctly. I tried to call your customer service number three times last week, but no one answered.\n\nThis is not acceptable. I paid full price for this product and I expected it to arrive in perfect condition. Because the laptop does not work, I am unable to use it for my job.\n\nI would like you to send me a replacement laptop as soon as possible. If this is not possible, I would like a full refund. I am happy to return the damaged item at your convenience.\n\nI hope you will resolve this problem quickly. Please contact me at the email address below. I look forward to your reply.\n\nYours faithfully,\n[Name]",
+      "notes": "",
+      "wordCount": 156
+    },
+    {
+      "level": "B2",
+      "title": "Formal Complaint Regarding a Defective Laptop",
+      "body": "Dear Customer Services,\n\nI am writing to formally raise a complaint regarding an order placed through your website on 15 April (Order No. 784521). I purchased a laptop to the value of £899 and am deeply dissatisfied with both the condition of the product and the standard of customer support I have received since.\n\nUpon opening the parcel, I discovered that the laptop screen was visibly cracked and the keyboard was unresponsive across several keys. As this is clearly a pre-delivery fault rather than the result of any mishandling on my part, I believe I am entitled to a full remedy under the terms of your returns policy and applicable consumer protection legislation.\n\nI have made three attempts to contact your team by telephone over the past week; however, none of my calls were answered and I was not offered the option to leave a voicemail. This lack of response is, frankly, unacceptable for a company of your standing.\n\nI would therefore request either a direct replacement of the faulty unit or a full refund, whichever your company prefers to arrange. I expect a written response within five working days. Should I not hear from you, I will have no choice but to escalate this matter to the relevant consumer protection authority.\n\nYours faithfully,\n[Name]",
+      "notes": "",
+      "wordCount": 215
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T03:14:54.524778+00:00"
+}

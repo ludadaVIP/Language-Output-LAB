@@ -1,0 +1,34 @@
+{
+  "id": "mis-rutinas-y-estilo-de-vida",
+  "language": "es",
+  "skill": "speaking",
+  "order": 4,
+  "category": "Vida cotidiana",
+  "title": "Mis rutinas y estilo de vida",
+  "prompt": "Habla sobre tu rutina diaria y tu estilo de vida. Describe cómo organizas tu tiempo entre el trabajo o los estudios, el ocio y las responsabilidades del hogar. Explica qué aspectos de tu rutina te resultan satisfactorios y cuáles cambiarías si pudieras. Comenta también si crees que llevas un estilo de vida equilibrado y por qué.",
+  "format": "Monólogo personal · registro neutro/personal · 2-3 minutos (B1) / 3-4 minutos (B2)",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Una rutina con sus altos y bajos",
+      "body": "Mi rutina diaria es bastante organizada, aunque a veces me parece un poco repetitiva. Normalmente me levanto a las siete de la mañana, desayuno algo rápido y salgo de casa antes de las ocho para llegar al trabajo a tiempo.\n\nDurante la semana trabajo de nueve a cinco. Cuando termino, suelo ir al gimnasio dos o tres veces por semana porque me ayuda a desconectar. Los otros días vuelvo directamente a casa y preparo la cena. Intento cenar con mi familia o con mis compañeros de piso, porque me gusta ese momento del día.\n\nLos fines de semana tengo más libertad. Me gusta quedar con amigos, ver películas o salir a dar un paseo. También dedico tiempo a limpiar el apartamento y hacer la compra, que son cosas que no tengo tiempo de hacer entre semana.\n\nCreo que mi estilo de vida es bastante equilibrado, pero me gustaría tener más tiempo libre. A veces siento que la semana pasa muy rápido y no hago todo lo que quiero. Si pudiera cambiar algo, organizaría mejor las mañanas para no tener siempre tanta prisa. En general, estoy contento con cómo vivo, pero sé que podría cuidarme un poco más, por ejemplo durmiendo más horas.",
+      "notes": "",
+      "wordCount": 202
+    },
+    {
+      "level": "B2",
+      "title": "El equilibrio entre obligaciones y bienestar personal",
+      "body": "Vivimos en una sociedad que valora mucho la productividad, y eso se refleja inevitablemente en cómo organizamos el día a día. Mi rutina no es una excepción: está estructurada en torno al trabajo, pero intento conscientemente que no lo monopolice todo.\n\nMe levanto temprano, alrededor de las seis y media, no porque me resulte fácil, sino porque he comprobado que esa primera hora tranquila antes de que empiece el ruido del día me ayuda a rendir mejor. Aprovecho ese tiempo para leer, tomar un café con calma o simplemente organizar mentalmente lo que tengo por delante.\n\nEl trabajo ocupa la mayor parte del día, como le ocurre a casi todo el mundo. Lo que intento es trazar una línea clara entre el tiempo profesional y el personal, algo que no siempre resulta sencillo, especialmente desde que el teletrabajo se ha vuelto más común. La tentación de revisar el correo por la noche existe, y reconozco que no siempre la resisto.\n\nPor las tardes, dedico tiempo al ejercicio físico, que considero fundamental no solo para la salud, sino también para el estado de ánimo. También procuro leer ficción o escuchar podcasts, actividades que me permiten mantener la curiosidad intelectual más allá del ámbito laboral.\n\nSi hago una valoración honesta, diría que mi estilo de vida es razonablemente equilibrado, aunque mejorable. El aspecto que cambiaría con más urgencia sería aprender a desconectar de verdad durante el fin de semana, sin culpa. Creo que el verdadero bienestar no consiste solo en tener tiempo libre, sino en saber aprovecharlo sin la sensación constante de que deberías estar haciendo otra cosa.",
+      "notes": "",
+      "wordCount": 266
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T03:02:57.351985+00:00"
+}

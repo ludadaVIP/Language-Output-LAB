@@ -1,0 +1,34 @@
+{
+  "id": "should-university-education-be-free",
+  "language": "en",
+  "skill": "writing",
+  "order": 5,
+  "category": "Education",
+  "title": "Should University Education Be Free?",
+  "prompt": "Some people believe that university education should be free for all students, while others think that students should pay tuition fees. Write an opinion essay giving your personal view on this topic. Support your argument with clear reasons, acknowledge the opposing view briefly, and finish with a strong conclusion.",
+  "format": "Opinion essay · neutral/formal · 150–250 words",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "University Should Be Free for Everyone",
+      "body": "Many young people want to go to university but cannot afford the fees. In my opinion, university education should be free for all students, and I will explain why.\n\nFirst of all, education is very important for a person's future. If students have to pay a lot of money, people from poorer families will not be able to study. This is unfair because everyone should have the same opportunities.\n\nSecondly, when more people go to university, the whole country benefits. Graduates find better jobs, earn more money, and pay more taxes. This is good for the economy.\n\nI know that some people think students should pay fees because free education is very expensive for governments. However, I believe that investing in education is always worth it in the long term.\n\nIn conclusion, I think university education should be free. It gives everyone an equal chance and helps the whole of society. Governments should find ways to fund it so that no young person misses out on this opportunity.",
+      "notes": "",
+      "wordCount": 168
+    },
+    {
+      "level": "B2",
+      "title": "The Case for Tuition-Free Higher Education",
+      "body": "The question of whether university should be free has divided opinion in many countries. While there are legitimate concerns about the cost to the public purse, I firmly believe that making higher education free would ultimately benefit both individuals and society as a whole.\n\nThe most compelling argument in favour of free tuition is that it removes a significant barrier for students from lower-income backgrounds. When young people are forced to choose between taking on decades of debt and abandoning their academic ambitions, the resulting inequality of opportunity is difficult to justify in a fair society. Talent and drive, not financial circumstance, should determine who gains access to higher education.\n\nFurthermore, a more educated workforce strengthens the economy. Graduates typically earn higher salaries, pay more in taxes, and drive innovation across sectors. The initial investment governments make in free tuition is therefore likely to generate substantial long-term returns.\n\nOpponents argue that those who benefit most financially from a degree should contribute to its cost. This is not an unreasonable position; however, countries such as Norway and Germany have demonstrated that well-funded, tuition-free systems are entirely achievable.\n\nIn conclusion, the benefits of free university education far outweigh the challenges of funding it. Widening access to learning is not merely a financial decision – it is a matter of social justice.",
+      "notes": "",
+      "wordCount": 219
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T03:14:54.524778+00:00"
+}

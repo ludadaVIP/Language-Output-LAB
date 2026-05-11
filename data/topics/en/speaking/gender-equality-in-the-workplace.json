@@ -1,0 +1,34 @@
+{
+  "id": "gender-equality-in-the-workplace",
+  "language": "en",
+  "skill": "speaking",
+  "order": 20,
+  "category": "Social Issues",
+  "title": "Gender Equality in the Workplace",
+  "prompt": "Discuss the issue of gender equality in the workplace. What progress has been made, and what challenges remain? Consider issues such as the pay gap, leadership representation, and work-life balance. Give a balanced response, including different perspectives, and share your own view.",
+  "format": "Balanced opinion task · neutral/formal · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Still Work to Do",
+      "body": "I think gender equality in the workplace is something that has improved a lot in recent decades, but there is still more work to be done.\n\nOn the positive side, there are now more women in senior positions and leadership roles than ever before, and laws in many countries make it illegal to discriminate based on gender. More companies are also talking about the importance of diversity and inclusion, which is encouraging.\n\nHowever, there are still some important problems. The gender pay gap — the difference in earnings between men and women — still exists in many industries. Some people argue that this is because women often choose different jobs or work part-time to care for children. But I think there are also cases where women are simply paid less for the same work, which is not fair.\n\nAnother issue is that women are still underrepresented at the top of many organisations. Even when women have the same skills and qualifications as men, they sometimes face barriers to promotion. This might be because of unconscious bias or because workplace culture has traditionally been built around patterns that don't work equally well for everyone.\n\nWork-life balance is also a challenge. Women still do more unpaid care work at home on average, which can affect their career progress. I think companies and governments need to do more to support working parents — for example, by offering better parental leave for both mothers and fathers.\n\nOverall, I believe gender equality in the workplace is a goal worth working towards for everyone, not just women. A more equal and inclusive workplace benefits society as a whole.",
+      "notes": "",
+      "wordCount": 272
+    },
+    {
+      "level": "C1",
+      "title": "The Structural and the Cultural in Workplace Gender Inequality",
+      "body": "The discourse around workplace gender equality has matured considerably in recent years, moving beyond simple questions of formal access to more nuanced analysis of why structural inequalities persist even in environments with good intentions and strong policies. I think this shift in framing is both necessary and overdue.\n\nThe headline facts are well-rehearsed: women remain underrepresented in senior leadership across most industries; a gender pay gap persists even after controlling for occupation and hours; and women continue to carry a disproportionate share of unpaid domestic and caring labour, which both directly reduces their capacity for paid work and shapes employers' unconscious assumptions about their availability and commitment.\n\nThe debate becomes more contested when it comes to causation. A common counterargument attributes much of the gap and leadership underrepresentation to individual choices — the occupations women pursue, the hours they work, their willingness to negotiate salaries. There is some empirical substance to this: occupational segregation is real and does explain a portion of the aggregate gap. But I think this framing systematically underweights the structural and cultural factors that shape those choices. If women are disproportionately choosing lower-paid, caring-oriented occupations, that might reflect genuine preferences — or it might reflect social expectations, differential discouragement at early stages of education and career, and the rational response to a domestic economy that still largely assumes the primary carer will be female.\n\nThe evidence on unconscious bias in hiring, promotion, and performance evaluation is substantial and fairly consistent: identical applications are rated differently depending on the name at the top; identical verbal contributions in meetings are received differently depending on the gender of the speaker. Dismissing these effects as marginal or anecdotal seems increasingly untenable.\n\nWhat I find most compelling from a policy standpoint is the evidence on structural interventions rather than individual behavioural change. Equalising parental leave entitlements — particularly making well-paid paternity leave a genuine option — tends to have measurable effects on both domestic labour distribution and women's career trajectories. Pay transparency, which several countries have introduced, has also produced evidence of gap reduction.\n\nMy own view is that this is not a zero-sum issue. Workplaces that draw from the full talent pool rather than a gendered subset perform better on multiple measures, and cultures in which care is genuinely valued rather than penalised are better for everyone — including the men who currently feel unable to prioritise it.",
+      "notes": "",
+      "wordCount": 398
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T11:31:20.564417+00:00"
+}

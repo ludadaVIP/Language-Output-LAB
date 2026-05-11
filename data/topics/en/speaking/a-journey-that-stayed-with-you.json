@@ -1,0 +1,34 @@
+{
+  "id": "a-journey-that-stayed-with-you",
+  "language": "en",
+  "skill": "speaking",
+  "order": 9,
+  "category": "Travel",
+  "title": "A Journey That Stayed with You",
+  "prompt": "Describe a trip or journey that had a strong effect on you — it could be a holiday, a short trip, or even an unexpected journey. Tell the story of what happened, explain what made it memorable, and reflect on what it taught you about yourself or the world.",
+  "format": "Narrative monologue · informal/personal · 2-3 minutes",
+  "levelRange": "B1 - C1",
+  "levels": [
+    "B1",
+    "C1"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "My First Solo Trip",
+      "body": "One journey that I remember very well was the first time I travelled alone. I was twenty-two years old and I went to Portugal for a week. Before the trip, I was quite nervous because I had never travelled without my family or friends.\n\nI had a small problem at the beginning — my flight was delayed for four hours. At first, I felt very stressed and I didn't know what to do. But then I decided to find a café in the airport and have some food. I started talking to another traveller who was also waiting, and we had a very nice conversation. That helped me feel much calmer.\n\nWhen I arrived in Lisbon, I was amazed by how beautiful the city was. I visited museums, tried local food, and walked around for hours every day. I got lost a few times, but I always managed to find my way. I also met some other travellers at my hostel and we went to a fado music show together one evening.\n\nWhat I learned from this trip is that I am more capable than I thought. Before going, I was worried about everything — the language, the transport, what to do if something went wrong. But actually, I managed fine, and even the small problems were not so bad.\n\nIt also taught me that travelling alone gives you a lot of freedom. You can do exactly what you want, when you want. I would recommend it to anyone who hasn't tried it. Since that trip, I have travelled alone many more times and I always enjoy it.",
+      "notes": "",
+      "wordCount": 268
+    },
+    {
+      "level": "C1",
+      "title": "The Trip That Unsettled Me",
+      "body": "There are journeys you take and largely forget, and then there are those that quietly rearrange something in you. A trip I took to rural Morocco about five years ago falls firmly into the second category.\n\nI had been travelling for a couple of weeks and had spent most of my time in cities — Marrakech, Fes — which were extraordinary but also, in a sense, legible. There were tourist structures, things I could orient myself around. Then a friend I met on the road suggested we hire a car and drive into the High Atlas region without any particular plan. I'm not someone who usually travels that way, and I agreed partly to prove to myself that I could.\n\nWhat followed was three days of improvised navigation through mountain villages where we were often the only outsiders. Communication was limited — we had no Arabic and very little French beyond the basics — and yet the hospitality we encountered was completely disarming. We were invited into a family's home for tea and stayed for dinner. The warmth was unconditional in a way I found almost difficult to process, because it came with no expectation of anything in return.\n\nWhat unsettled me, and I mean this in a productive sense, was realising how much of my worldview had been shaped by a kind of low-grade, barely conscious wariness — towards strangers, towards unfamiliarity, towards situations I couldn't control. That trip stripped those reflexes back in a way that a more comfortable, planned journey simply couldn't have.\n\nI came home with a genuine shift in how I thought about trust and generosity. I don't want to sentimentalise the experience or turn it into something neater than it was. There were moments of frustration and genuine discomfort. But that discomfort, I think, was exactly the point — it was the thing that made the experience instructive rather than just pleasant.\n\nI still think about that family occasionally. I wonder whether they have any memory of us, or whether we were simply one brief, unremarkable visit among many. Either way, the encounter meant something to me that I haven't fully finished making sense of.",
+      "notes": "",
+      "wordCount": 361
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T11:31:20.562414+00:00"
+}

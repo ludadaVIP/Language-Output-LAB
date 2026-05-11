@@ -1,0 +1,34 @@
+{
+  "id": "universidad-versus-experiencia-laboral-que-camino-elegir",
+  "language": "es",
+  "skill": "speaking",
+  "order": 5,
+  "category": "Educación",
+  "title": "Universidad versus experiencia laboral: ¿qué camino elegir?",
+  "prompt": "Un amigo de dieciocho años te pide consejo porque no sabe si ir a la universidad o empezar a trabajar directamente. Presenta las ventajas e inconvenientes de cada opción y, al final, da tu opinión personal justificada. Ten en cuenta factores como el mercado laboral, el desarrollo personal, el coste económico y las expectativas de futuro.",
+  "format": "Respuesta de opinión argumentada · registro neutro · 2-3 minutos (B1) / 3-4 minutos (B2)",
+  "levelRange": "B1 - B2",
+  "levels": [
+    "B1",
+    "B2"
+  ],
+  "examples": [
+    {
+      "level": "B1",
+      "title": "Ambas opciones tienen su valor",
+      "body": "Esta es una decisión muy importante y depende mucho de cada persona. Voy a intentar explicarte las dos opciones para que puedas elegir mejor.\n\nIr a la universidad tiene muchas ventajas. Puedes aprender mucho sobre un tema que te interesa, conocer a personas de diferentes lugares y conseguir un título que te puede ayudar a encontrar trabajo. Además, tienes más tiempo para decidir qué quieres hacer con tu vida. Por otro lado, estudiar cuesta dinero y lleva muchos años. Cuando terminas, no siempre es fácil encontrar trabajo en lo que estudiaste.\n\nEmpezar a trabajar directamente también tiene cosas buenas. Ganas experiencia real desde el principio, tienes dinero propio y puedes aprender cosas prácticas que no se enseñan en la universidad. El problema es que, sin título, hay algunos trabajos a los que no puedes acceder, y puede ser más difícil subir de puesto en el futuro.\n\nEn mi opinión, si tienes claro lo que quieres estudiar y tienes la posibilidad económica, la universidad es una buena opción. Pero si no estás seguro o necesitas independencia económica, trabajar y estudiar al mismo tiempo puede ser una solución intermedia. Lo más importante es que tomes la decisión que mejor se adapte a tu situación personal.",
+      "notes": "",
+      "wordCount": 203
+    },
+    {
+      "level": "B2",
+      "title": "Una decisión que va más allá del título",
+      "body": "Es una pregunta que muchos jóvenes se hacen hoy en día, y no tiene una respuesta única válida para todos. Permíteme que analice ambas opciones con cierto detalle antes de darte mi punto de vista.\n\nLa universidad ofrece algo que va más allá del conocimiento académico: proporciona un entorno donde desarrollar el pensamiento crítico, construir una red de contactos y madurar como persona en un ambiente relativamente protegido. Desde el punto de vista laboral, hay sectores —medicina, derecho, ingeniería, por ejemplo— donde el título sigue siendo un requisito indispensable y no negociable. El coste económico es innegable, pero en muchos países existen becas, préstamos y modalidades de estudio semipresencial que hacen que la opción universitaria sea accesible para más personas de lo que parece en un principio.\n\nEntrar directamente al mercado laboral, por otro lado, tiene un valor que no debe subestimarse. La experiencia práctica es cada vez más valorada por las empresas, y hay sectores como la tecnología, el comercio o la hostelería donde las habilidades demostrables pesan tanto o más que un expediente académico. Además, ganar independencia económica a una edad temprana puede ser un factor decisivo para quien proviene de una situación familiar complicada.\n\nDicho esto, mi opinión es que la elección no debería estar dictada por la presión social ni por el miedo, sino por una reflexión honesta sobre los propios intereses, las circunstancias económicas y el tipo de vida que uno quiere construir. Lo que sí recomendaría sin dudar es no asumir que una opción cierra definitivamente la puerta a la otra: hay personas que trabajan durante años y luego estudian, y al revés. La formación, en sus distintas formas, es un proceso continuo, no un único punto de llegada a los dieciocho años.",
+      "notes": "",
+      "wordCount": 289
+    }
+  ],
+  "tags": [],
+  "coreTakeaway": "",
+  "updatedAt": "2026-05-10T03:02:57.351985+00:00"
+}
